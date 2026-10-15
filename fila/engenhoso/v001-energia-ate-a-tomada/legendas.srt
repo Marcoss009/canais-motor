@@ -1,0 +1,735 @@
+1
+00:00:00,399 --> 00:00:02,608
+A energia que está carregando o seu celular
+
+2
+00:00:02,608 --> 00:00:05,642
+agora pode ter passado por setecentos e sessenta
+
+3
+00:00:05,642 --> 00:00:08,358
+e cinco mil volts antes de chegar aí
+
+4
+00:00:08,397 --> 00:00:10,314
+Isso é mais de seis mil vezes a
+
+5
+00:00:10,314 --> 00:00:12,584
+tensão da sua tomada E ela fez uma
+
+6
+00:00:12,584 --> 00:00:15,108
+viagem de até mil quilômetros em menos de
+
+7
+00:00:15,108 --> 00:00:17,220
+um piscar de olhos Hoje eu vou te
+
+8
+00:00:17,220 --> 00:00:19,878
+mostrar o caminho inteiro Da água do rio
+
+9
+00:00:19,878 --> 00:00:22,428
+até o buraquinho da parede E tem uma
+
+10
+00:00:22,428 --> 00:00:24,430
+usina no meio dessa história que funciona em
+
+11
+00:00:24,430 --> 00:00:27,051
+duas frequências ao mesmo tempo Já já você
+
+12
+00:00:27,051 --> 00:00:30,363
+vai entender por quê Tudo começa na geração
+
+13
+00:00:30,572 --> 00:00:33,205
+E no Brasil na maior parte das vezes
+
+14
+00:00:33,205 --> 00:00:35,924
+começa com água Mais da metade da energia
+
+15
+00:00:35,924 --> 00:00:39,116
+elétrica do Brasil vem de hidrelétricas O resto
+
+16
+00:00:39,116 --> 00:00:42,344
+vem principalmente do vento do sol da biomassa
+
+17
+00:00:42,344 --> 00:00:45,366
+e das térmicas O princípio é simples A
+
+18
+00:00:45,366 --> 00:00:47,757
+água desce com força empurra as pás de
+
+19
+00:00:47,757 --> 00:00:50,510
+uma turbina e a turbina gira um gerador
+
+20
+00:00:50,549 --> 00:00:52,940
+E o gerador é basicamente um ímã enorme
+
+21
+00:00:52,940 --> 00:00:55,682
+girando dentro de bobinas de cobre Ímã em
+
+22
+00:00:55,682 --> 00:00:58,668
+movimento perto de fio gera corrente elétrica
+
+23
+00:00:58,668 --> 00:01:01,265
+Foi isso que Faraday descobriu em mil oitocentos
+
+24
+00:01:01,265 --> 00:01:03,341
+e trinta e um A maior usina do
+
+25
+00:01:03,341 --> 00:01:06,642
+Brasil é Itaipu no Rio Paraná São vinte
+
+26
+00:01:06,642 --> 00:01:09,953
+geradores cada um com setecentos megawatts
+
+27
+00:01:09,991 --> 00:01:13,366
+Somando tudo dá catorze mil megawatts Energia
+
+28
+00:01:13,366 --> 00:01:16,133
+suficiente pra abastecer dezenas de milhões
+
+29
+00:01:16,133 --> 00:01:18,852
+de pessoas E aqui está a curiosidade que
+
+30
+00:01:18,852 --> 00:01:21,534
+eu te prometi Itaipu é do Brasil e
+
+31
+00:01:21,534 --> 00:01:24,143
+do Paraguai Só que o Brasil usa energia
+
+32
+00:01:24,143 --> 00:01:27,188
+em sessenta hertz e o Paraguai em cinquenta
+
+33
+00:01:27,226 --> 00:01:30,503
+A solução Metade dos geradores gira pra produzir
+
+34
+00:01:30,503 --> 00:01:34,471
+sessenta hertz e a outra metade cinquenta Dez
+
+35
+00:01:34,471 --> 00:01:36,790
+de cada lado E como o Paraguai não
+
+36
+00:01:36,790 --> 00:01:39,326
+consome toda a parte dele a sobra vem
+
+37
+00:01:39,326 --> 00:01:42,081
+pro Brasil Só que em cinquenta hertz não
+
+38
+00:01:42,081 --> 00:01:44,569
+dá pra ligar na nossa rede Então ela
+
+39
+00:01:44,569 --> 00:01:47,057
+é convertida em corrente contínua e viaja assim
+
+40
+00:01:47,057 --> 00:01:49,387
+até São Paulo onde vira corrente alternada
+
+41
+00:01:49,387 --> 00:01:52,264
+de sessenta hertz de novo Mas a energia
+
+42
+00:01:52,264 --> 00:01:55,346
+sai do gerador numa tensão relativamente baixa
+
+43
+00:01:55,346 --> 00:01:57,689
+E se ela viajasse assim quase tudo ia
+
+44
+00:01:57,689 --> 00:02:00,226
+se perder pelo caminho O problema é o
+
+45
+00:02:00,226 --> 00:02:01,002
+calor.
+
+46
+00:02:01,002 --> 00:02:03,866
+Todo fio esquenta quando passa corrente E quanto
+
+47
+00:02:03,866 --> 00:02:06,439
+maior a corrente mais energia vira calor e
+
+48
+00:02:06,439 --> 00:02:08,890
+se perde no caminho A saída é um
+
+49
+00:02:08,890 --> 00:02:11,440
+truque que todo engenheiro eletricista aprende
+
+50
+00:02:11,440 --> 00:02:14,461
+cedo Pra mandar a mesma potência você aumenta
+
+51
+00:02:14,461 --> 00:02:16,816
+a tensão e diminui a corrente E a
+
+52
+00:02:16,816 --> 00:02:19,267
+perda cai com o quadrado da corrente Se
+
+53
+00:02:19,267 --> 00:02:21,537
+você corta a corrente pela metade a perda
+
+54
+00:02:21,537 --> 00:02:23,576
+cai pra um quarto É por isso que
+
+55
+00:02:23,576 --> 00:02:26,015
+as linhas trabalham com centenas de milhares
+
+56
+00:02:26,015 --> 00:02:28,442
+de volts Quem faz essa mágica é o
+
+57
+00:02:28,442 --> 00:02:31,829
+transformador elevador logo na saída da usina
+
+58
+00:02:31,829 --> 00:02:34,268
+Ele não tem nenhuma peça girando são duas
+
+59
+00:02:34,268 --> 00:02:36,599
+bobinas e um núcleo de ferro E é
+
+60
+00:02:36,599 --> 00:02:39,487
+aqui que entra a corrente alternada Transformador
+
+61
+00:02:39,487 --> 00:02:41,866
+só funciona com corrente que fica mudando de
+
+62
+00:02:41,866 --> 00:02:44,293
+sentido Foi esse o motivo de a corrente
+
+63
+00:02:44,293 --> 00:02:47,048
+alternada vencer a famosa guerra das correntes
+
+64
+00:02:47,048 --> 00:02:49,657
+lá no século dezenove Com a tensão lá
+
+65
+00:02:49,657 --> 00:02:52,667
+em cima a energia pega a estrada As
+
+66
+00:02:52,667 --> 00:02:55,762
+linhas de transmissão São essas torres gigantes
+
+67
+00:02:55,762 --> 00:02:57,607
+de metal que você vê cortando o mato
+
+68
+00:02:57,607 --> 00:03:00,411
+na beira da estrada No Brasil as principais
+
+69
+00:03:00,411 --> 00:03:02,692
+trabalham com quinhentos mil volts e as de
+
+70
+00:03:02,692 --> 00:03:05,095
+Itaipu chegam a setecentos e sessenta e cinco
+
+71
+00:03:05,095 --> 00:03:05,749
+mil.
+
+72
+00:03:05,787 --> 00:03:08,142
+E repara num detalhe esses fios não têm
+
+73
+00:03:08,142 --> 00:03:12,146
+capa nenhuma São de alumínio pelados O isolamento
+
+74
+00:03:12,146 --> 00:03:14,926
+é o próprio ar e a distância Aquelas
+
+75
+00:03:14,926 --> 00:03:17,487
+peças em formato de pratinho penduradas na
+
+76
+00:03:17,487 --> 00:03:21,054
+torre são os isoladores Quanto maior a tensão
+
+77
+00:03:21,054 --> 00:03:23,700
+mais pratinho na fileira Dá pra estimar a
+
+78
+00:03:23,700 --> 00:03:26,905
+tensão da linha contando os pratinhos Já reparou
+
+79
+00:03:26,905 --> 00:03:29,368
+que perto dessas linhas às vezes dá pra
+
+80
+00:03:29,368 --> 00:03:32,160
+ouvir um chiado É o efeito corona o
+
+81
+00:03:32,160 --> 00:03:34,320
+campo elétrico é tão forte que ioniza o
+
+82
+00:03:34,320 --> 00:03:36,796
+ar em volta do fio Em dia úmido
+
+83
+00:03:36,796 --> 00:03:39,382
+o barulho aumenta E por que o passarinho
+
+84
+00:03:39,382 --> 00:03:41,821
+pousa no fio e não leva choque Porque
+
+85
+00:03:41,821 --> 00:03:44,588
+ele encosta num fio só A corrente precisa
+
+86
+00:03:44,588 --> 00:03:46,821
+de um caminho entre dois pontos de tensão
+
+87
+00:03:46,821 --> 00:03:50,195
+diferente Sem fechar o circuito não passa nada
+
+88
+00:03:50,195 --> 00:03:52,780
+por ele E todas essas linhas formam uma
+
+89
+00:03:52,780 --> 00:03:55,948
+rede só O Sistema Interligado Nacional que
+
+90
+00:03:55,948 --> 00:03:58,764
+liga praticamente o país inteiro Isso quer
+
+91
+00:03:58,764 --> 00:04:00,390
+dizer que a luz da sua casa pode
+
+92
+00:04:00,390 --> 00:04:02,793
+estar vindo de uma usina eólica no Nordeste
+
+93
+00:04:02,793 --> 00:04:05,002
+de uma hidrelétrica no Sul ou das duas
+
+94
+00:04:05,002 --> 00:04:07,587
+ao mesmo tempo E quem decide minuto a
+
+95
+00:04:07,587 --> 00:04:11,092
+minuto é o ONS o operador do sistema
+
+96
+00:04:11,131 --> 00:04:14,201
+E a velocidade A energia se propaga quase
+
+97
+00:04:14,201 --> 00:04:17,551
+na velocidade da luz Mas os elétrons mesmo
+
+98
+00:04:17,551 --> 00:04:20,646
+dentro do fio andam devagar Menos de um
+
+99
+00:04:20,646 --> 00:04:23,559
+milímetro por segundo Antes de a energia descer
+
+100
+00:04:23,559 --> 00:04:25,622
+pra cidade tem uma regra que essa rede
+
+101
+00:04:25,622 --> 00:04:29,189
+inteira nunca pode quebrar Nem por um segundo
+
+102
+00:04:29,227 --> 00:04:31,230
+A energia gerada tem que ser igual à
+
+103
+00:04:31,230 --> 00:04:34,725
+energia consumida O tempo todo Porque a rede
+
+104
+00:04:34,725 --> 00:04:37,577
+não tem estoque não dá pra guardar eletricidade
+
+105
+00:04:37,577 --> 00:04:40,186
+nos fios Quando milhões de pessoas ligam o
+
+106
+00:04:40,186 --> 00:04:42,759
+chuveiro no fim do dia alguma usina em
+
+107
+00:04:42,759 --> 00:04:45,344
+algum lugar do país precisa gerar mais naquele
+
+108
+00:04:45,344 --> 00:04:48,621
+exato momento E o chuveiro elétrico é pesado
+
+109
+00:04:48,621 --> 00:04:50,575
+Um só pode passar de cinco mil e
+
+110
+00:04:50,575 --> 00:04:53,524
+quinhentos watts É mais do que muitas geladeiras
+
+111
+00:04:53,524 --> 00:04:56,437
+ligadas ao mesmo tempo E sabe quem avisa
+
+112
+00:04:56,437 --> 00:04:59,447
+que o equilíbrio está quebrando A frequência
+
+113
+00:04:59,447 --> 00:05:02,760
+Aqueles sessenta hertz Se o consumo passa da
+
+114
+00:05:02,760 --> 00:05:05,527
+geração os geradores literalmente freiam um
+
+115
+00:05:05,527 --> 00:05:08,962
+pouquinho e a frequência cai Se cair demais
+
+116
+00:05:08,962 --> 00:05:11,729
+o sistema desliga bairros automaticamente pra
+
+117
+00:05:11,729 --> 00:05:14,254
+não derrubar o país inteiro Foi uma falha
+
+118
+00:05:14,254 --> 00:05:16,402
+numa linha no Ceará que começou o apagão
+
+119
+00:05:16,402 --> 00:05:18,150
+de quinze de agosto de dois mil e
+
+120
+00:05:18,150 --> 00:05:20,989
+vinte e três Em segundos ele se espalhou
+
+121
+00:05:20,989 --> 00:05:22,858
+e atingiu vinte e cinco estados e o
+
+122
+00:05:22,858 --> 00:05:26,002
+Distrito Federal A maior parte voltou em poucas
+
+123
+00:05:26,002 --> 00:05:28,623
+horas Mas aquele dia mostrou o tamanho da
+
+124
+00:05:28,623 --> 00:05:30,577
+rede que existe por trás de um simples
+
+125
+00:05:30,577 --> 00:05:33,794
+interruptor Chegando perto da cidade a energia
+
+126
+00:05:33,794 --> 00:05:36,962
+precisa descer de tensão E isso acontece na
+
+127
+00:05:36,962 --> 00:05:40,033
+subestação É aquele terreno cercado cheio de
+
+128
+00:05:40,033 --> 00:05:43,467
+estrutura metálica fio e placa de perigo Você
+
+129
+00:05:43,467 --> 00:05:46,417
+já passou por uma com certeza Lá dentro
+
+130
+00:05:46,417 --> 00:05:48,783
+tem transformadores abaixadores que fazem o
+
+131
+00:05:48,783 --> 00:05:51,344
+caminho inverso pegam os centenas de milhares
+
+132
+00:05:51,344 --> 00:05:53,456
+de volts e baixam pra algo como treze
+
+133
+00:05:53,456 --> 00:05:56,429
+mil e oitocentos volts E tem os disjuntores
+
+134
+00:05:56,429 --> 00:05:58,711
+e as chaves Se cai uma árvore numa
+
+135
+00:05:58,711 --> 00:06:01,381
+linha o sistema de proteção detecta o curto
+
+136
+00:06:01,381 --> 00:06:03,274
+e desliga aquele trecho em uma fração de
+
+137
+00:06:03,274 --> 00:06:06,357
+segundo antes que o estrago se espalhe Agora
+
+138
+00:06:06,357 --> 00:06:08,882
+a energia entra na sua rua É a
+
+139
+00:06:08,882 --> 00:06:11,746
+rede de distribuição Os fios lá de cima
+
+140
+00:06:11,746 --> 00:06:14,004
+do poste os mais altos são a média
+
+141
+00:06:14,004 --> 00:06:17,341
+tensão Os treze mil e oitocentos volts É
+
+142
+00:06:17,341 --> 00:06:19,210
+por isso que eles ficam bem longe de
+
+143
+00:06:19,210 --> 00:06:21,552
+tudo E aí vem a última peça da
+
+144
+00:06:21,552 --> 00:06:24,805
+viagem aquele cilindro pendurado no poste É
+
+145
+00:06:24,805 --> 00:06:27,912
+o transformador de distribuição Ele baixa os
+
+146
+00:06:27,912 --> 00:06:30,181
+treze mil e oitocentos volts pra tensão que
+
+147
+00:06:30,181 --> 00:06:32,135
+a sua casa usa Cento e vinte e
+
+148
+00:06:32,135 --> 00:06:34,939
+sete ou duzentos e vinte volts dependendo da
+
+149
+00:06:34,939 --> 00:06:38,543
+cidade Um transformador desses atende em média
+
+150
+00:06:38,543 --> 00:06:41,626
+algumas dezenas de casas Quando ele queima
+
+151
+00:06:41,626 --> 00:06:43,058
+é por isso que só um pedaço da
+
+152
+00:06:43,058 --> 00:06:46,323
+rua fica sem luz E finalmente a última
+
+153
+00:06:46,323 --> 00:06:49,758
+etapa A sua casa A energia desce pelo
+
+154
+00:06:49,758 --> 00:06:53,084
+ramal passa pelo medidor que conta cada quilowatt-hora
+
+155
+00:06:53,084 --> 00:06:55,050
+que você usa e chega no quadro de
+
+156
+00:06:55,050 --> 00:06:58,072
+disjuntores Do quadro saem os circuitos da
+
+157
+00:06:58,072 --> 00:07:00,341
+casa E cada tomada é o fim de
+
+158
+00:07:00,341 --> 00:07:03,121
+uma viagem que começou numa turbina a centenas
+
+159
+00:07:03,121 --> 00:07:05,500
+de quilômetros dali E por que o Brasil
+
+160
+00:07:05,500 --> 00:07:06,908
+tem cento e vinte e sete em uns
+
+161
+00:07:06,908 --> 00:07:10,524
+lugares e duzentos e vinte em outros História
+
+162
+00:07:10,524 --> 00:07:12,903
+Cada concessionária antiga escolheu um padrão
+
+163
+00:07:12,903 --> 00:07:16,022
+e isso nunca foi unificado Na física o
+
+164
+00:07:16,022 --> 00:07:19,251
+duzentos e vinte leva vantagem pra mesma potência
+
+165
+00:07:19,251 --> 00:07:22,792
+passa metade da corrente Fio esquenta menos
+
+166
+00:07:23,001 --> 00:07:25,525
+É a mesma lógica das linhas de transmissão
+
+167
+00:07:25,525 --> 00:07:27,783
+só que dentro da sua casa Mas nem
+
+168
+00:07:27,783 --> 00:07:30,489
+tudo chega Somando as perdas técnicas e os
+
+169
+00:07:30,489 --> 00:07:33,086
+furtos de energia o Brasil perde algo perto
+
+170
+00:07:33,086 --> 00:07:34,943
+de quinze por cento de tudo que entra
+
+171
+00:07:34,943 --> 00:07:37,577
+na distribuição E quem paga essa perda em
+
+172
+00:07:37,577 --> 00:07:40,781
+parte é você na conta de luz Por
+
+173
+00:07:40,781 --> 00:07:43,160
+isso cada ponto de eficiência na rede vale
+
+174
+00:07:43,160 --> 00:07:46,086
+muito dinheiro Recapitulando a viagem inteira
+
+175
+00:07:46,086 --> 00:07:49,350
+em seis passos A água gira a turbina
+
+176
+00:07:49,350 --> 00:07:52,482
+O gerador transforma giro em eletricidade O
+
+177
+00:07:52,482 --> 00:07:55,674
+transformador eleva a tensão A linha leva por
+
+178
+00:07:55,674 --> 00:07:59,411
+centenas de quilômetros A subestação baixa
+
+179
+00:07:59,411 --> 00:08:01,839
+E o transformador do poste entrega na sua
+
+180
+00:08:01,839 --> 00:08:04,254
+tomada Da próxima vez que você ligar o
+
+181
+00:08:04,254 --> 00:08:07,213
+carregador já sabe a viagem que aquilo fez
+
+182
+00:08:07,422 --> 00:08:09,534
+Agora me conta qual objeto do dia a
+
+183
+00:08:09,534 --> 00:08:11,390
+dia você quer que eu abra por dentro
+
+184
+00:08:11,390 --> 00:08:12,663
+no próximo vídeo

@@ -1,0 +1,45 @@
+name: Rotina (vigia de trailers + métricas)
+
+on:
+  schedule:
+    - cron: "5 * * * *"    # vigia: canal oficial publicou vídeo novo do tema? (de hora em hora)
+    - cron: "0 12 * * *"   # métricas: 09:00 de Brasília
+  workflow_dispatch:
+
+concurrency:
+  group: rotina
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUTF8: "1"
+  PYTHONIOENCODING: utf-8
+  GH_TOKEN: ${{ github.token }}
+  TZ: America/Sao_Paulo
+
+jobs:
+  rotina:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          python -m pip install -q -r requirements.txt
+      - name: Credenciais
+        run: |
+          mkdir -p credenciais
+          echo "${{ secrets.YT_CLIENT_SECRET }}" | base64 -d > credenciais/client_secret.json
+          echo "${{ secrets.YT_TOKEN_GTA6 }}" | base64 -d > credenciais/token_gta6.json
+          echo "${{ secrets.YT_TOKEN_ENGENHOSO }}" | base64 -d > credenciais/token_engenhoso.json
+      - name: Vigia de novidades oficiais
+        run: python vigia.py || echo "vigia falhou (provável bloqueio do YouTube a servidores); segue"
+      - name: Métricas (09:00)
+        if: github.event.schedule == '0 12 * * *' || github.event_name == 'workflow_dispatch'
+        run: python coletar.py
+      - name: Gravar o estado
+        run: bash ci/salvar.sh "rotina"

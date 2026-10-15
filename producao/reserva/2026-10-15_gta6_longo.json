@@ -1,0 +1,10 @@
+{
+  "roteiro": "episodios/gta6/v002-trailer-1-x-trailer-2.json",
+  "slot": "2026-10-15T19:00:00-03:00",
+  "canal": "gta6",
+  "formato": "longo",
+  "por": "yt-editor",
+  "fim": "2026-10-15T10:14:26",
+  "log": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\dados\\_render_v002-trailer-1-x-trailer-2.log",
+  "erro": "Main → C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\v002-trailer-1-x-trailer-2\\video.mp4 (1920×1080, 16492 frames, Custom) |  | falha no render"
+}

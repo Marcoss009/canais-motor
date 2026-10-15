@@ -1,0 +1,48 @@
+{
+  "id": "s001-itaipu-duas-frequencias",
+  "canal": "engenhoso",
+  "formato": "short",
+  "estado": "agendado",
+  "titulo": "Itaipu gera em 50 Hz e 60 Hz ao mesmo tempo",
+  "descricao": "Itaipu é do Brasil e do Paraguai, mas os dois países usam frequências diferentes na rede elétrica: 60 Hz aqui, 50 Hz lá. A solução foi dividir os 20 geradores da usina, 10 para cada lado. E a sobra do Paraguai que vem pro Brasil viaja em corrente contínua até São Paulo, onde vira 60 Hz de novo.\n\nO caminho inteiro da energia, da usina até a sua tomada, está no vídeo completo no canal.\n\nFontes:\n• Itaipu Binacional — dados técnicos da usina (20 unidades geradoras de 700 MW, 50 e 60 Hz)\n• ONS — Operador Nacional do Sistema Elétrico: o Sistema Interligado Nacional (SIN)\n\nImagens (licenças livres):\n• \"Itaipu noche\" — Carlosbenitez26 (CC BY 3.0), via Wikimedia Commons\n• \"Usina Hidroelétrica Itaipu Binacional - Itaipu Dam (17174796329)\" — Deni Williams from São Paulo, Brasil (CC BY 2.0), via Wikimedia Commons\n• \"Usina Hidroelétrica Itaipu Binacional - Itaipu Dam - Vertedouro com as\" — Deni Williams from São Paulo, Brasil (CC BY 2.0), via Wikimedia Commons\n• \"Electric Generators at the Bonneville Lock & Dam\" — Rsparks3 (CC0), via Wikimedia Commons\n• \"Generator hall of the powerhouse, Chickamauga Dam, Tenn. 1a35264v\" — Alfred T. Palmer (domínio público), via Wikimedia Commons\n• \"High voltage transmission tower and lines. Auburn WA\" — Ron Clausen (CC0), via Wikimedia Commons\n• \"SUNSET BEHIND POWER LINES IN GALVESTON BAY INDUSTRIAL AREA - NARA - 54\" — Jim Olive (domínio público), via Wikimedia Commons\n• \"High-voltage transformer 750 kV Трансформатор 750 кВ\" — Novoklimov (CC0), via Wikimedia Commons\n• \"Transmission line towers and high tension lines 1a35251v\" — Alfred T. Palmer (domínio público), via Wikimedia Commons\n• \"Itaipu Aerea\" — International Hydropower Association (IHA) (CC BY 2.0), via Wikimedia Commons\n\nNarração com voz sintética e trilha original do canal.\n\n#shorts #engenharia #itaipu",
+  "tags": [
+    "itaipu",
+    "itaipu 50 hz 60 hz",
+    "frequência da rede elétrica",
+    "como funciona a energia elétrica",
+    "hidrelétrica",
+    "corrente contínua",
+    "engenharia elétrica",
+    "como funciona"
+  ],
+  "video": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\engenhoso\\s001-itaipu-duas-frequencias\\video.mp4",
+  "thumb": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\engenhoso\\s001-itaipu-duas-frequencias\\thumb.jpg",
+  "nicho": "como funciona por dentro",
+  "roteiro": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\engenhoso\\s001-itaipu-duas-frequencias\\roteiro.json",
+  "criado": "2026-10-15T10:19:08",
+  "youtube_id": "tEDAneuILoM",
+  "historico": [
+    {
+      "quando": "2026-10-15T10:19:48",
+      "de": "pronto",
+      "para": "enviado",
+      "nota": "youtube_id=tEDAneuILoM (privado)"
+    },
+    {
+      "quando": "2026-10-15T10:19:53",
+      "de": "enviado",
+      "para": "aprovado",
+      "nota": "aprovação automática (modo independente)"
+    },
+    {
+      "quando": "2026-10-15T10:20:05",
+      "de": "aprovado",
+      "para": "agendado",
+      "nota": "vai ao ar em 2026-10-15T20:00:00-03:00"
+    }
+  ],
+  "atualizado": "2026-10-15T10:20:05",
+  "slot": "2026-10-15T20:00:00-03:00",
+  "thumb_ok": true,
+  "publica_em": "2026-10-15T20:00:00-03:00"
+}

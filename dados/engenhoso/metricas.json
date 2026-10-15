@@ -1,0 +1,296 @@
+{
+  "coletado": "2026-10-15T11:25:14",
+  "inscritos": 0,
+  "views_canal": 0,
+  "mediana_views": null,
+  "diario": [
+    {
+      "day": "2026-09-17",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-18",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-19",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-20",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-21",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-22",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-23",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-24",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-25",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-26",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-27",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-28",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-29",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-09-30",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-01",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-02",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-03",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-04",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-05",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-06",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-07",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-08",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-09",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-10",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-11",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-10-12",
+      "views": 0,
+      "estimatedMinutesWatched": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    }
+  ],
+  "total_videos": 6,
+  "total_views": 5,
+  "videos": [
+    {
+      "id": "tEDAneuILoM",
+      "titulo": "Itaipu gera em 50 Hz e 60 Hz ao mesmo tempo",
+      "publicado": "2026-10-15T13:19:17Z",
+      "duracao": "PT50S",
+      "privacidade": "private",
+      "views": 0,
+      "likes": 0,
+      "nicho": "como funciona por dentro",
+      "formato": "short",
+      "idade_dias": 0,
+      "maduro": false,
+      "minutos_assistidos": null,
+      "pct_assistido": null,
+      "inscritos_ganhos": null,
+      "multiplo": null
+    },
+    {
+      "id": "WnXq6l01zYA",
+      "titulo": "Como a energia chega na sua tomada (o caminho inteiro)",
+      "publicado": "2026-10-15T12:35:51Z",
+      "duracao": "PT8M26S",
+      "privacidade": "private",
+      "views": 0,
+      "likes": 0,
+      "nicho": "como funciona por dentro",
+      "formato": "longo",
+      "idade_dias": 0,
+      "maduro": false,
+      "minutos_assistidos": null,
+      "pct_assistido": null,
+      "inscritos_ganhos": null,
+      "multiplo": null
+    },
+    {
+      "id": "kPEPO_hf5GA",
+      "titulo": "Quem está escondido? 10 animais e seus sons com o Bubi",
+      "publicado": "2026-10-14T13:00:26Z",
+      "duracao": "PT4M59S",
+      "privacidade": "private",
+      "views": 3,
+      "likes": 0,
+      "nicho": null,
+      "formato": null,
+      "idade_dias": 1,
+      "maduro": false,
+      "minutos_assistidos": null,
+      "pct_assistido": null,
+      "inscritos_ganhos": null,
+      "multiplo": null
+    },
+    {
+      "id": "XbppusviE78",
+      "titulo": "Adivinhe 3 bichos pelo som: porco, cachorro e sapo 🐷",
+      "publicado": "2026-10-13T17:07:10Z",
+      "duracao": "PT34S",
+      "privacidade": "private",
+      "views": 2,
+      "likes": 0,
+      "nicho": null,
+      "formato": null,
+      "idade_dias": 1,
+      "maduro": false,
+      "minutos_assistidos": null,
+      "pct_assistido": null,
+      "inscritos_ganhos": null,
+      "multiplo": null
+    },
+    {
+      "id": "rHbjLP7--JI",
+      "titulo": "Quem está escondido? Adivinhe os 3 animais! 🐮",
+      "publicado": "2026-10-13T17:07:01Z",
+      "duracao": "PT34S",
+      "privacidade": "private",
+      "views": 0,
+      "likes": 0,
+      "nicho": null,
+      "formato": null,
+      "idade_dias": 1,
+      "maduro": false,
+      "minutos_assistidos": null,
+      "pct_assistido": null,
+      "inscritos_ganhos": null,
+      "multiplo": null
+    },
+    {
+      "id": "0dHIctN1-GQ",
+      "titulo": "Vamos contar 5 maçãs com o Bubi! 🍎",
+      "publicado": "2026-10-13T17:06:55Z",
+      "duracao": "PT32S",
+      "privacidade": "private",
+      "views": 0,
+      "likes": 0,
+      "nicho": null,
+      "formato": null,
+      "idade_dias": 1,
+      "maduro": false,
+      "minutos_assistidos": null,
+      "pct_assistido": null,
+      "inscritos_ganhos": null,
+      "multiplo": null
+    }
+  ]
+}

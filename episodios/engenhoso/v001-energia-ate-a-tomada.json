@@ -1,0 +1,774 @@
+{
+  "id": "v001-energia-ate-a-tomada",
+  "canal": "engenhoso",
+  "formato": "longo",
+  "nicho": "como funciona por dentro",
+  "titulo": "Como a energia chega na sua tomada (o caminho inteiro)",
+  "titulos_alternativos": [
+    "Como a energia chega na sua tomada (o caminho inteiro)",
+    "De Itaipu até a sua tomada: a viagem da energia",
+    "O caminho secreto da energia até a sua casa"
+  ],
+  "miniatura": {
+    "texto": "765 MIL|VOLTS",
+    "imagem": "transmission towers sunset",
+    "selo": "do rio à tomada",
+    "tam": 150
+  },
+  "descricao": "Quando você liga o carregador na tomada, a energia que chega ali pode ter saído de uma usina a mais de mil quilômetros de distância — e passado por 765 mil volts no caminho. Neste vídeo: geração, transformadores elevadores, linhas de transmissão, o sistema interligado nacional, subestações, a rede de distribuição de 13,8 mil volts e o transformador do poste até chegar nos 127 ou 220 volts da sua casa.",
+  "fontes": [
+    "Itaipu Binacional — dados técnicos da usina (20 unidades geradoras de 700 MW, 50 e 60 Hz)",
+    "ONS — Operador Nacional do Sistema Elétrico: o Sistema Interligado Nacional (SIN)",
+    "ANEEL — perdas de energia na distribuição",
+    "EPE — Balanço Energético Nacional (participação hidrelétrica)"
+  ],
+  "hashtags": [
+    "#engenharia",
+    "#energia",
+    "#comofunciona"
+  ],
+  "tags": [
+    "como a energia chega na sua casa",
+    "como funciona a energia elétrica",
+    "linha de transmissão",
+    "transformador",
+    "subestação",
+    "itaipu",
+    "sistema interligado nacional",
+    "energia elétrica",
+    "engenharia elétrica",
+    "como funciona",
+    "tensão 127 220",
+    "rede elétrica"
+  ],
+  "cenas": [
+    {
+      "capitulo": "A viagem",
+      "fala": "A energia que está carregando o seu celular agora [pausa] pode ter passado por setecentos e sessenta e cinco mil volts antes de chegar aí.",
+      "visual": {
+        "tipo": "gancho",
+        "texto": "765.000 VOLTS|ATÉ A SUA TOMADA",
+        "imagens": [
+          "high voltage transmission tower",
+          "power lines sunset"
+        ]
+      }
+    },
+    {
+      "fala": "Isso é mais de seis mil vezes a tensão da sua tomada. E ela fez uma viagem de até mil quilômetros, em menos de um piscar de olhos.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Linha de transmissão",
+          "valor": "765.000 V"
+        },
+        "b": {
+          "rotulo": "Sua tomada",
+          "valor": "127 V",
+          "sub": "ou 220 V"
+        }
+      }
+    },
+    {
+      "fala": "Hoje eu vou te mostrar o caminho inteiro. Da água do rio até o buraquinho da parede. [pausa] E tem uma usina no meio dessa história que funciona em duas frequências ao mesmo tempo. Já já você vai entender por quê.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Uma usina brasileira gera energia em duas frequências diferentes.",
+        "imagens": [
+          "itaipu dam"
+        ]
+      }
+    },
+    {
+      "capitulo": "1. A usina",
+      "fala": "Tudo começa na geração. [pausa] E no Brasil, na maior parte das vezes, começa com água.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ETAPA 1",
+        "texto": "A usina",
+        "imagens": [
+          "hydroelectric dam"
+        ]
+      }
+    },
+    {
+      "fala": "Mais da metade da energia elétrica do Brasil vem de hidrelétricas. O resto vem principalmente do vento, do sol, da biomassa e das térmicas.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "De onde vem a eletricidade do Brasil",
+        "itens": [
+          [
+            "Hidrelétrica",
+            55,
+            "mais da metade"
+          ],
+          [
+            "Eólica",
+            14,
+            "~14%"
+          ],
+          [
+            "Solar",
+            9,
+            "~9%"
+          ],
+          [
+            "Biomassa",
+            8,
+            "~8%"
+          ],
+          [
+            "Gás e outras",
+            14,
+            "~14%"
+          ]
+        ],
+        "destaque": 0,
+        "fonte": "EPE — valores aproximados"
+      }
+    },
+    {
+      "fala": "O princípio é simples. A água desce com força, empurra as pás de uma turbina, e a turbina gira um gerador.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "water turbine",
+          "hydroelectric turbine"
+        ],
+        "rotulo": "Turbina",
+        "sub": "a água faz girar"
+      }
+    },
+    {
+      "fala": "E o gerador é basicamente um ímã enorme girando dentro de bobinas de cobre. Ímã em movimento perto de fio gera corrente elétrica. Foi isso que Faraday descobriu em mil oitocentos e trinta e um.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Ímã girando perto de fio de cobre gera corrente elétrica.",
+        "fonte": "indução eletromagnética — Faraday, 1831",
+        "imagens": [
+          "electric generator",
+          "copper coil"
+        ]
+      }
+    },
+    {
+      "fala": "A maior usina do Brasil é Itaipu, no Rio Paraná. São vinte geradores, cada um com setecentos megawatts.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "itaipu dam",
+          "itaipu"
+        ],
+        "rotulo": "Itaipu",
+        "sub": "Rio Paraná · Brasil e Paraguai"
+      }
+    },
+    {
+      "fala": "Somando tudo dá catorze mil megawatts. Energia suficiente pra abastecer dezenas de milhões de pessoas.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 14000,
+        "sufixo": " MW",
+        "rotulo": "potência instalada de Itaipu",
+        "imagens": [
+          "itaipu dam spillway"
+        ]
+      }
+    },
+    {
+      "fala": "E aqui está a curiosidade que eu te prometi. [pausa] Itaipu é do Brasil e do Paraguai. Só que o Brasil usa energia em sessenta hertz, e o Paraguai em cinquenta.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Brasil",
+          "valor": "60 Hz"
+        },
+        "b": {
+          "rotulo": "Paraguai",
+          "valor": "50 Hz"
+        }
+      }
+    },
+    {
+      "fala": "A solução? Metade dos geradores gira pra produzir sessenta hertz, e a outra metade, cinquenta. Dez de cada lado.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Os 20 geradores de Itaipu",
+        "itens": [
+          [
+            "60 Hz (Brasil)",
+            10,
+            "10 geradores"
+          ],
+          [
+            "50 Hz (Paraguai)",
+            10,
+            "10 geradores"
+          ]
+        ],
+        "fonte": "Itaipu Binacional"
+      }
+    },
+    {
+      "fala": "E como o Paraguai não consome toda a parte dele, a sobra vem pro Brasil. Só que em cinquenta hertz não dá pra ligar na nossa rede. [pausa] Então ela é convertida em corrente contínua e viaja assim até São Paulo, onde vira corrente alternada de sessenta hertz de novo.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "A energia de 50 Hz viaja em corrente contínua e vira 60 Hz em São Paulo.",
+        "fonte": "sistema de transmissão de Itaipu (HVDC)",
+        "imagens": [
+          "converter station hvdc",
+          "high voltage substation"
+        ]
+      }
+    },
+    {
+      "capitulo": "2. Elevar a tensão",
+      "fala": "Mas a energia sai do gerador numa tensão relativamente baixa. E se ela viajasse assim, quase tudo ia se perder pelo caminho.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ETAPA 2",
+        "texto": "Elevar a tensão",
+        "imagens": [
+          "power transformer"
+        ]
+      }
+    },
+    {
+      "fala": "O problema é o calor. Todo fio esquenta quando passa corrente. E quanto maior a corrente, mais energia vira calor e se perde no caminho.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "power cables",
+          "electric wire"
+        ],
+        "rotulo": "Corrente alta = calor",
+        "sub": "energia perdida no fio"
+      }
+    },
+    {
+      "fala": "A saída é um truque que todo engenheiro eletricista aprende cedo. Pra mandar a mesma potência, você aumenta a tensão e diminui a corrente.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Tensão",
+          "valor": "▲ sobe"
+        },
+        "b": {
+          "rotulo": "Corrente",
+          "valor": "▼ desce",
+          "sub": "menos perda"
+        }
+      }
+    },
+    {
+      "fala": "E a perda cai com o quadrado da corrente. Se você corta a corrente pela metade, a perda cai pra um quarto. [pausa] É por isso que as linhas trabalham com centenas de milhares de volts.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Perda no fio x corrente",
+        "itens": [
+          [
+            "Corrente 100%",
+            100,
+            "perda 100%"
+          ],
+          [
+            "Corrente 50%",
+            25,
+            "perda 25%"
+          ],
+          [
+            "Corrente 25%",
+            6.25,
+            "perda ~6%"
+          ]
+        ],
+        "destaque": 2
+      }
+    },
+    {
+      "fala": "Quem faz essa mágica é o transformador elevador, logo na saída da usina. Ele não tem nenhuma peça girando: são duas bobinas e um núcleo de ferro.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "power transformer substation",
+          "step-up transformer power station"
+        ],
+        "rotulo": "Transformador elevador",
+        "sub": "duas bobinas + núcleo de ferro"
+      }
+    },
+    {
+      "fala": "E é aqui que entra a corrente alternada. Transformador só funciona com corrente que fica mudando de sentido. Foi esse o motivo de a corrente alternada vencer a famosa guerra das correntes, lá no século dezenove.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Transformador só funciona com corrente alternada.",
+        "fonte": "a “guerra das correntes”, fim do século XIX",
+        "imagens": [
+          "tesla coil"
+        ]
+      }
+    },
+    {
+      "capitulo": "3. A transmissão",
+      "fala": "Com a tensão lá em cima, a energia pega a estrada. [pausa] As linhas de transmissão.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ETAPA 3",
+        "texto": "A transmissão",
+        "imagens": [
+          "transmission line towers"
+        ]
+      }
+    },
+    {
+      "fala": "São essas torres gigantes de metal que você vê cortando o mato na beira da estrada. No Brasil, as principais trabalham com quinhentos mil volts, e as de Itaipu chegam a setecentos e sessenta e cinco mil.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "electricity pylon",
+          "transmission tower field",
+          "power lines landscape"
+        ],
+        "rotulo": "Linhas de transmissão",
+        "sub": "500 mil a 765 mil volts"
+      }
+    },
+    {
+      "fala": "E repara num detalhe: esses fios não têm capa nenhuma. São de alumínio, pelados. O isolamento é o próprio ar, e a distância.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "high voltage insulator",
+          "power line insulators"
+        ],
+        "rotulo": "Sem capa",
+        "sub": "quem isola é o ar"
+      }
+    },
+    {
+      "fala": "Aquelas peças em formato de pratinho, penduradas na torre, são os isoladores. Quanto maior a tensão, mais pratinho na fileira. Dá pra estimar a tensão da linha contando os pratinhos.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "glass insulator power line",
+          "insulator string"
+        ],
+        "rotulo": "Isoladores",
+        "sub": "mais tensão = mais pratinhos"
+      }
+    },
+    {
+      "fala": "Já reparou que, perto dessas linhas, às vezes dá pra ouvir um chiado? [pausa] É o efeito corona: o campo elétrico é tão forte que ioniza o ar em volta do fio. Em dia úmido, o barulho aumenta.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "O chiado das linhas é o ar sendo ionizado: efeito corona.",
+        "fonte": "física de alta tensão",
+        "imagens": [
+          "high voltage power line fog",
+          "power lines mist"
+        ]
+      }
+    },
+    {
+      "fala": "E por que o passarinho pousa no fio e não leva choque? Porque ele encosta num fio só. A corrente precisa de um caminho entre dois pontos de tensão diferente. Sem fechar o circuito, não passa nada por ele.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "birds on power line",
+          "bird on wire"
+        ],
+        "rotulo": "Pássaro no fio",
+        "sub": "um fio só = sem circuito, sem choque"
+      }
+    },
+    {
+      "fala": "E todas essas linhas formam uma rede só. O Sistema Interligado Nacional, que liga praticamente o país inteiro.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 170000,
+        "prefixo": "+",
+        "sufixo": " km",
+        "rotulo": "de linhas no Sistema Interligado Nacional",
+        "imagens": [
+          "power lines aerial"
+        ]
+      }
+    },
+    {
+      "fala": "Isso quer dizer que a luz da sua casa pode estar vindo de uma usina eólica no Nordeste, de uma hidrelétrica no Sul, ou das duas ao mesmo tempo. E quem decide, minuto a minuto, é o ONS, o operador do sistema.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "wind turbines brazil",
+          "wind farm"
+        ],
+        "rotulo": "Tudo interligado",
+        "sub": "o ONS decide minuto a minuto"
+      }
+    },
+    {
+      "fala": "E a velocidade? A energia se propaga quase na velocidade da luz. [pausa] Mas os elétrons mesmo, dentro do fio, andam devagar. Menos de um milímetro por segundo.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "A energia",
+          "valor": "~luz",
+          "sub": "quase 300 mil km/s"
+        },
+        "b": {
+          "rotulo": "Os elétrons",
+          "valor": "< 1 mm/s",
+          "sub": "andam devagar"
+        }
+      }
+    },
+    {
+      "capitulo": "O equilíbrio",
+      "fala": "Antes de a energia descer pra cidade, tem uma regra que essa rede inteira nunca pode quebrar. [pausa] Nem por um segundo.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "A REGRA DE OURO",
+        "texto": "O equilíbrio",
+        "imagens": [
+          "control room power grid",
+          "power plant control room"
+        ]
+      }
+    },
+    {
+      "fala": "A energia gerada tem que ser igual à energia consumida. O tempo todo. Porque a rede não tem estoque: não dá pra guardar eletricidade nos fios.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Gerado",
+          "valor": "= 100%"
+        },
+        "b": {
+          "rotulo": "Consumido",
+          "valor": "= 100%",
+          "sub": "a cada instante"
+        }
+      }
+    },
+    {
+      "fala": "Quando milhões de pessoas ligam o chuveiro no fim do dia, alguma usina, em algum lugar do país, precisa gerar mais naquele exato momento.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "shower head water",
+          "city evening lights"
+        ],
+        "rotulo": "Horário de pico",
+        "sub": "fim da tarde e começo da noite"
+      }
+    },
+    {
+      "fala": "E o chuveiro elétrico é pesado. Um só pode passar de cinco mil e quinhentos watts. É mais do que muitas geladeiras ligadas ao mesmo tempo.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 5500,
+        "sufixo": " W",
+        "rotulo": "um chuveiro elétrico potente",
+        "imagens": [
+          "shower head"
+        ]
+      }
+    },
+    {
+      "fala": "E sabe quem avisa que o equilíbrio está quebrando? [pausa] A frequência. Aqueles sessenta hertz.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 60,
+        "sufixo": " Hz",
+        "rotulo": "o “pulso” da rede brasileira"
+      }
+    },
+    {
+      "fala": "Se o consumo passa da geração, os geradores literalmente freiam um pouquinho, e a frequência cai. Se cair demais, o sistema desliga bairros automaticamente, pra não derrubar o país inteiro.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Frequência caindo = consumo maior que a geração.",
+        "fonte": "ONS — controle de frequência e corte de carga"
+      }
+    },
+    {
+      "fala": "Foi uma falha numa linha no Ceará que começou o apagão de quinze de agosto de dois mil e vinte e três. Em segundos, ele se espalhou e atingiu vinte e cinco estados e o Distrito Federal.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 25,
+        "sufixo": " estados",
+        "rotulo": "+ DF no apagão de 15/08/2023",
+        "imagens": [
+          "blackout city night",
+          "power outage"
+        ]
+      }
+    },
+    {
+      "fala": "A maior parte voltou em poucas horas. Mas aquele dia mostrou o tamanho da rede que existe por trás de um simples interruptor.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "power lines sunset",
+          "transmission line towers"
+        ],
+        "rotulo": "Uma rede só",
+        "sub": "quando um pedaço cai, todo mundo sente"
+      }
+    },
+    {
+      "capitulo": "4. A subestação",
+      "fala": "Chegando perto da cidade, a energia precisa descer de tensão. [pausa] E isso acontece na subestação.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ETAPA 4",
+        "texto": "A subestação",
+        "imagens": [
+          "electrical substation"
+        ]
+      }
+    },
+    {
+      "fala": "É aquele terreno cercado, cheio de estrutura metálica, fio e placa de perigo. Você já passou por uma, com certeza.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "electrical substation",
+          "substation transformer"
+        ],
+        "rotulo": "Subestação",
+        "sub": "o “trevo” da energia"
+      }
+    },
+    {
+      "fala": "Lá dentro tem transformadores abaixadores, que fazem o caminho inverso: pegam os centenas de milhares de volts e baixam pra algo como treze mil e oitocentos volts.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 13800,
+        "sufixo": " V",
+        "rotulo": "tensão típica da rede de distribuição",
+        "imagens": [
+          "substation"
+        ]
+      }
+    },
+    {
+      "fala": "E tem os disjuntores e as chaves. Se cai uma árvore numa linha, o sistema de proteção detecta o curto e desliga aquele trecho em uma fração de segundo, antes que o estrago se espalhe.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "A proteção desliga um curto em frações de segundo.",
+        "fonte": "relés de proteção e disjuntores",
+        "imagens": [
+          "circuit breaker substation"
+        ]
+      }
+    },
+    {
+      "capitulo": "5. O poste",
+      "fala": "Agora a energia entra na sua rua. [pausa] É a rede de distribuição.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ETAPA 5",
+        "texto": "O poste",
+        "imagens": [
+          "utility pole wires"
+        ]
+      }
+    },
+    {
+      "fala": "Os fios lá de cima do poste, os mais altos, são a média tensão. Os treze mil e oitocentos volts. É por isso que eles ficam bem longe de tudo.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "utility pole",
+          "power pole street"
+        ],
+        "rotulo": "Média tensão",
+        "sub": "os fios mais altos do poste"
+      }
+    },
+    {
+      "fala": "E aí vem a última peça da viagem: aquele cilindro pendurado no poste. [pausa] É o transformador de distribuição.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "pole mounted transformer",
+          "utility pole transformer"
+        ],
+        "rotulo": "Transformador do poste",
+        "sub": "a última descida"
+      }
+    },
+    {
+      "fala": "Ele baixa os treze mil e oitocentos volts pra tensão que a sua casa usa. Cento e vinte e sete ou duzentos e vinte volts, dependendo da cidade.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Entra",
+          "valor": "13.800 V"
+        },
+        "b": {
+          "rotulo": "Sai",
+          "valor": "127 / 220 V"
+        }
+      }
+    },
+    {
+      "fala": "Um transformador desses atende, em média, algumas dezenas de casas. Quando ele queima, é por isso que só um pedaço da rua fica sem luz.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "street power lines houses"
+        ],
+        "rotulo": "Um transformador",
+        "sub": "algumas dezenas de casas"
+      }
+    },
+    {
+      "capitulo": "6. A sua casa",
+      "fala": "E finalmente, a última etapa. [pausa] A sua casa.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ETAPA 6",
+        "texto": "A sua casa",
+        "imagens": [
+          "electric meter"
+        ]
+      }
+    },
+    {
+      "fala": "A energia desce pelo ramal, passa pelo medidor, que conta cada quilowatt-hora que você usa, e chega no quadro de disjuntores.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "electric meter",
+          "breaker box"
+        ],
+        "rotulo": "Medidor e quadro",
+        "sub": "contar e proteger"
+      }
+    },
+    {
+      "fala": "Do quadro saem os circuitos da casa. E cada tomada é o fim de uma viagem que começou numa turbina, a centenas de quilômetros dali.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "electrical outlet",
+          "wall socket"
+        ],
+        "rotulo": "A tomada",
+        "sub": "o fim da viagem"
+      }
+    },
+    {
+      "fala": "E por que o Brasil tem cento e vinte e sete em uns lugares e duzentos e vinte em outros? [pausa] História. Cada concessionária antiga escolheu um padrão, e isso nunca foi unificado.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "127 V",
+          "valor": "mais comum",
+          "sub": "ex.: SP, RJ, MG, PR"
+        },
+        "b": {
+          "rotulo": "220 V",
+          "valor": "padrão",
+          "sub": "ex.: DF, SC e boa parte do Nordeste"
+        }
+      }
+    },
+    {
+      "fala": "Na física, o duzentos e vinte leva vantagem: pra mesma potência, passa metade da corrente. Fio esquenta menos. [pausa] É a mesma lógica das linhas de transmissão, só que dentro da sua casa.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "220 V: mesma potência com metade da corrente.",
+        "fonte": "P = V × I",
+        "imagens": [
+          "electric wires house"
+        ]
+      }
+    },
+    {
+      "fala": "Mas nem tudo chega. Somando as perdas técnicas e os furtos de energia, o Brasil perde algo perto de quinze por cento de tudo que entra na distribuição.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 15,
+        "prefixo": "~",
+        "sufixo": "%",
+        "rotulo": "da energia se perde no caminho",
+        "imagens": [
+          "power lines city"
+        ]
+      }
+    },
+    {
+      "fala": "E quem paga essa perda, em parte, é você, na conta de luz. [pausa] Por isso cada ponto de eficiência na rede vale muito dinheiro.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Parte das perdas entra na tarifa da conta de luz.",
+        "fonte": "ANEEL"
+      }
+    },
+    {
+      "capitulo": "Resumo",
+      "fala": "Recapitulando a viagem inteira em seis passos.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "A tensão em cada etapa (mil volts)",
+        "itens": [
+          [
+            "Gerador",
+            18,
+            "~18 kV"
+          ],
+          [
+            "Transmissão",
+            765,
+            "até 765 kV"
+          ],
+          [
+            "Subestação",
+            138,
+            "~138 kV"
+          ],
+          [
+            "Distribuição",
+            13.8,
+            "13,8 kV"
+          ],
+          [
+            "Sua casa",
+            0.22,
+            "0,22 kV"
+          ]
+        ],
+        "destaque": 1,
+        "fonte": "valores típicos"
+      }
+    },
+    {
+      "fala": "A água gira a turbina. O gerador transforma giro em eletricidade. O transformador eleva a tensão. A linha leva por centenas de quilômetros. A subestação baixa. E o transformador do poste entrega na sua tomada.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "hydroelectric dam",
+          "transmission line towers",
+          "electrical substation",
+          "utility pole transformer"
+        ],
+        "rotulo": "Do rio à tomada",
+        "sub": "em menos de um piscar de olhos"
+      }
+    },
+    {
+      "fala": "Da próxima vez que você ligar o carregador, já sabe a viagem que aquilo fez. [pausa] Agora me conta: qual objeto do dia a dia você quer que eu abra por dentro no próximo vídeo?",
+      "visual": {
+        "tipo": "cta",
+        "texto": "Qual coisa eu abro por dentro no próximo?",
+        "sub": "escreve nos comentários",
+        "imagens": [
+          "city lights night"
+        ]
+      }
+    }
+  ]
+}

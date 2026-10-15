@@ -1,0 +1,772 @@
+{
+  "id": "v001-leonida-x-florida-real",
+  "canal": "gta6",
+  "formato": "longo",
+  "nicho": "mapa e lugares",
+  "titulo": "GTA 6 é a Flórida? Comparei Leonida com os lugares reais",
+  "titulos_alternativos": [
+    "GTA 6 é a Flórida? Comparei Leonida com os lugares reais",
+    "Os lugares REAIS por trás do mapa do GTA 6",
+    "Fui atrás da Leonida de verdade (GTA 6 x Flórida)"
+  ],
+  "miniatura": {
+    "texto": "É REAL?|LEONIDA",
+    "imagem": "colony hotel ocean drive",
+    "selo": "GTA VI",
+    "tam": 140
+  },
+  "descricao": "Leonida, o estado do GTA VI, é a versão da Rockstar para a Flórida. Neste vídeo eu comparo cada região confirmada do mapa — Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga — com os lugares reais que mais se parecem com elas.\n\nO que é oficial está marcado como oficial. O que é comparação (a inspiração mais provável) é análise do canal, não confirmação da Rockstar.\n\nGTA VI chega em 19 de novembro de 2026 para PS5 e Xbox Series X|S.",
+  "fontes": [
+    "Rockstar Games — site oficial do GTA VI: rockstargames.com/VI",
+    "Rockstar Newswire — data de lançamento (19/11/2026)",
+    "National Park Service — Everglades National Park (área do parque)",
+    "Florida Fish and Wildlife Conservation Commission — população de jacarés na Flórida",
+    "USGS — Britton Hill, ponto mais alto da Flórida (105 m)"
+  ],
+  "hashtags": [
+    "#gta6",
+    "#gtavi",
+    "#leonida"
+  ],
+  "tags": [
+    "gta 6",
+    "gta vi",
+    "mapa gta 6",
+    "leonida",
+    "vice city",
+    "gta 6 florida",
+    "gta 6 lugares reais",
+    "grassrivers",
+    "leonida keys",
+    "port gellhorn",
+    "ambrosia gta 6",
+    "mount kalaga",
+    "gta 6 miami"
+  ],
+  "cenas": [
+    {
+      "capitulo": "Leonida existe?",
+      "fala": "Se você pegar um avião hoje pra Miami, [pausa] você pousa dentro do mapa do GTA 6.",
+      "visual": {
+        "tipo": "gancho",
+        "texto": "VOCÊ JÁ ESTEVE|EM LEONIDA?",
+        "imagens": [
+          "miami skyline night",
+          "miami aerial"
+        ]
+      }
+    },
+    {
+      "fala": "Não é exagero. Leonida, o estado onde o jogo se passa, é a versão da Rockstar para a Flórida. E quase cada pedaço desse mapa tem um lugar de verdade por trás.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "florida beach aerial",
+          "florida bridge ocean"
+        ],
+        "rotulo": "Leonida = Flórida",
+        "sub": "a versão da Rockstar"
+      }
+    },
+    {
+      "fala": "Eu fui atrás de cada um deles. [pausa] E uma das seis regiões não bate com nada que existe na Flórida. [pausa] Fica até o fim que eu te mostro qual.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Uma das 6 regiões não existe na Flórida de verdade.",
+        "imagens": [
+          "florida map"
+        ]
+      }
+    },
+    {
+      "fala": "Antes, a regra deste vídeo: o que for oficial da Rockstar, eu falo que é oficial. O que for comparação minha, eu falo que é comparação. Sem vazamento, sem invenção.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Oficial",
+          "valor": "Rockstar",
+          "sub": "site e trailers"
+        },
+        "b": {
+          "rotulo": "Comparação",
+          "valor": "Canal",
+          "sub": "inspiração provável"
+        }
+      }
+    },
+    {
+      "fala": "E o oficial é este: GTA 6 chega no dia dezenove de novembro, pra PlayStation 5 e Xbox Series. Faltam trinta e seis dias.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 36,
+        "sufixo": " DIAS",
+        "rotulo": "19/11/2026 · PS5 e Xbox Series X|S"
+      }
+    },
+    {
+      "fala": "Pra você ter noção do tamanho da inspiração: a Flórida de verdade tem mais de vinte e três milhões de pessoas e mais de dois mil quilômetros de litoral.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 2170,
+        "sufixo": " km",
+        "rotulo": "de litoral na Flórida real",
+        "imagens": [
+          "florida coastline"
+        ]
+      }
+    },
+    {
+      "capitulo": "A fórmula da Rockstar",
+      "fala": "Mas por que a Flórida? [pausa] Pra entender, você precisa conhecer a fórmula que a Rockstar usa há mais de vinte anos.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "ANTES DO MAPA",
+        "texto": "A fórmula",
+        "imagens": [
+          "los angeles skyline"
+        ]
+      }
+    },
+    {
+      "fala": "Todo GTA moderno pega uma região real dos Estados Unidos, encolhe, exagera e transforma numa sátira. Liberty City é Nova York. Los Santos é Los Angeles.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Liberty City",
+          "valor": "Nova York",
+          "sub": "GTA III e GTA IV"
+        },
+        "b": {
+          "rotulo": "Los Santos",
+          "valor": "Los Angeles",
+          "sub": "San Andreas e GTA V"
+        }
+      }
+    },
+    {
+      "fala": "No San Andreas foi um estado inteiro: Los Santos, San Fierro e Las Venturas. Ou seja, Los Angeles, San Francisco e Las Vegas, com deserto e campo no meio.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "las vegas strip",
+          "golden gate bridge"
+        ],
+        "rotulo": "San Andreas (2004)",
+        "sub": "Los Angeles + San Francisco + Las Vegas"
+      }
+    },
+    {
+      "fala": "O GTA 6 repete essa receita, só que com a Flórida. Uma cidade grande e famosa no centro, cercada de natureza, cidade pequena e estrada.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Cidades reais por trás dos GTAs",
+        "itens": [
+          [
+            "GTA III / IV",
+            1.0,
+            "Nova York"
+          ],
+          [
+            "San Andreas",
+            3.0,
+            "LA + SF + Vegas"
+          ],
+          [
+            "GTA V",
+            1.0,
+            "Los Angeles"
+          ],
+          [
+            "GTA VI",
+            6.0,
+            "Flórida inteira"
+          ]
+        ],
+        "destaque": 3
+      }
+    },
+    {
+      "fala": "E a Flórida é um prato cheio pra sátira. Calor, praia, dinheiro, jacaré, e aquelas manchetes absurdas de jornal que viraram meme no mundo inteiro.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "florida beach crowd",
+          "miami beach"
+        ],
+        "rotulo": "Prato cheio pra sátira",
+        "sub": "calor, praia, dinheiro e jacaré"
+      }
+    },
+    {
+      "fala": "Então bora. Região por região, começando pela mais famosa.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "miami beach aerial"
+        ],
+        "rotulo": "6 regiões",
+        "sub": "do sul ao norte de Leonida"
+      }
+    },
+    {
+      "capitulo": "Vice City = Miami",
+      "fala": "Começando pelo coração do mapa. [pausa] Vice City.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "REGIÃO 1 DE 6",
+        "texto": "Vice City",
+        "imagens": [
+          "miami skyline night"
+        ]
+      }
+    },
+    {
+      "fala": "A própria Rockstar descreve Vice City como o lado mais sombrio do lugar mais ensolarado dos Estados Unidos. E esse lugar tem nome: Miami.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“O lado mais sombrio do lugar mais ensolarado dos EUA.”",
+        "fonte": "rockstargames.com/VI",
+        "imagens": [
+          "miami downtown"
+        ]
+      }
+    },
+    {
+      "fala": "As fachadas em tom pastel, os hotéis art déco de frente pro mar, os carros esportivos parados na porta... tudo isso é Ocean Drive, em Miami Beach.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "ocean drive miami beach",
+          "art deco miami beach hotel",
+          "ocean drive art deco"
+        ],
+        "rotulo": "Ocean Drive",
+        "sub": "Miami Beach, Flórida"
+      }
+    },
+    {
+      "fala": "Miami Beach tem a maior concentração de prédios art déco do mundo. São centenas deles, quase todos dos anos trinta e quarenta. E é exatamente esse visual que o trailer mostra.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "art deco building miami",
+          "miami beach art deco district"
+        ],
+        "rotulo": "Distrito Art Déco",
+        "sub": "anos 1930 e 1940"
+      }
+    },
+    {
+      "fala": "Já os prédios espelhados do centro, com a baía na frente, lembram muito o centro de Miami e a região de Brickell, o centro financeiro da cidade.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "brickell miami",
+          "miami skyline bay"
+        ],
+        "rotulo": "Brickell",
+        "sub": "centro financeiro de Miami"
+      }
+    },
+    {
+      "fala": "E tem o porto. Miami é chamada de capital mundial dos cruzeiros, porque sai mais navio de cruzeiro de lá do que de qualquer outro lugar do planeta.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "port of miami cruise ship",
+          "cruise ship miami"
+        ],
+        "rotulo": "PortMiami",
+        "sub": "a capital mundial dos cruzeiros"
+      }
+    },
+    {
+      "fala": "Detalhe que muita gente esquece: Vice City não é novidade. Ela já apareceu em dois mil e dois, no Vice City, e em dois mil e seis, no Vice City Stories.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Vice City na série GTA",
+        "itens": [
+          [
+            "2002",
+            4,
+            "Vice City"
+          ],
+          [
+            "2006",
+            4,
+            "Vice City Stories"
+          ],
+          [
+            "2026",
+            10,
+            "GTA VI + Leonida"
+          ]
+        ],
+        "destaque": 2
+      }
+    },
+    {
+      "fala": "E Miami não é só praia. Tem a Little Havana, o bairro cubano, com a Calle Ocho, dominó na praça, café cubano e mural colorido em todo muro.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "calle ocho little havana",
+          "little havana"
+        ],
+        "rotulo": "Little Havana",
+        "sub": "o bairro cubano de Miami"
+      }
+    },
+    {
+      "fala": "Isso importa porque GTA sempre copia a mistura de culturas da cidade real. E Miami é uma das cidades mais latinas dos Estados Unidos. Mais da metade da população fala espanhol em casa.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Mais da metade dos moradores de Miami fala espanhol em casa.",
+        "fonte": "US Census Bureau",
+        "imagens": [
+          "little havana domino park",
+          "little havana"
+        ]
+      }
+    },
+    {
+      "fala": "Guarda essa informação, porque ela explica muito do que a gente já viu nos trailers: placas, rádio, gente na rua. [pausa] Agora, vamos sair da cidade.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "miami street",
+          "miami neon"
+        ],
+        "rotulo": "A mistura de Miami",
+        "sub": "latina, praiana e noturna"
+      }
+    },
+    {
+      "fala": "Só que antes era só a cidade. [pausa] Agora ela é o centro de um estado inteiro. E é aí que a coisa fica interessante.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "miami highway aerial",
+          "interstate highway florida"
+        ],
+        "rotulo": "Agora é um estado inteiro",
+        "sub": "Vice City + 5 regiões"
+      }
+    },
+    {
+      "capitulo": "Leonida Keys",
+      "fala": "Saindo da cidade, pro sul. [pausa] Leonida Keys.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "REGIÃO 2 DE 6",
+        "texto": "Leonida Keys",
+        "imagens": [
+          "florida keys"
+        ]
+      }
+    },
+    {
+      "fala": "São ilhas pequenas, ligadas por estradas compridas em cima do mar. Isso é a cara das Florida Keys, no extremo sul dos Estados Unidos.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "florida keys",
+          "overseas highway florida keys"
+        ],
+        "rotulo": "Florida Keys",
+        "sub": "o extremo sul dos EUA"
+      }
+    },
+    {
+      "fala": "Pra chegar lá tem uma estrada só, a Overseas Highway. São cento e oitenta quilômetros pulando de ilha em ilha. E o trecho mais famoso é a Seven Mile Bridge, uma ponte de quase onze quilômetros em cima do oceano.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "seven mile bridge",
+          "seven mile bridge florida keys"
+        ],
+        "rotulo": "Seven Mile Bridge",
+        "sub": "quase 11 km sobre o mar"
+      }
+    },
+    {
+      "fala": "Imagina essa ponte num GTA. [pausa] Fuga da polícia, pôr do sol, mar dos dois lados. É praticamente feita pra isso.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 180,
+        "sufixo": " km",
+        "rotulo": "de estrada ligando as ilhas",
+        "imagens": [
+          "overseas highway"
+        ]
+      }
+    },
+    {
+      "fala": "E aqui tem um fato oficial: no material dos personagens, a Rockstar conta que o Jason passou um tempo nas Keys, trabalhando pra traficantes da região.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Jason trabalhou para traficantes locais nas Keys.",
+        "fonte": "Rockstar — perfil oficial do personagem Jason",
+        "imagens": [
+          "key west sunset"
+        ]
+      }
+    },
+    {
+      "fala": "Na vida real, a última ilha, Key West, fica mais perto de Cuba do que de Miami. São só cento e cinquenta quilômetros até a ilha cubana.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Key West → Cuba",
+          "valor": "~150 km"
+        },
+        "b": {
+          "rotulo": "Key West → Miami",
+          "valor": "~260 km"
+        }
+      }
+    },
+    {
+      "fala": "E lá tem uma boia de concreto gigante, listrada, que marca o ponto mais ao sul dos Estados Unidos continentais. Fila de turista pra tirar foto o dia inteiro.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "southernmost point buoy key west",
+          "key west southernmost point"
+        ],
+        "rotulo": "Southernmost Point",
+        "sub": "Key West · fim da estrada"
+      }
+    },
+    {
+      "fala": "Se a Rockstar recriou esse ponto em Leonida Keys, aposto que vai ter missão, foto ou corrida terminando bem ali. [pausa] Comparação minha, não confirmação.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Fim da estrada = ótimo lugar pra uma missão.",
+        "fonte": "palpite do canal, não confirmação",
+        "imagens": [
+          "key west sunset"
+        ]
+      }
+    },
+    {
+      "capitulo": "Grassrivers",
+      "fala": "Agora, a região mais selvagem do mapa. [pausa] Grassrivers.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "REGIÃO 3 DE 6",
+        "texto": "Grassrivers",
+        "imagens": [
+          "everglades"
+        ]
+      }
+    },
+    {
+      "fala": "Pântano, mangue, planície alagada, jacaré... e aquele barco com hélice gigante atrás, o aerobarco. Tudo isso é o Everglades, o maior pântano tropical dos Estados Unidos.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "everglades airboat",
+          "everglades alligator",
+          "everglades mangrove"
+        ],
+        "rotulo": "Everglades",
+        "sub": "sul da Flórida"
+      }
+    },
+    {
+      "fala": "O tamanho é absurdo. Só o parque nacional tem mais de seis mil quilômetros quadrados. É maior que muito país.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 6100,
+        "sufixo": " km²",
+        "rotulo": "Parque Nacional dos Everglades",
+        "imagens": [
+          "everglades national park"
+        ]
+      }
+    },
+    {
+      "fala": "E agora o número que parece mentira. [pausa] A Flórida tem mais de um milhão de jacarés.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 1300000,
+        "rotulo": "jacarés vivendo na Flórida",
+        "imagens": [
+          "alligator florida"
+        ]
+      }
+    },
+    {
+      "fala": "Mais de um milhão. Tanto que achar jacaré em piscina, garagem e campo de golfe vira notícia lá toda semana. Não é à toa que esse tipo de cena virou piada da Flórida.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "alligator golf course",
+          "alligator road florida"
+        ],
+        "rotulo": "Florida Man?",
+        "sub": "jacaré em todo lugar"
+      }
+    },
+    {
+      "fala": "E tem mais: o Everglades é o único lugar do mundo onde jacarés e crocodilos vivem juntos, no mesmo ambiente.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Jacaré",
+          "valor": "água doce",
+          "sub": "focinho largo"
+        },
+        "b": {
+          "rotulo": "Crocodilo",
+          "valor": "água salgada",
+          "sub": "focinho fino"
+        }
+      }
+    },
+    {
+      "fala": "E tem um invasor nessa história. [pausa] Píton birmanesa. Uma cobra da Ásia que foi solta por donos de bicho exótico e hoje vive aos milhares no Everglades.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "burmese python everglades",
+          "burmese python"
+        ],
+        "rotulo": "Píton birmanesa",
+        "sub": "espécie invasora no Everglades"
+      }
+    },
+    {
+      "fala": "O governo da Flórida até faz caçada oficial de píton, com prêmio pra quem pegar a maior. Se isso aparecer no GTA 6 como missão, eu não vou ficar nem um pouco surpreso.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "A Flórida faz caçadas oficiais de píton, com prêmio.",
+        "fonte": "Florida Python Challenge (FWC)",
+        "imagens": [
+          "everglades swamp"
+        ]
+      }
+    },
+    {
+      "capitulo": "Port Gellhorn",
+      "fala": "Subindo pro norte. [pausa] Port Gellhorn.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "REGIÃO 4 DE 6",
+        "texto": "Port Gellhorn",
+        "imagens": [
+          "florida motel"
+        ]
+      }
+    },
+    {
+      "fala": "Aqui é a Flórida que não aparece no cartão-postal. Motel barato, atração turística esquecida na beira da estrada, porto de carga.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "motel sign",
+          "roadside motel florida",
+          "cargo port cranes"
+        ],
+        "rotulo": "A Flórida esquecida",
+        "sub": "motéis, porto e beira de estrada"
+      }
+    },
+    {
+      "fala": "A comparação mais comum é com o Panhandle, aquela faixa estreita no noroeste da Flórida, e com cidades como Panama City Beach, que já foi capital do spring break americano.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "panama city beach",
+          "florida panhandle beach"
+        ],
+        "rotulo": "Panama City Beach?",
+        "sub": "comparação do canal, não confirmação"
+      }
+    },
+    {
+      "fala": "Mas aqui as opiniões se dividem. Então guarda isso como comparação, não como fato. Quando o jogo sair, eu volto aqui e te digo quem acertou.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Inspiração ainda não confirmada.",
+        "fonte": "comparação do canal"
+      }
+    },
+    {
+      "capitulo": "Ambrosia",
+      "fala": "A quinta região é a mais misteriosa. [pausa] Ambrosia.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "REGIÃO 5 DE 6",
+        "texto": "Ambrosia",
+        "imagens": [
+          "sugarcane field"
+        ]
+      }
+    },
+    {
+      "fala": "É o interior. Campo, indústria, uma usina de açúcar enorme soltando fumaça, trem de carga. Pouca coisa foi mostrada até agora.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "sugar mill",
+          "freight train",
+          "sugarcane field"
+        ],
+        "rotulo": "Interior de Leonida",
+        "sub": "usina, trem e plantação"
+      }
+    },
+    {
+      "fala": "E isso bate com o centro-sul da Flórida, em volta do Lago Okeechobee. É ali que fica boa parte da cana de açúcar dos Estados Unidos.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "lake okeechobee",
+          "sugarcane harvest"
+        ],
+        "rotulo": "Lago Okeechobee",
+        "sub": "região canavieira da Flórida"
+      }
+    },
+    {
+      "fala": "O lago é tão grande que, da margem, você não vê o outro lado. São quase mil e novecentos quilômetros quadrados de água doce.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 1900,
+        "sufixo": " km²",
+        "rotulo": "Lago Okeechobee",
+        "imagens": [
+          "lake okeechobee"
+        ]
+      }
+    },
+    {
+      "capitulo": "A região que não existe",
+      "fala": "E agora, a que eu te prometi lá no começo. [pausa longa] Mount Kalaga.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "REGIÃO 6 DE 6",
+        "texto": "Mount Kalaga",
+        "imagens": [
+          "forest trail"
+        ]
+      }
+    },
+    {
+      "fala": "É um parque nacional, com floresta, trilha e montanha. [pausa] O problema? A Flórida praticamente não tem montanha.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "forest hiking trail",
+          "ocala national forest"
+        ],
+        "rotulo": "Mount Kalaga",
+        "sub": "parque nacional de Leonida"
+      }
+    },
+    {
+      "fala": "A Flórida é o estado mais plano dos Estados Unidos. O ponto mais alto dela inteira tem cento e cinco metros. É menor que muito prédio de Miami.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Ponto + alto da Flórida",
+          "valor": "105 m",
+          "sub": "Britton Hill"
+        },
+        "b": {
+          "rotulo": "Prédios de Miami",
+          "valor": "+250 m",
+          "sub": "os mais altos"
+        }
+      }
+    },
+    {
+      "fala": "Então Mount Kalaga é, provavelmente, a região mais inventada do mapa. Uma liberdade da Rockstar pra ter serra, trilha e aventura, coisa que a Flórida de verdade não tem.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Mount Kalaga é a região mais “inventada” de Leonida.",
+        "fonte": "comparação do canal",
+        "imagens": [
+          "misty forest"
+        ]
+      }
+    },
+    {
+      "fala": "E faz sentido. Desde San Andreas, a Rockstar mistura cidade, campo e serra pra você ter variedade. Montanha é cenário de perseguição, de trilha de moto, de esconderijo.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "mountain road forest"
+        ],
+        "rotulo": "Por que inventar?",
+        "sub": "variedade de cenário"
+      }
+    },
+    {
+      "capitulo": "Resumo",
+      "fala": "Juntando tudo: cinco regiões com um lugar real bem claro por trás, e uma que a Rockstar criou praticamente do zero.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Quanto cada região lembra a Flórida real",
+        "itens": [
+          [
+            "Vice City",
+            10,
+            "Miami"
+          ],
+          [
+            "Leonida Keys",
+            10,
+            "Florida Keys"
+          ],
+          [
+            "Grassrivers",
+            10,
+            "Everglades"
+          ],
+          [
+            "Ambrosia",
+            7,
+            "Okeechobee"
+          ],
+          [
+            "Port Gellhorn",
+            6,
+            "Panhandle?"
+          ],
+          [
+            "Mount Kalaga",
+            2,
+            "inventada"
+          ]
+        ],
+        "destaque": 5,
+        "fonte": "comparação do canal"
+      }
+    },
+    {
+      "fala": "E a pergunta que fica é: qual dessas você vai explorar primeiro no dia dezenove? Escreve aí nos comentários, eu leio todos.",
+      "visual": {
+        "tipo": "cta",
+        "texto": "Qual região você explora primeiro?",
+        "sub": "comenta aí",
+        "imagens": [
+          "miami sunset palm"
+        ]
+      }
+    },
+    {
+      "fala": "Eu sigo contando os dias até o lançamento, só com o que é oficial. Se quiser acompanhar, você já sabe onde me achar.",
+      "visual": {
+        "tipo": "cta",
+        "texto": "Faltam 36 dias",
+        "sub": "só fato oficial, sem vazamento",
+        "imagens": [
+          "miami skyline night"
+        ]
+      }
+    }
+  ]
+}

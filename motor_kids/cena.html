@@ -1,0 +1,333 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;overflow:hidden;background:#000}
+  svg{display:block}
+  text{font-family:"Arial Black","Arial",sans-serif;font-weight:900}
+</style></head>
+<body>
+<svg id="tela" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+/* Motor de cenas do SuperKids. O Python chama render(estado) a cada quadro e tira o print.
+   estado = {W,H, cena:{tipo,...}, passo, tc (s na cena), tp (s no passo), boca (0..1), tg (s global), falando} */
+const NS = 'http://www.w3.org/2000/svg';
+const tela = document.getElementById('tela');
+
+/* ---------- cores e objetos ---------- */
+const COR = {vermelho:'#E53935', azul:'#1E88E5', amarelo:'#FDD835', verde:'#43A047', laranja:'#FB8C00',
+  roxo:'#8E24AA', rosa:'#EC407A', marrom:'#8D6E63', preto:'#263238', branco:'#FAFAFA', cinza:'#90A4AE'};
+const TINTA = '#1B2B44';   // contorno de tudo
+const L = 7;               // espessura do contorno
+
+function c(x){ return COR[x] || x; }
+function esc(s){ return String(s).replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[m])); }
+
+// Cada objeto: desenhado em ~ -60..60, centro 0,0. "cor" opcional troca a cor principal.
+const OBJ = {
+  maca: k => `<path d="M0,-38 C-30,-58 -66,-30 -58,8 C-52,44 -22,62 0,50 C22,62 52,44 58,8 C66,-30 30,-58 0,-38Z" fill="${c(k||'vermelho')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M0,-38 C2,-52 6,-60 12,-66" stroke="${TINTA}" stroke-width="${L}" fill="none" stroke-linecap="round"/>
+      <path d="M8,-50 C22,-70 44,-64 46,-56 C34,-46 18,-44 8,-50Z" fill="#66BB6A" stroke="${TINTA}" stroke-width="5"/>
+      <ellipse cx="-30" cy="-12" rx="9" ry="15" fill="#fff" opacity=".55"/>`,
+  morango: k => `<path d="M0,58 C-40,30 -56,-6 -46,-26 C-34,-44 34,-44 46,-26 C56,-6 40,30 0,58Z" fill="${c(k||'vermelho')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M-40,-30 L-20,-50 L0,-36 L20,-50 L40,-30 L0,-22Z" fill="#43A047" stroke="${TINTA}" stroke-width="5" stroke-linejoin="round"/>
+      ${[[-20,-6],[8,-10],[-6,16],[20,12],[0,36],[-26,18]].map(([x,y])=>`<ellipse cx="${x}" cy="${y}" rx="3.5" ry="5" fill="#FFF59D"/>`).join('')}`,
+  banana: k => `<path d="M-56,-30 C-50,30 10,58 58,30 C40,26 0,26 -32,-30Z" fill="${c(k||'amarelo')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>
+      <path d="M-56,-30 L-62,-42" stroke="${TINTA}" stroke-width="${L+2}" stroke-linecap="round"/>`,
+  laranja: k => `<circle r="54" fill="${c(k||'laranja')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M0,-54 C4,-64 14,-70 26,-68 C22,-58 12,-54 0,-54Z" fill="#66BB6A" stroke="${TINTA}" stroke-width="5"/>
+      <ellipse cx="-22" cy="-20" rx="9" ry="13" fill="#fff" opacity=".45"/>`,
+  uva: k => [[0,-30],[-22,-12],[22,-12],[-11,8],[11,8],[0,28],[-30,-32],[30,-32]].map(([x,y])=>
+      `<circle cx="${x}" cy="${y}" r="17" fill="${c(k||'roxo')}" stroke="${TINTA}" stroke-width="5"/>`).join('')
+      + `<path d="M0,-48 L4,-66" stroke="${TINTA}" stroke-width="6" stroke-linecap="round"/>`,
+  estrela: k => `<path d="${estrelaPath(60,26,5)}" fill="${c(k||'amarelo')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>
+      <circle cx="-10" cy="-4" r="5" fill="${TINTA}"/><circle cx="10" cy="-4" r="5" fill="${TINTA}"/>
+      <path d="M-9,10 Q0,18 9,10" stroke="${TINTA}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+  coracao: k => `<path d="M0,52 C-70,4 -62,-52 -24,-52 C-8,-52 0,-38 0,-30 C0,-38 8,-52 24,-52 C62,-52 70,4 0,52Z" fill="${c(k||'rosa')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <ellipse cx="-28" cy="-24" rx="9" ry="13" fill="#fff" opacity=".5"/>`,
+  bola: k => `<circle r="54" fill="${c(k||'azul')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M-54,0 C-20,-18 20,-18 54,0" stroke="#fff" stroke-width="10" fill="none"/>
+      <path d="M-46,26 C-14,10 14,10 46,26" stroke="#fff" stroke-width="10" fill="none" opacity=".7"/>
+      <circle r="54" fill="none" stroke="${TINTA}" stroke-width="${L}"/>`,
+  balao: k => `<ellipse cy="-14" rx="44" ry="54" fill="${c(k||'vermelho')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M-6,40 L6,40 L0,50Z" fill="${c(k||'vermelho')}" stroke="${TINTA}" stroke-width="4"/>
+      <path d="M0,50 C-10,60 10,66 0,78" stroke="${TINTA}" stroke-width="3" fill="none"/>
+      <ellipse cx="-18" cy="-34" rx="8" ry="14" fill="#fff" opacity=".55"/>`,
+  flor: k => [0,72,144,216,288].map(a=>`<ellipse cx="0" cy="-30" rx="20" ry="28" transform="rotate(${a})" fill="${c(k||'rosa')}" stroke="${TINTA}" stroke-width="5"/>`).join('')
+      + `<circle r="20" fill="#FDD835" stroke="${TINTA}" stroke-width="5"/>`,
+  peixe: k => `<path d="M-50,0 C-30,-40 30,-40 44,0 C30,40 -30,40 -50,0Z" fill="${c(k||'laranja')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M40,0 L66,-26 L66,26Z" fill="${c(k||'laranja')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>
+      <circle cx="-24" cy="-8" r="8" fill="#fff" stroke="${TINTA}" stroke-width="3"/><circle cx="-24" cy="-8" r="4" fill="${TINTA}"/>`,
+  carro: k => `<path d="M-62,10 L-62,-12 C-62,-18 -56,-22 -50,-22 L-34,-22 L-20,-44 L22,-44 L38,-22 L54,-22 C60,-22 64,-16 64,-10 L64,10Z" fill="${c(k||'vermelho')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>
+      <path d="M-24,-22 L-14,-38 L0,-38 L0,-22Z M8,-22 L8,-38 L18,-38 L28,-22Z" fill="#B3E5FC" stroke="${TINTA}" stroke-width="4"/>
+      <circle cx="-34" cy="12" r="15" fill="#37474F" stroke="${TINTA}" stroke-width="5"/><circle cx="36" cy="12" r="15" fill="#37474F" stroke="${TINTA}" stroke-width="5"/>
+      <circle cx="-34" cy="12" r="5" fill="#ccc"/><circle cx="36" cy="12" r="5" fill="#ccc"/>`,
+  sol: k => `${[...Array(12)].map((_,i)=>`<path d="M0,-58 L0,-74" transform="rotate(${i*30})" stroke="${c(k||'amarelo')}" stroke-width="10" stroke-linecap="round"/>`).join('')}
+      <circle r="46" fill="${c(k||'amarelo')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <circle cx="-14" cy="-6" r="5" fill="${TINTA}"/><circle cx="14" cy="-6" r="5" fill="${TINTA}"/>
+      <path d="M-14,12 Q0,24 14,12" stroke="${TINTA}" stroke-width="5" fill="none" stroke-linecap="round"/>`,
+  folha: k => `<path d="M-50,40 C-50,-20 0,-56 56,-50 C56,6 20,48 -50,40Z" fill="${c(k||'verde')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M-50,40 C-10,0 20,-20 40,-36" stroke="${TINTA}" stroke-width="4" fill="none"/>`,
+  // animais (só o rosto, estilo bebê)
+  gato: k => `<path d="M-50,-20 L-44,-66 L-14,-44Z M50,-20 L44,-66 L14,-44Z" fill="${c(k||'laranja')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>
+      <ellipse rx="56" ry="48" fill="${c(k||'laranja')}" stroke="${TINTA}" stroke-width="${L}"/>
+      ${olhos(18,-8,7)}<path d="M-6,8 L6,8 L0,15Z" fill="#EC407A"/>
+      <path d="M0,15 Q-10,26 -18,20 M0,15 Q10,26 18,20" stroke="${TINTA}" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M-24,12 L-60,6 M-24,18 L-58,22 M24,12 L60,6 M24,18 L58,22" stroke="${TINTA}" stroke-width="3"/>`,
+  cachorro: k => `<ellipse cx="-50" cy="-6" rx="18" ry="36" fill="#6D4C41" stroke="${TINTA}" stroke-width="${L}"/>
+      <ellipse cx="50" cy="-6" rx="18" ry="36" fill="#6D4C41" stroke="${TINTA}" stroke-width="${L}"/>
+      <ellipse rx="50" ry="50" fill="${c(k||'marrom')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <ellipse cy="20" rx="26" ry="20" fill="#FFE0B2"/>
+      ${olhos(18,-12,7)}<ellipse cy="10" rx="10" ry="7" fill="${TINTA}"/>
+      <path d="M0,17 L0,26 Q-8,34 -14,28 M0,26 Q8,34 14,28" stroke="${TINTA}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+  porco: k => `<path d="M-46,-26 L-40,-60 L-16,-44Z M46,-26 L40,-60 L16,-44Z" fill="#F48FB1" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>
+      <circle r="54" fill="${c(k||'#F8BBD0')}" stroke="${TINTA}" stroke-width="${L}"/>
+      ${olhos(20,-14,7)}<ellipse cy="14" rx="22" ry="15" fill="#F48FB1" stroke="${TINTA}" stroke-width="5"/>
+      <ellipse cx="-8" cy="14" rx="4" ry="6" fill="${TINTA}"/><ellipse cx="8" cy="14" rx="4" ry="6" fill="${TINTA}"/>`,
+  vaca: k => `<path d="M-40,-40 C-56,-60 -70,-56 -66,-44 M40,-40 C56,-60 70,-56 66,-44" stroke="#FFF8E1" stroke-width="12" stroke-linecap="round" fill="none"/>
+      <ellipse rx="52" ry="50" fill="#FAFAFA" stroke="${TINTA}" stroke-width="${L}"/>
+      <path d="M-40,-30 C-30,-44 -10,-40 -16,-24 C-22,-12 -40,-16 -40,-30Z" fill="${TINTA}"/>
+      ${olhos(18,-10,7)}<ellipse cy="26" rx="34" ry="20" fill="#F8BBD0" stroke="${TINTA}" stroke-width="5"/>
+      <ellipse cx="-12" cy="26" rx="5" ry="7" fill="${TINTA}"/><ellipse cx="12" cy="26" rx="5" ry="7" fill="${TINTA}"/>`,
+  pato: k => `<circle r="50" fill="${c(k||'amarelo')}" stroke="${TINTA}" stroke-width="${L}"/>
+      ${olhos(18,-12,7)}<path d="M-26,10 C-10,0 10,0 26,10 C10,28 -10,28 -26,10Z" fill="#FB8C00" stroke="${TINTA}" stroke-width="5"/>`,
+  ovelha: k => `${[[-40,-34],[0,-48],[40,-34],[-52,4],[52,4],[-36,40],[0,48],[36,40]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="26" fill="#FAFAFA" stroke="${TINTA}" stroke-width="5"/>`).join('')}
+      <ellipse rx="40" ry="44" fill="#FAFAFA"/>
+      <ellipse cx="-44" cy="-4" rx="16" ry="9" fill="#5D4037" stroke="${TINTA}" stroke-width="4" transform="rotate(-25 -44 -4)"/>
+      <ellipse cx="44" cy="-4" rx="16" ry="9" fill="#5D4037" stroke="${TINTA}" stroke-width="4" transform="rotate(25 44 -4)"/>
+      <ellipse cy="6" rx="30" ry="36" fill="#6D4C41" stroke="${TINTA}" stroke-width="5"/>
+      ${olhos(13,-2,6)}<path d="M-8,22 Q0,28 8,22" stroke="#FAFAFA" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+  sapo: k => `<circle cx="-28" cy="-40" r="22" fill="${c(k||'verde')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <circle cx="28" cy="-40" r="22" fill="${c(k||'verde')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <ellipse cy="6" rx="60" ry="44" fill="${c(k||'verde')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <circle cx="-28" cy="-42" r="12" fill="#fff"/><circle cx="-26" cy="-40" r="7" fill="${TINTA}"/>
+      <circle cx="28" cy="-42" r="12" fill="#fff"/><circle cx="30" cy="-40" r="7" fill="${TINTA}"/>
+      <path d="M-34,10 Q0,40 34,10" stroke="${TINTA}" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-40" cy="4" rx="9" ry="6" fill="#F48FB1" opacity=".8"/><ellipse cx="40" cy="4" rx="9" ry="6" fill="#F48FB1" opacity=".8"/>`,
+  leao: k => `${[...Array(14)].map((_,i)=>`<circle cx="0" cy="-58" r="20" transform="rotate(${i*360/14})" fill="#E65100" stroke="${TINTA}" stroke-width="4"/>`).join('')}
+      <circle r="52" fill="${c(k||'#FFB300')}" stroke="${TINTA}" stroke-width="${L}"/>
+      <circle cx="-40" cy="-40" r="12" fill="#FFB300" stroke="${TINTA}" stroke-width="4"/><circle cx="40" cy="-40" r="12" fill="#FFB300" stroke="${TINTA}" stroke-width="4"/>
+      ${olhos(18,-10,7)}<ellipse cy="14" rx="20" ry="14" fill="#FFE0B2"/>
+      <path d="M-8,8 L8,8 L0,16Z" fill="${TINTA}"/>
+      <path d="M0,16 Q-9,26 -16,20 M0,16 Q9,26 16,20" stroke="${TINTA}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+  galinha: k => `<path d="M-14,-56 Q-8,-74 0,-58 Q8,-76 14,-56Z" fill="#E53935" stroke="${TINTA}" stroke-width="4"/>
+      <circle r="50" fill="${c(k||'branco')}" stroke="${TINTA}" stroke-width="${L}"/>
+      ${olhos(16,-14,6)}<path d="M-12,4 L12,4 L0,20Z" fill="#FB8C00" stroke="${TINTA}" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-5,20 Q0,34 5,20" fill="#E53935" stroke="${TINTA}" stroke-width="3"/>`,
+  // formas
+  circulo: k => `<circle r="56" fill="${c(k||'azul')}" stroke="${TINTA}" stroke-width="${L}"/>`,
+  quadrado: k => `<rect x="-52" y="-52" width="104" height="104" rx="10" fill="${c(k||'vermelho')}" stroke="${TINTA}" stroke-width="${L}"/>`,
+  triangulo: k => `<path d="M0,-58 L58,46 L-58,46Z" fill="${c(k||'verde')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>`,
+  retangulo: k => `<rect x="-66" y="-38" width="132" height="76" rx="10" fill="${c(k||'laranja')}" stroke="${TINTA}" stroke-width="${L}"/>`,
+  coracaoforma: k => OBJ.coracao(k),
+  estrelaforma: k => `<path d="${estrelaPath(62,28,5)}" fill="${c(k||'amarelo')}" stroke="${TINTA}" stroke-width="${L}" stroke-linejoin="round"/>`,
+};
+function olhos(dx,y,r){ return [-dx,dx].map(x=>`<circle cx="${x}" cy="${y}" r="${r+4}" fill="#fff" stroke="${TINTA}" stroke-width="3"/><circle cx="${x+1}" cy="${y+1}" r="${r}" fill="${TINTA}"/><circle cx="${x+3}" cy="${y-2}" r="2.5" fill="#fff"/>`).join(''); }
+function estrelaPath(R,r,n){ let d=''; for(let i=0;i<n*2;i++){ const a=Math.PI*i/n - Math.PI/2, rr=i%2?r:R; d+=(i?'L':'M')+(Math.cos(a)*rr).toFixed(1)+','+(Math.sin(a)*rr).toFixed(1); } return d+'Z'; }
+
+/* ---------- animação ---------- */
+const ease = t => t<0?0:t>1?1:1-Math.pow(1-t,3);
+const pop = t => { if(t<=0) return 0; if(t>=1) return 1; const s=1.70158*1.5; t=t-1; return t*t*((s+1)*t+s)+1; };
+const wob = (t,f,a) => Math.sin(t*f*2*Math.PI)*a;
+
+/* ---------- o Bubi (personagem fixo da série) ---------- */
+function tico(x, y, esc_, st, opts={}){
+  const t = st.tg, falando = st.falando;
+  const pulo = opts.pulo ? Math.abs(Math.sin(t*3.2))*-26 : wob(t,0.8,4);
+  const sq = 1 + (opts.pulo ? Math.abs(Math.cos(t*3.2))*0.05 : wob(t,0.8,0.015));
+  const piscar = (t % 3.7) < 0.12 ? 0.1 : 1;
+  const b = falando ? st.boca : 0;
+  const braco = opts.acenar ? wob(t,1.6,28) : wob(t,0.5,6);
+  const olhar = opts.olhar || 0;
+  const boca = b > 0.08
+    ? `<path d="M-26,32 Q0,${34+b*40} 26,32 Q0,${30+b*8} -26,32Z" fill="#7B1F2B" stroke="${TINTA}" stroke-width="5" stroke-linejoin="round"/>
+       <ellipse cx="0" cy="${34+b*24}" rx="${10+b*6}" ry="${4+b*5}" fill="#F06292"/>`
+    : `<path d="M-24,32 Q0,50 24,32" stroke="${TINTA}" stroke-width="6" fill="none" stroke-linecap="round"/>`;
+  return `<g transform="translate(${x},${y+pulo}) scale(${esc_*sq},${esc_/sq})">
+    <ellipse cx="0" cy="118" rx="70" ry="12" fill="#000" opacity=".15"/>
+    <ellipse cx="-36" cy="100" rx="26" ry="14" fill="#29B6F6" stroke="${TINTA}" stroke-width="${L}"/>
+    <ellipse cx="36" cy="100" rx="26" ry="14" fill="#29B6F6" stroke="${TINTA}" stroke-width="${L}"/>
+    <path d="M-92,10 Q-128,${-10-braco} -120,${-40-braco}" stroke="${TINTA}" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M-92,10 Q-128,${-10-braco} -120,${-40-braco}" stroke="#4FC3F7" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M92,10 Q122,30 114,54" stroke="${TINTA}" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M92,10 Q122,30 114,54" stroke="#4FC3F7" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M0,-96 Q${wob(t,0.9,10)},-130 ${wob(t,0.9,14)},-150" stroke="${TINTA}" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <g transform="translate(${wob(t,0.9,14)},-158) rotate(${wob(t,0.7,15)}) scale(.42)"><path d="${estrelaPath(60,26,5)}" fill="#FDD835" stroke="${TINTA}" stroke-width="14" stroke-linejoin="round"/></g>
+    <circle r="100" fill="#4FC3F7" stroke="${TINTA}" stroke-width="${L+1}"/>
+    <ellipse cx="0" cy="44" rx="58" ry="44" fill="#B3E5FC"/>
+    <ellipse cx="-40" cy="-56" rx="16" ry="10" fill="#fff" opacity=".5" transform="rotate(-30 -40 -56)"/>
+    <g transform="translate(${olhar*6},0)">
+      <g transform="translate(-34,-14) scale(1,${piscar})"><ellipse rx="24" ry="28" fill="#fff" stroke="${TINTA}" stroke-width="5"/><circle cx="4" cy="4" r="13" fill="${TINTA}"/><circle cx="9" cy="-2" r="5" fill="#fff"/></g>
+      <g transform="translate(34,-14) scale(1,${piscar})"><ellipse rx="24" ry="28" fill="#fff" stroke="${TINTA}" stroke-width="5"/><circle cx="4" cy="4" r="13" fill="${TINTA}"/><circle cx="9" cy="-2" r="5" fill="#fff"/></g>
+    </g>
+    <ellipse cx="-62" cy="22" rx="14" ry="9" fill="#F48FB1" opacity=".8"/>
+    <ellipse cx="62" cy="22" rx="14" ry="9" fill="#F48FB1" opacity=".8"/>
+    ${boca}
+  </g>`;
+}
+
+/* ---------- cenário ---------- */
+function cenario(st, tom){
+  const {W,H,tg} = st;
+  const ceu1 = tom === 'noite' ? '#1A237E' : '#81D4FA', ceu2 = tom === 'noite' ? '#5C6BC0' : '#E1F5FE';
+  const chao = H*0.78;
+  const nuvens = [0,1,2].map(i=>{
+    const x = ((i*W*0.42 + tg*(18+i*6)) % (W+400)) - 200, y = H*(0.10+i*0.07);
+    return `<g transform="translate(${x},${y}) scale(${W/1080})" opacity=".95"><ellipse rx="90" ry="38" fill="#fff"/><ellipse cx="-56" cy="10" rx="56" ry="30" fill="#fff"/><ellipse cx="60" cy="8" rx="60" ry="32" fill="#fff"/></g>`;
+  }).join('');
+  return `<defs><linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${ceu1}"/><stop offset="1" stop-color="${ceu2}"/></linearGradient></defs>
+    <rect width="${W}" height="${H}" fill="url(#ceu)"/>
+    ${nuvens}
+    <path d="M0,${chao-40} C${W*0.2},${chao-110} ${W*0.4},${chao-10} ${W*0.62},${chao-70} C${W*0.8},${chao-120} ${W*0.92},${chao-40} ${W},${chao-80} L${W},${H} L0,${H}Z" fill="#9CCC65"/>
+    <path d="M0,${chao} C${W*0.3},${chao-40} ${W*0.6},${chao+30} ${W},${chao-20} L${W},${H} L0,${H}Z" fill="#7CB342"/>`;
+}
+
+/* ---------- texto ---------- */
+function texto(x,y,tam,s,cor='#fff',contorno=TINTA,ancora='middle'){
+  return `<text x="${x}" y="${y}" font-size="${tam}" text-anchor="${ancora}" fill="${cor}" stroke="${contorno}" stroke-width="${tam*0.16}" stroke-linejoin="round" paint-order="stroke">${esc(s)}</text>`;
+}
+
+/* ---------- tipos de cena ---------- */
+// Layout: vertical (Short 1080x1920) põe o Bubi embaixo e o conteúdo em cima; horizontal (1920x1080) lado a lado.
+function layout(st){
+  const {W,H} = st, v = H > W;
+  return v ? {tx:W*0.5, ty:H*0.74, te:1.85, cx:W*0.5, cy:H*0.34, cw:W*0.94, ch:H*0.44, u:W/1080*1.25}
+           : {tx:W*0.20, ty:H*0.62, te:1.45, cx:W*0.62, cy:H*0.45, cw:W*0.66, ch:H*0.62, u:H/1080};
+}
+
+const CENAS = {
+  abertura(st, k){
+    const L_ = layout(st), e = pop(st.tc/0.6);
+    return cenario(st) + tico(L_.tx, L_.ty, L_.te*e, st, {acenar:true})
+      + `<g transform="translate(${L_.cx},${L_.cy}) scale(${pop((st.tc-0.3)/0.6)})">
+          ${texto(0,-40*L_.u,96*L_.u,k.titulo||'')}${k.subtitulo?texto(0,70*L_.u,60*L_.u,k.subtitulo,'#FDD835'):''}</g>`;
+  },
+  contar(st, k){
+    // k.objeto, k.n, k.cor ; falas: [abertura, "um", "dois", ..., conclusão]
+    // passo 0 = abertura (nenhum objeto); passo i (1..n) revela o objeto i; passo n+1 mostra o total
+    const L_ = layout(st), n = k.n, mostrados = Math.max(0, Math.min(n, st.passo));
+    const cols = n <= 3 ? n : n <= 6 ? 3 : n <= 8 ? 4 : 5, rows = Math.ceil(n/cols);
+    const cel = Math.min(L_.cw/cols, (L_.ch*0.82)/rows), esc_ = cel/135;
+    let g = '';
+    for(let i=0;i<mostrados;i++){
+      const r = Math.floor(i/cols), cc = i%cols, nl = Math.min(cols, n - r*cols);
+      const x = L_.cx + (cc-(nl-1)/2)*cel, y = L_.cy - L_.ch*0.06 + (r-(rows-1)/2)*cel;
+      const ti = i === mostrados-1 ? st.tp : 9;
+      const s = pop(ti/0.45)*esc_, rot = wob(st.tg+i*0.3,0.6,5);
+      g += `<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})">${OBJ[k.objeto](k.cor)}</g>`;
+      if(i === mostrados-1 && st.passo<=n) g += `<g transform="translate(${x},${y-cel*0.55}) scale(${pop(ti/0.35)})">${texto(0,0,64*L_.u,String(i+1),'#FDD835')}</g>`;
+    }
+    const total = st.passo > n ? `<g transform="translate(${L_.cx},${L_.cy + L_.ch*0.52}) scale(${pop(st.tp/0.4)})">${texto(0,0,110*L_.u, String(n), '#fff')}</g>` : '';
+    return cenario(st) + g + total + tico(L_.tx, L_.ty, L_.te, st, {pulo: st.passo > n});
+  },
+  cor(st, k){
+    // k.cor, k.objetos [lista] ; passo 0 = nome da cor grande; passo i = objeto i
+    const L_ = layout(st), cor = c(k.cor), u = L_.u;
+    const objs = k.objetos || [], mostrados = Math.max(0, Math.min(objs.length, st.passo));
+    const blob = `<g transform="translate(${L_.cx},${L_.cy - (mostrados?L_.ch*0.28:0)}) scale(${pop(st.tc/0.5)*(mostrados?0.6:1)})">
+       <circle r="${150*u}" fill="${cor}" stroke="${TINTA}" stroke-width="${L*1.6}"/>
+       ${texto(0,30*u,110*u,(k.nome||k.cor).toUpperCase(),'#fff')}</g>`;
+    let g = '';
+    const cel = Math.min(L_.cw/Math.max(objs.length,1), 260*u);
+    for(let i=0;i<mostrados;i++){
+      const x = L_.cx + (i-(objs.length-1)/2)*cel, y = L_.cy + L_.ch*0.2;
+      const ti = i === mostrados-1 ? st.tp : 9;
+      g += `<g transform="translate(${x},${y}) rotate(${wob(st.tg+i,0.5,6)}) scale(${pop(ti/0.45)*cel/170})">${OBJ[objs[i]](k.cor)}</g>`;
+    }
+    return cenario(st) + blob + g + tico(L_.tx, L_.ty, L_.te, st, {olhar:1});
+  },
+  forma(st, k){
+    const L_ = layout(st), u = L_.u;
+    const e = pop(st.tc/0.5), giro = st.passo>=1 ? st.tp*40 : 0;
+    return cenario(st)
+      + `<g transform="translate(${L_.cx},${L_.cy - L_.ch*0.06}) rotate(${giro}) scale(${e*2.6*u})">${OBJ[k.forma](k.cor)}</g>`
+      + (st.passo>=1 ? texto(L_.cx, L_.cy + L_.ch*0.42, 100*u, (k.nome||k.forma).toUpperCase(), '#fff') : '')
+      + tico(L_.tx, L_.ty, L_.te, st, {});
+  },
+  animal(st, k){
+    const L_ = layout(st), u = L_.u;
+    const e = pop(st.tc/0.5), som = st.passo>=1;
+    const treme = som ? wob(st.tg,6,4) : 0;
+    return cenario(st)
+      + `<g transform="translate(${L_.cx+treme},${L_.cy - L_.ch*0.08}) scale(${e*2.8*u})">${OBJ[k.animal]()}</g>`
+      + texto(L_.cx, L_.cy + L_.ch*0.36, 92*u, (k.nome||k.animal).toUpperCase(), '#fff')
+      + (som ? `<g transform="translate(${L_.cx + L_.cw*0.28},${L_.cy - L_.ch*0.36}) rotate(-8) scale(${pop(st.tp/0.3)})">${texto(0,0,84*u,k.som||'','#FDD835')}</g>` : '')
+      + tico(L_.tx, L_.ty, L_.te, st, {pulo: som});
+  },
+  esconde(st, k){
+    // "Quem está escondido?" falas: [pergunta, som do bicho, revelação, (extra)]
+    // passo 0: silhueta parada atrás do arbusto | passo 1: silhueta treme + balão do som | passo >=2: revela com brilho
+    const L_ = layout(st), u = L_.u;
+    const revela = st.passo >= 2, som = st.passo === 1;
+    const treme = som ? wob(st.tg,7,6) : 0;
+    const s = (revela ? pop(st.tp/0.5) * 0.15 + 0.85 : 0.85) * 2.9 * u;
+    const ax = L_.cx + treme, ay = L_.cy - L_.ch*0.04;
+    const bicho = `<g transform="translate(${ax},${ay}) scale(${s})" ${revela ? '' : 'filter="url(#sombra)"'}>${OBJ[k.animal]()}</g>`;
+    const arbusto = revela ? '' : `<g transform="translate(${L_.cx},${ay + 120*u})">${[-110,-40,40,110].map((x,i)=>
+       `<circle cx="${x*u}" cy="${(i%2?-10:10)*u}" r="${78*u}" fill="#558B2F" stroke="${TINTA}" stroke-width="${L}"/>`).join('')}
+       <rect x="${-190*u}" y="0" width="${380*u}" height="${90*u}" fill="#558B2F"/></g>`;
+    const brilho = revela && st.tp < 1.2 ? [...Array(8)].map((_,i)=>{ const a=i*Math.PI/4, r=(140+st.tp*260)*u;
+       return `<g transform="translate(${ax+Math.cos(a)*r},${ay+Math.sin(a)*r}) scale(${(1.2-st.tp)*0.5*u})"><path d="${estrelaPath(60,26,5)}" fill="#FDD835" stroke="${TINTA}" stroke-width="10"/></g>`;}).join('') : '';
+    const interrog = !revela ? `<g transform="translate(${L_.cx + L_.cw*0.3},${ay - 150*u}) rotate(${wob(st.tg,0.8,10)})">${texto(0,0,150*u,'?','#FDD835')}</g>` : '';
+    const balao = som ? `<g transform="translate(${L_.cx - L_.cw*0.22},${ay - 170*u}) scale(${pop(st.tp/0.3)})">${texto(0,0,84*u,k.som||'','#fff')}</g>` : '';
+    const nome = revela ? texto(L_.cx, L_.cy + L_.ch*0.40, 96*u, (k.nome||k.animal).toUpperCase(), '#FDD835') : '';
+    return cenario(st) + `<defs><filter id="sombra"><feFlood flood-color="${TINTA}"/><feComposite in2="SourceAlpha" operator="in"/></filter></defs>`
+      + bicho + arbusto + brilho + interrog + balao + nome + tico(L_.tx, L_.ty, L_.te, st, {pulo: revela, olhar: 1});
+  },
+  letra(st, k){
+    const L_ = layout(st), u = L_.u;
+    return cenario(st)
+      + `<g transform="translate(${L_.cx - (st.passo>=1?L_.cw*0.2:0)},${L_.cy}) scale(${pop(st.tc/0.5)})">${texto(0,90*u,300*u,k.letra.toUpperCase()+k.letra.toLowerCase(),c(k.cor||'vermelho'),TINTA)}</g>`
+      + (st.passo>=1 ? `<g transform="translate(${L_.cx + L_.cw*0.24},${L_.cy - 30*u}) scale(${pop(st.tp/0.45)*1.9*u})">${OBJ[k.objeto](k.objcor)}</g>`
+         + texto(L_.cx + L_.cw*0.24, L_.cy + 170*u, 80*u, k.palavra.toUpperCase(), '#fff') : '')
+      + tico(L_.tx, L_.ty, L_.te, st, {});
+  },
+  pergunta(st, k){
+    // k.opcoes [{objeto,cor}], k.certa (índice); passo 0 pergunta, passo 1 revela
+    const L_ = layout(st), u = L_.u, ops = k.opcoes;
+    const cel = Math.min(L_.cw/ops.length, 300*u);
+    let g = '';
+    ops.forEach((o,i)=>{
+      const x = L_.cx + (i-(ops.length-1)/2)*cel, y = L_.cy;
+      const certa = st.passo>=1 && i===k.certa, apaga = st.passo>=1 && i!==k.certa;
+      const s = pop((st.tc-i*0.25)/0.45) * (certa ? 1+0.15*Math.abs(Math.sin(st.tg*5)) : 1) * cel/170;
+      g += `<g transform="translate(${x},${y}) scale(${s})" opacity="${apaga?0.25:1}">${OBJ[o.objeto](o.cor)}</g>`;
+      if(certa) g += `<g transform="translate(${x},${y+cel*0.62}) scale(${pop(st.tp/0.3)})">${texto(0,0,70*u,'✔ ISSO!','#7CFC00')}</g>`;
+    });
+    return cenario(st) + texto(L_.cx, L_.cy - L_.ch*0.42, 76*u, k.texto||'', '#fff') + g + tico(L_.tx, L_.ty, L_.te, st, {pulo: st.passo>=1});
+  },
+  final(st, k){
+    const L_ = layout(st), u = L_.u;
+    const v = st.H > st.W;
+    return cenario(st, k.tom) + tico(st.W/2, st.H*(v?0.64:0.68), L_.te*(v?1.15:1.0), st, {acenar:true, pulo:true})
+      + texto(st.W/2, st.H*(v?0.22:0.17), 110*u, k.titulo||'TCHAU!', '#FDD835')
+      + (k.subtitulo ? texto(st.W/2, st.H*(v?0.29:0.26), 56*u, k.subtitulo, '#fff') : '');
+  },
+};
+
+/* ---------- miniatura ---------- */
+function miniatura(st, k){
+  // k.texto (até 3 palavras), k.objetos [{objeto,cor}], k.fundo
+  const {W,H} = st, u = Math.min(W/1280, H/720);
+  let g = cenario({...st, tg:2});
+  (k.objetos||[]).forEach((o,i,a)=>{
+    const x = W*0.62 + (i-(a.length-1)/2)*W*0.13, y = H*0.58 + (i%2)*H*0.08;
+    g += `<g transform="translate(${x},${y}) rotate(${(i-1)*8}) scale(${1.5*u})">${OBJ[o.objeto](o.cor)}</g>`;
+  });
+  g += tico(W*0.2, H*0.58, 1.55*u, {...st, tg:0.4, boca:0.7, falando:true}, {acenar:false});
+  const tam = Math.min(116, 1250/Math.max((k.texto||'').length,1)) * u;   // cabe na largura
+  g += texto(W*0.6, H*0.24, tam, k.texto||'', '#FDD835');
+  return g;
+}
+
+window.render = function(st){
+  const k = st.cena;
+  tela.setAttribute('width', st.W); tela.setAttribute('height', st.H);
+  tela.setAttribute('viewBox', `0 0 ${st.W} ${st.H}`);
+  tela.innerHTML = k.tipo === 'miniatura' ? miniatura(st, k) : CENAS[k.tipo](st, k);
+  // transição: fade do preto nos primeiros 0.25s de cada cena
+  if(st.tc < 0.25) tela.innerHTML += `<rect width="${st.W}" height="${st.H}" fill="#fff" opacity="${1-st.tc/0.25}"/>`;
+  return true;
+};
+window.OBJETOS = Object.keys(OBJ);
+</script>
+</body></html>

@@ -1,0 +1,114 @@
+{
+  "id": "s001-itaipu-duas-frequencias",
+  "canal": "engenhoso",
+  "formato": "short",
+  "nicho": "como funciona por dentro",
+  "longo": "v001-energia-ate-a-tomada",
+  "titulo": "Itaipu gera em 50 Hz e 60 Hz ao mesmo tempo",
+  "titulos_alternativos": [
+    "Itaipu gera em 50 Hz e 60 Hz ao mesmo tempo",
+    "A usina que divide os geradores entre dois países",
+    "Por que metade de Itaipu gira diferente"
+  ],
+  "miniatura": {
+    "texto": "DUAS|FREQUÊNCIAS",
+    "imagem": "itaipu dam",
+    "selo": "Brasil x Paraguai",
+    "tam": 150
+  },
+  "descricao": "Itaipu é do Brasil e do Paraguai, mas os dois países usam frequências diferentes na rede elétrica: 60 Hz aqui, 50 Hz lá. A solução foi dividir os 20 geradores da usina, 10 para cada lado. E a sobra do Paraguai que vem pro Brasil viaja em corrente contínua até São Paulo, onde vira 60 Hz de novo.\n\nO caminho inteiro da energia, da usina até a sua tomada, está no vídeo completo no canal.",
+  "fontes": [
+    "Itaipu Binacional — dados técnicos da usina (20 unidades geradoras de 700 MW, 50 e 60 Hz)",
+    "ONS — Operador Nacional do Sistema Elétrico: o Sistema Interligado Nacional (SIN)"
+  ],
+  "hashtags": ["#shorts", "#engenharia", "#itaipu"],
+  "tags": [
+    "itaipu",
+    "itaipu 50 hz 60 hz",
+    "frequência da rede elétrica",
+    "como funciona a energia elétrica",
+    "hidrelétrica",
+    "corrente contínua",
+    "engenharia elétrica",
+    "como funciona"
+  ],
+  "cenas": [
+    {
+      "fala": "A maior usina do Brasil gera energia de dois jeitos diferentes. [pausa] Ao mesmo tempo.",
+      "destaques": ["dois", "mesmo", "tempo"],
+      "visual": {
+        "tipo": "gancho",
+        "texto": "UMA USINA|DUAS ENERGIAS",
+        "imagens": ["itaipu dam", "itaipu usina"]
+      }
+    },
+    {
+      "fala": "É Itaipu, no Rio Paraná. Vinte geradores, cada um com setecentos megawatts.",
+      "destaques": ["itaipu", "vinte", "setecentos"],
+      "visual": {
+        "tipo": "numero",
+        "valor": 20,
+        "sufixo": " geradores",
+        "rotulo": "de 700 MW cada · Itaipu",
+        "imagens": ["itaipu dam spillway"]
+      }
+    },
+    {
+      "fala": "Só que Itaipu é de dois países. O Brasil usa sessenta hertz. O Paraguai, cinquenta.",
+      "destaques": ["brasil", "paraguai", "sessenta", "cinquenta"],
+      "visual": {
+        "tipo": "comparar",
+        "a": {"rotulo": "Brasil", "valor": "60 Hz"},
+        "b": {"rotulo": "Paraguai", "valor": "50 Hz"}
+      }
+    },
+    {
+      "fala": "A solução? [pausa] Metade dos geradores gira pra produzir sessenta hertz. A outra metade, cinquenta.",
+      "destaques": ["metade", "sessenta", "cinquenta"],
+      "visual": {
+        "tipo": "imagem",
+        "imagens": ["electric generator", "hydroelectric generator hall"],
+        "rotulo": "Metade pra cada país"
+      }
+    },
+    {
+      "fala": "Dez de cada lado.",
+      "destaques": ["dez"],
+      "visual": {
+        "tipo": "comparar",
+        "a": {"rotulo": "60 Hz · Brasil", "valor": "10", "sub": "geradores"},
+        "b": {"rotulo": "50 Hz · Paraguai", "valor": "10", "sub": "geradores"}
+      }
+    },
+    {
+      "fala": "O Paraguai não consome toda a parte dele, e a sobra vem pro Brasil. Só que em cinquenta hertz, ela não liga na nossa rede.",
+      "destaques": ["sobra", "não", "liga"],
+      "visual": {
+        "tipo": "imagem",
+        "imagens": ["high voltage transmission tower", "power lines sunset"],
+        "rotulo": "A sobra do Paraguai",
+        "sub": "50 Hz não liga na rede"
+      }
+    },
+    {
+      "fala": "[pausa longa] Então ela vira corrente contínua, viaja assim até São Paulo, e lá vira sessenta hertz de novo.",
+      "destaques": ["contínua", "paulo", "sessenta"],
+      "visual": {
+        "tipo": "fato",
+        "texto": "A energia de 50 Hz viaja em corrente contínua e vira 60 Hz em São Paulo.",
+        "fonte": "sistema de transmissão de Itaipu (HVDC)",
+        "imagens": ["high voltage substation"]
+      }
+    },
+    {
+      "fala": "E isso é só uma parada da viagem até a sua tomada. O vídeo completo tá no canal.",
+      "destaques": ["tomada", "completo", "canal"],
+      "visual": {
+        "tipo": "cta",
+        "texto": "Do rio até a sua tomada",
+        "sub": "o vídeo completo tá no canal",
+        "imagens": ["transmission line towers"]
+      }
+    }
+  ]
+}

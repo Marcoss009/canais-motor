@@ -1,0 +1,85 @@
+{
+  "ffmpeg": "C:/Users/vinic/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.2-full_build/bin/ffmpeg.exe",
+  "ffprobe": "C:/Users/vinic/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.2-full_build/bin/ffprobe.exe",
+  "painel_porta": 8787,
+  "canais": {
+    "engenhoso": {
+      "nome": "Engenhoso (ex-SuperKids Youtube)",
+      "para_criancas": false,
+      "categoria": "28",
+      "semana": {
+        "shorts": 7,
+        "longos": 7,
+        "duracao_longo_min": 8
+      },
+      "horarios": [
+        "19:00",
+        "20:00"
+      ],
+      "persona": {
+        "voz": "pt-BR-ThalitaMultilingualNeural",
+        "rate": "+0%",
+        "pitch": "+0Hz",
+        "timbre": "doc",
+        "nome": "Narradora Engenhoso (Thalita)"
+      },
+      "horarios_formato": {
+        "longo": [
+          "19:00"
+        ],
+        "short": [
+          "20:00"
+        ]
+      },
+      "diario": {
+        "longo": "19:00",
+        "short": "20:00",
+        "ativo": true
+      }
+    },
+    "gta6": {
+      "nome": "GTAzando_youtube",
+      "para_criancas": false,
+      "categoria": "20",
+      "semana": {
+        "shorts": 7,
+        "longos": 7,
+        "duracao_longo_min": 8
+      },
+      "horarios": [
+        "19:00",
+        "20:00"
+      ],
+      "voz": "pt-BR-AntonioNeural",
+      "persona": {
+        "voz": "en-US-AndrewMultilingualNeural",
+        "rate": "+4%",
+        "pitch": "+0Hz",
+        "timbre": "trailer",
+        "nome": "Narrador GTAzando (Andrew)"
+      },
+      "horarios_formato": {
+        "longo": [
+          "19:00"
+        ],
+        "short": [
+          "20:00"
+        ]
+      },
+      "diario": {
+        "longo": "19:00",
+        "short": "20:00",
+        "ativo": true
+      }
+    }
+  },
+  "regras_nicho": {
+    "multiplo_vencedor": 2.0,
+    "videos_seguidos_para_trocar": 3,
+    "minimo_videos_para_julgar": 6,
+    "dias_maturacao": 7,
+    "shorts_teste_por_semana": 1
+  },
+  "aprovacao_automatica": true,
+  "repo_github": "Marcoss009/canais-motor"
+}

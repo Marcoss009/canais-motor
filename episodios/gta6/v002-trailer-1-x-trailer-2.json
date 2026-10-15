@@ -1,0 +1,916 @@
+{
+ "id": "v002-trailer-1-x-trailer-2",
+ "canal": "gta6",
+ "formato": "longo",
+ "nicho": "pré-lançamento: o que é confirmado",
+ "titulo": "GTA 6: Trailer 1 x Trailer 2, comparei lado a lado",
+ "titulos_alternativos": [
+  "GTA 6: Trailer 1 x Trailer 2, comparei lado a lado",
+  "GTA 6: a Lucia saiu da cadeia? Os 2 trailers comparados",
+  "Trailer 2 do GTA 6: 5 mudanças que você não notou"
+ ],
+ "miniatura": {
+  "texto": "O QUE|MUDOU?",
+  "quadro": {
+   "video": "VQRLujxTm3c",
+   "t": 64.0
+  },
+  "selo": "T1 x T2"
+ },
+ "descricao": "GTA 6: Trailer 1 x Trailer 2 lado a lado. Comparei os dois trailers cena por cena e mostro o que ficou igual, o que mudou, o que a Rockstar confirmou e o que ainda é mistério.\n\nO que é oficial vem da Rockstar Games (trailers, descrições e site oficial). O que é leitura do canal está dito como leitura. Nada de vazamento.\n\nGTA VI chega em 19 de novembro de 2026 para PS5 e Xbox Series X|S.",
+ "fontes": [
+  "Rockstar Games — Grand Theft Auto VI Trailer 1 (YouTube, 04/12/2023, 1:30): youtube.com/watch?v=QdBZY2fkU-0",
+  "Rockstar Games — Grand Theft Auto VI Trailer 2 (YouTube, 06/05/2025, 2:47) e sua descrição oficial (capturado no jogo em PS5; 'Vice City, USA'; golpe fácil que dá errado; conspiração em Leonida): youtube.com/watch?v=VQRLujxTm3c",
+  "Rockstar Games — site oficial rockstargames.com/VI (personagens Jason Duval, Lucia Caminos, Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Brian Heder; regiões de Leonida; perfis de Jason e Lucia)",
+  "Rockstar Newswire — adiamento para 26/05/2026 (02/05/2025) e para 19/11/2026 (06/11/2025)",
+  "Guinness World Records — Trailer 1: 90,4 milhões de views no YouTube em 24 h (via Push Square, dez/2023: pushsquare.com/news/2023/12/gta-6-trailer-pulls-90-million-views-in-24-hours-sets-new-world-records)",
+  "Rockstar Games à The Hollywood Reporter — Trailer 2: 475 milhões de views em 24 h somando todas as plataformas (via TechRadar: techradar.com/gaming/the-latest-grand-theft-auto-6-trailer-has-set-a-major-record-by-racking-up-475-million-views-in-just-24-hours)",
+  "Rockstar Games — Grand Theft Auto VI: Official Cover Art Reveal (18/06/2026): youtube.com/watch?v=EiQEBYDox_k",
+  "GTA V: lançamento em consoles em 17/09/2013 e no PC em 14/04/2015 (Rockstar Newswire)",
+  "Rockstar Games — letreiro final dos trailers (T1: 'Coming 2025', PS5 e Xbox Series X|S; T2: 'May 26, 2026', 'Captured on PS5') e descrição do Trailer 2 ('captured entirely in-game from a PlayStation 5, comprised of equal parts gameplay and cutscenes'; música Hot Together, The Pointer Sisters); descrição do Trailer 1 (Love Is A Long Road, Tom Petty)",
+  "Guinness World Records — Trailer 1: 90.421.491 views em 24 h, maior estreia de trailer de jogo no YouTube: guinnessworldrecords.com/news/2023/12/grand-theft-auto-vi-first-look-becomes-most-viewed-videogame-trailer-in-24-hours-762030",
+  "Rockstar Games — 'Grand Theft Auto VI: An Extended Look' (estreia 27/08/2026; ~26 min; capturado no PS5): canal oficial da Rockstar no YouTube",
+  "Consequence, 06/05/2025 (site oficial lança com o Trailer 2: perfis e seis regiões, incluindo Mount Kalaga National Park); Video Games Chronicle e PlayStation Universe, 06/05/2025 (bios de Jason e Lucia)",
+  "Cálculo do canal — 04/12/2023 a 19/11/2026 = 1.081 dias corridos (a data do envio do Trailer 1 até o lançamento); 04/12/2023 a 26/05/2026 = 904; 02/05/2025 a 06/05/2025 = 4 dias"
+ ],
+ "hashtags": [
+  "#gta6",
+  "#gtavi",
+  "#trailer2"
+ ],
+ "tags": [
+  "gta 6 trailer 1 vs trailer 2",
+  "gta 6 trailer 2",
+  "gta 6 trailer 1",
+  "gta 6 comparação trailers",
+  "gta 6 o que mudou",
+  "lucia gta 6",
+  "jason gta 6",
+  "gta 6 data de lançamento",
+  "gta 6 adiado",
+  "vice city",
+  "leonida",
+  "gta vi",
+  "gta 6"
+ ],
+ "cenas": [
+  {
+   "capitulo": "Mesmo segundo, dois trailers",
+   "fala": "Nos dois trailers do GTA 6, exatamente no mesmo segundo, um minuto e três, aparece o mesmo rosto.",
+   "visual": {
+    "tipo": "gancho",
+    "texto": "MESMO SEGUNDO|DOIS TRAILERS",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 63.0
+     }
+    ]
+   }
+  },
+  {
+   "fala": "É a Lucia. [pausa] Só que, de um trailer pro outro, a vida dela virou de cabeça pra baixo.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 64.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 83.0
+     }
+    ],
+    "rotulo": "Lucia · 1:03",
+    "sub": "Trailer 1 e Trailer 2"
+   }
+  },
+  {
+   "fala": "No primeiro, ela tá numa cela, na frente de uma juíza. No segundo... [pausa] essa é a mudança que mais conta história. Fica até o fim.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 7.0
+     }
+    ],
+    "rotulo": "Trailer 1: da cela ao mar",
+    "sub": "e no Trailer 2?"
+   }
+  },
+  {
+   "fala": "O Trailer 1 saiu em quatro de dezembro de dois mil e vinte e três. O Trailer 2, em seis de maio de dois mil e vinte e cinco.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "04/12/2023",
+     "sub": "1:30 de vídeo"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "06/05/2025",
+     "sub": "2:47 de vídeo"
+    }
+   }
+  },
+  {
+   "fala": "Dezessete meses de espera entre um e outro. E dá pra ver cada um desses meses na tela.",
+   "visual": {
+    "tipo": "numero",
+    "valor": 17,
+    "sufixo": " MESES",
+    "rotulo": "entre o Trailer 1 e o Trailer 2",
+    "imagens": [
+     "wall calendar pages"
+    ]
+   }
+  },
+  {
+   "fala": "Eu coloquei os dois lado a lado, cena por cena. O que ficou igual, o que mudou, o que o Trailer 2 confirmou, e o que continua sem resposta.",
+   "visual": {
+    "tipo": "imagem",
+    "imagens": [
+     "film strip",
+     "film editing table"
+    ],
+    "rotulo": "4 partes",
+    "sub": "igual · mudou · confirmado · mistério"
+   }
+  },
+  {
+   "fala": "A regra é a de sempre: o que é oficial da Rockstar, eu falo que é oficial. O que é leitura minha, eu aviso. E nada de vazamento.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Oficial",
+     "valor": "Rockstar",
+     "sub": "trailers, descrições e site"
+    },
+    "b": {
+     "rotulo": "Leitura",
+     "valor": "Canal",
+     "sub": "sempre avisada"
+    }
+   }
+  },
+  {
+   "fala": "E o oficial de hoje é: faltam trinta e cinco dias. GTA 6 chega em dezenove de novembro, no PS5 e no Xbox Series.",
+   "visual": {
+    "tipo": "numero",
+    "valor": 35,
+    "sufixo": " DIAS",
+    "rotulo": "19/11/2026 · PS5 e Xbox Series X|S"
+   }
+  },
+  {
+   "capitulo": "O que ficou igual",
+   "fala": "Começando pelo que não mudou. [pausa] E é mais coisa do que parece.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "PARTE 1",
+    "texto": "O que ficou igual",
+    "imagens": [
+     "movie theater projector",
+     "cinema projector beam"
+    ]
+   }
+  },
+  {
+   "fala": "Primeiro, o lugar. Os dois trailers se passam em Leonida, o estado inspirado na Flórida, com Vice City no centro.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 38.5
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 37.0
+     }
+    ],
+    "rotulo": "Vice City nos dois",
+    "sub": "Trailer 1 · Trailer 2"
+   }
+  },
+  {
+   "fala": "Repara no horizonte da cidade. No Trailer 1, ele aparece num pôr do sol rosa, sobre a rodovia. No Trailer 2, a câmera tá dentro do carro, chegando pela estrada.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 3.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 35.0
+     }
+    ],
+    "rotulo": "O mesmo cartão-postal",
+    "sub": "visto de fora · visto do carro"
+   }
+  },
+  {
+   "fala": "Nos dois, a cidade aparece antes da história. Isso é leitura minha, mas é a assinatura da Rockstar: primeiro você se apaixona pelo lugar.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Nos dois trailers, a cidade aparece antes da história.",
+    "fonte": "leitura do canal"
+   }
+  },
+  {
+   "fala": "A natureza também tá nos dois. No Trailer 1, um bando de flamingos num pântano dourado. No Trailer 2, um helicóptero passando baixinho por cima do mesmo tipo de pântano.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 21.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 138.0
+     }
+    ],
+    "rotulo": "O pântano nos dois",
+    "sub": "flamingos · helicóptero"
+   }
+  },
+  {
+   "fala": "E a praia. No Trailer 2, a câmera desce pro chão: academia na areia, supino no meio das palmeiras.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 38.0
+     }
+    ],
+    "rotulo": "Academia na praia",
+    "sub": "Trailer 2"
+   }
+  },
+  {
+   "fala": "A noite é igual nos dois: neon, balada lotada, gente dançando até de manhã.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 29.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 101.0
+     }
+    ],
+    "rotulo": "A noite de Vice City",
+    "sub": "Trailer 1 · Trailer 2"
+   }
+  },
+  {
+   "fala": "E os dois têm polícia. Muita polícia. Operação de colete, de arma na mão, de porta arrombada.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 49.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 107.0
+     }
+    ],
+    "rotulo": "Polícia nos dois",
+    "sub": "Trailer 1 · Trailer 2"
+   },
+   "violento": true
+  },
+  {
+   "fala": "Até as plataformas são as mesmas. O Trailer 1 já anunciava PS5 e Xbox Series, e o Trailer 2 repetiu. PC, até agora, a Rockstar não anunciou.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "PS5 e Xbox Series X|S nos dois trailers. PC: não anunciado.",
+    "fonte": "Rockstar Games"
+   }
+  },
+  {
+   "capitulo": "A pegadinha dos números",
+   "fala": "E tem mais uma coisa que não mudou: os dois foram parar no topo da internet. [pausa] Só que aqui mora uma pegadinha.",
+   "visual": {
+    "tipo": "imagem",
+    "imagens": [
+     "smartphone video screen",
+     "laptop watching video"
+    ],
+    "rotulo": "Os dois viralizaram",
+    "sub": "mas repara nos números"
+   }
+  },
+  {
+   "fala": "O Trailer 1 fez mais de noventa milhões de visualizações em vinte e quatro horas, só no YouTube. Virou recorde no Guinness. O Trailer 2, segundo a Rockstar, fez quatrocentos e setenta e cinco milhões.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "90 mi",
+     "sub": "24 h · só YouTube · Guinness"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "475 mi",
+     "sub": "24 h · todas as redes · Rockstar"
+    }
+   }
+  },
+  {
+   "fala": "Parece cinco vezes mais, né? Mas repara: o primeiro número é só YouTube. O segundo soma todas as redes juntas. Não dá pra comparar direto.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "90 milhões = só YouTube. 475 milhões = todas as plataformas somadas.",
+    "fonte": "Guinness World Records · Rockstar Games"
+   }
+  },
+  {
+   "capitulo": "O que mudou",
+   "fala": "Agora a parte boa. [pausa] O que mudou.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "PARTE 2",
+    "texto": "O que mudou",
+    "imagens": [
+     "vintage television set"
+    ]
+   }
+  },
+  {
+   "fala": "E guarda essa: tem uma informação no último segundo do Trailer 2 que hoje está errada. Eu chego nela daqui a pouco.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "O último segundo do Trailer 2 está desatualizado.",
+    "imagens": [
+     "hourglass sand"
+    ]
+   }
+  },
+  {
+   "fala": "Mudança número um: o tamanho. O Trailer 1 tem um minuto e meio. O Trailer 2 tem dois minutos e quarenta e sete. Quase o dobro.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "1:30",
+     "sub": "90 segundos"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "2:47",
+     "sub": "167 segundos"
+    }
+   }
+  },
+  {
+   "fala": "São setenta e sete segundos a mais de jogo pra gente analisar.",
+   "visual": {
+    "tipo": "numero",
+    "valor": 77,
+    "sufixo": " s",
+    "rotulo": "a mais no Trailer 2"
+   }
+  },
+  {
+   "fala": "E esse tempo extra foi pra lugares que o primeiro só mostrou de passagem. Como as ilhas: o Trailer 2 mostra uma casa de palafita, com um carrão antigo parado na porta.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 9.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 7.0
+     }
+    ],
+    "rotulo": "As ilhas de Leonida",
+    "sub": "Trailer 2"
+   }
+  },
+  {
+   "fala": "No Trailer 1, as ilhas eram praticamente uma ponte vista lá de cima, sobre o mar azul.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 37.0
+     }
+    ],
+    "rotulo": "As ilhas no Trailer 1",
+    "sub": "uma ponte vista do alto"
+   }
+  },
+  {
+   "fala": "Mudança número dois: o jeito de mostrar. A descrição oficial do Trailer 2 avisa: ele foi capturado inteiro dentro do jogo, num PlayStation 5. Metade jogabilidade, metade cenas.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "“Capturado inteiramente no jogo, em um PlayStation 5, com partes iguais de jogabilidade e cenas.”",
+    "fonte": "Rockstar Games · descrição do Trailer 2"
+   }
+  },
+  {
+   "fala": "Isso importa. A descrição do Trailer 1 só trazia os créditos da música. O Trailer 2 respondeu por escrito, na descrição e no letreiro final.",
+   "visual": {
+    "tipo": "imagem",
+    "imagens": [
+     "game controller",
+     "video game console"
+    ],
+    "rotulo": "Rodando no PS5",
+    "sub": "dito pela Rockstar"
+   }
+  },
+  {
+   "fala": "Mudança número três: o tom. E aqui a diferença é gritante.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "MUDANÇA 3",
+    "texto": "O tom",
+    "imagens": [
+     "vinyl record player"
+    ]
+   }
+  },
+  {
+   "fala": "O Trailer 1 parece um feed de rede social. Vídeo de celular, festa, carro rebaixado, gente fazendo besteira, tudo com cara de manchete absurda.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 23.0
+     },
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 33.0
+     }
+    ],
+    "rotulo": "Trailer 1",
+    "sub": "cara de feed de rede social"
+   }
+  },
+  {
+   "fala": "Até a música conta isso. O Trailer 1 toca Love Is a Long Road, do Tom Petty. O Trailer 2 toca Hot Together, das Pointer Sisters. A estrada solitária virou um casal. [pausa] Essa é leitura minha, mas os títulos falam sozinhos.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "Tom Petty",
+     "sub": "Love Is a Long Road"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "Pointer Sisters",
+     "sub": "Hot Together"
+    }
+   }
+  },
+  {
+   "fala": "Já o Trailer 2 sai do feed e vira filme. Menos montagem, mais cena: o Jason dirigindo de óculos, a Lucia e o Jason lado a lado na cozinha.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 29.0
+     },
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 89.0
+     }
+    ],
+    "rotulo": "Trailer 2",
+    "sub": "cara de filme"
+   }
+  },
+  {
+   "fala": "E a descrição oficial resume a trama: Jason e Lucia sempre souberam que o jogo tá contra eles. Mas quando um golpe fácil dá errado, os dois caem numa conspiração criminosa que atravessa Leonida inteira.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "“Quando um golpe fácil dá errado… uma conspiração criminosa que atravessa o estado de Leonida.”",
+    "fonte": "Rockstar Games · descrição do Trailer 2"
+   }
+  },
+  {
+   "fala": "Isso o Trailer 1 nunca disse. Ele mostrava o lugar. O Trailer 2 mostra a trama.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "O lugar",
+     "sub": "Vice City e Leonida"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "A trama",
+     "sub": "um golpe que dá errado"
+    }
+   }
+  },
+  {
+   "fala": "Mudança número quatro: quem divide a tela.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "MUDANÇA 4",
+    "texto": "Os personagens",
+    "imagens": [
+     "director chair film set"
+    ]
+   }
+  },
+  {
+   "fala": "No Trailer 1, o foco é a Lucia: é a voz dela que você ouve. O Jason aparece, mas, leitura minha, como coadjuvante.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 61.0
+     },
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 71.0
+     }
+    ],
+    "rotulo": "Trailer 1",
+    "sub": "o foco é a Lucia"
+   }
+  },
+  {
+   "fala": "No Trailer 2, o Jason ganha espaço: aparece logo no começo, nas ilhas, sem camisa, apontando pra câmera.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 19.0
+     }
+    ],
+    "rotulo": "Trailer 2",
+    "sub": "o Jason ganha a tela"
+   }
+  },
+  {
+   "fala": "E não são só os dois. Junto com o Trailer 2, o site oficial apresentou oito personagens, contando a dupla Real Dimez como um só.",
+   "visual": {
+    "tipo": "numero",
+    "valor": 8,
+    "sufixo": " PERSONAGENS",
+    "rotulo": "no site oficial · Real Dimez conta como um"
+   }
+  },
+  {
+   "fala": "Além de Jason Duval e Lucia Caminos, entram Cal Hampton, Boobie Ike, Dre'Quan Priest, a dupla Real Dimez, Raul Bautista e Brian Heder.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Jason Duval · Lucia Caminos · Cal Hampton · Boobie Ike · Dre'Quan Priest · Real Dimez · Raul Bautista · Brian Heder",
+    "fonte": "rockstargames.com/VI"
+   }
+  },
+  {
+   "capitulo": "A data que ficou velha",
+   "fala": "E a mudança número cinco é aquela que eu te pedi pra guardar. [pausa] A data.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "MUDANÇA 5",
+    "texto": "A data",
+    "imagens": [
+     "calendar page red circle"
+    ]
+   }
+  },
+  {
+   "fala": "O Trailer 1 terminava com um ano só: dois mil e vinte e cinco.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Trailer 1 (dez/2023): “2025”",
+    "fonte": "Rockstar Games · Trailer 1"
+   }
+  },
+  {
+   "fala": "Quatro dias antes do Trailer 2 sair, a Rockstar adiou o jogo. E o Trailer 2 terminou com uma data exata: vinte e seis de maio de dois mil e vinte e seis.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "2025",
+     "sub": "dezembro de 2023"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "26/05/2026",
+     "sub": "maio de 2025"
+    }
+   }
+  },
+  {
+   "fala": "[pausa] Essa é a informação que hoje está errada. Em seis de novembro de dois mil e vinte e cinco, a Rockstar adiou de novo.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "06/11/2025: novo adiamento. 26/05/2026 deixou de valer.",
+    "fonte": "Rockstar Newswire"
+   }
+  },
+  {
+   "fala": "A data oficial agora é dezenove de novembro de dois mil e vinte e seis. Quase seis meses depois do que o Trailer 2 prometia.",
+   "visual": {
+    "tipo": "barras",
+    "titulo": "Dias entre o Trailer 1 e a data prometida",
+    "itens": [
+     [
+      "Data do Trailer 2",
+      904,
+      "26/05/2026"
+     ],
+     [
+      "Data oficial hoje",
+      1081,
+      "19/11/2026"
+     ]
+    ],
+    "destaque": 1,
+    "fonte": "Rockstar Games · cálculo do canal"
+   }
+  },
+  {
+   "fala": "Faz a conta: do Trailer 1 até o lançamento, são mil e oitenta e um dias. Quase três anos de espera pra quem viu no dia.",
+   "visual": {
+    "tipo": "numero",
+    "valor": 1081,
+    "sufixo": " DIAS",
+    "rotulo": "do Trailer 1 (04/12/2023) ao lançamento (19/11/2026)"
+   }
+  },
+  {
+   "fala": "E desses mil e oitenta e um, sobram só trinta e cinco.",
+   "visual": {
+    "tipo": "numero",
+    "valor": 35,
+    "sufixo": " DIAS",
+    "rotulo": "faltam · 19/11/2026",
+    "imagens": [
+     "stopwatch"
+    ]
+   }
+  },
+  {
+   "capitulo": "O que o Trailer 2 confirmou",
+   "fala": "Agora vem o que eu acho mais interessante: coisas que o Trailer 1 só sugeriu, e o Trailer 2 transformou em fato.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "PARTE 3",
+    "texto": "O que o 2 confirmou",
+    "imagens": [
+     "magnifying glass"
+    ]
+   }
+  },
+  {
+   "fala": "Primeiro, o nome da cidade. O Trailer 1 mostrava um letreiro dourado: VICE. Mas era só um letreiro.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "QdBZY2fkU-0",
+      "ini": 39.0
+     }
+    ],
+    "rotulo": "VICE e o feed do Trailer 1",
+    "sub": "o letreiro e as telas de rede social"
+   }
+  },
+  {
+   "fala": "A descrição do Trailer 2 começa com três palavras: Vice City, USA. E o site oficial dividiu o mapa em seis regiões, com nome e tudo.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Vice City · Leonida Keys · Grassrivers · Port Gellhorn · Ambrosia · Mount Kalaga National Park",
+    "fonte": "rockstargames.com/VI"
+   }
+  },
+  {
+   "fala": "Segundo: quem é o Jason. No Trailer 1, ele era só o cara do lado da Lucia. O site oficial contou: cresceu no meio de golpistas, passou pelo Exército e foi parar nas Keys, trabalhando pra traficantes da região.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Jason Duval: cresceu entre golpistas, passou pelo Exército, foi parar nas Keys.",
+    "fonte": "rockstargames.com/VI"
+   }
+  },
+  {
+   "fala": "E bate com o que se vê: o Trailer 2 coloca o Jason justamente nas ilhas.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 7.0
+     }
+    ],
+    "rotulo": "Jason nas Keys",
+    "sub": "o que o site conta, o trailer mostra"
+   }
+  },
+  {
+   "fala": "Terceiro: a Lucia. O site confirmou o sobrenome, Caminos, e o que a levou à cela: brigar pela família a fez parar na penitenciária de Leonida. O crime em si, a Rockstar não detalhou.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Lucia Caminos: lutar pela família a levou à Penitenciária de Leonida.",
+    "fonte": "rockstargames.com/VI"
+   }
+  },
+  {
+   "fala": "E aí a gente volta pro começo do vídeo. [pausa longa] Lembra da Lucia de uniforme, na frente da juíza?",
+   "visual": {
+    "tipo": "imagem",
+    "imagens": [
+     "chain link fence sunset"
+    ],
+    "rotulo": "Trailer 1",
+    "sub": "Lucia presa"
+   }
+  },
+  {
+   "fala": "No Trailer 2, no mesmo minuto e três, ela aparece atravessando um portão de grade.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 63.0
+     }
+    ],
+    "rotulo": "Trailer 2 · 1:03",
+    "sub": "Lucia no portão"
+   }
+  },
+  {
+   "fala": "E logo antes dela, de costas, aparece um homem que parece ser o Jason. Leitura minha: ele tá ali esperando por ela, e a história dos dois recomeça de onde o Trailer 1 parou. A bio oficial da Lucia já diz que ela saiu da prisão.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "Trailer 1",
+     "valor": "Presa",
+     "sub": "cela e juíza"
+    },
+    "b": {
+     "rotulo": "Trailer 2",
+     "valor": "Portão",
+     "sub": "cena de 1:03 · leitura do canal"
+    }
+   }
+  },
+  {
+   "fala": "Do primeiro pro segundo, a Rockstar não mostrou só mais. Pra mim, ela deu continuação. É o capítulo dois.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 118.5
+     }
+    ],
+    "rotulo": "O capítulo dois",
+    "sub": "Lucia e Jason juntos"
+   }
+  },
+  {
+   "capitulo": "Ainda sem resposta",
+   "fala": "Mas o Trailer 2 também abriu perguntas que os trailers não respondem.",
+   "visual": {
+    "tipo": "titulo",
+    "antes": "PARTE 4",
+    "texto": "Ainda sem resposta",
+    "imagens": [
+     "question mark sign"
+    ]
+   }
+  },
+  {
+   "fala": "A maior: qual é o tal golpe fácil que dá errado? A descrição oficial fala dele, mas nenhum dos dois trailers mostra.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Qual é o “golpe fácil” que dá errado?",
+    "fonte": "os trailers não mostram",
+    "imagens": [
+     "bank vault door"
+    ]
+   }
+  },
+  {
+   "fala": "Segundo: quem são esses dois, com a camisa dos Manatees? Aparecem, e somem.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 119.0
+     }
+    ],
+    "rotulo": "Camisa dos Manatees",
+    "sub": "quem são?"
+   }
+  },
+  {
+   "fala": "Terceiro: a polícia. Os dois trailers mostram operação pesada. Mas quem tá caçando a dupla, e por quê, os trailers não explicam.",
+   "visual": {
+    "tipo": "fato",
+    "texto": "Quem está atrás de Jason e Lucia — e por quê?",
+    "fonte": "os trailers não explicam",
+    "imagens": [
+     "police car"
+    ]
+   }
+  },
+  {
+   "fala": "E quarto, o PC. A Rockstar não anunciou versão pra computador. No GTA 5, o PC chegou mais de um ano e meio depois do console. Isso é comparação, não anúncio.",
+   "visual": {
+    "tipo": "comparar",
+    "a": {
+     "rotulo": "GTA V · consoles",
+     "valor": "09/2013",
+     "sub": "lançamento"
+    },
+    "b": {
+     "rotulo": "GTA V · PC",
+     "valor": "04/2015",
+     "sub": "1 ano e 7 meses depois"
+    }
+   }
+  },
+  {
+   "fala": "Depois do Trailer 2, a Rockstar ainda revelou a capa, em junho, e lançou um olhar estendido de mais de vinte e seis minutos, em agosto. Mas isso merece vídeo à parte.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "EiQEBYDox_k",
+      "ini": 15.0
+     }
+    ],
+    "rotulo": "Capa oficial",
+    "sub": "revelada em 18/06/2026"
+   }
+  },
+  {
+   "capitulo": "Resumo",
+   "fala": "Resumindo: mesma cidade, mesmas plataformas, a mesma dupla. Mudou o tamanho, o tom, os personagens, a data. E a Lucia saiu da cela.",
+   "visual": {
+    "tipo": "barras",
+    "titulo": "Duração dos trailers (segundos)",
+    "itens": [
+     [
+      "Trailer 1",
+      90,
+      "1:30"
+     ],
+     [
+      "Trailer 2",
+      167,
+      "2:47"
+     ]
+    ],
+    "destaque": 1,
+    "fonte": "Rockstar Games · YouTube"
+   }
+  },
+  {
+   "fala": "Daqui a trinta e cinco dias, a gente para de comparar trailer e joga.",
+   "visual": {
+    "tipo": "imagem",
+    "clipes": [
+     {
+      "video": "VQRLujxTm3c",
+      "ini": 149.0
+     }
+    ],
+    "rotulo": "19/11/2026",
+    "sub": "faltam 35 dias"
+   }
+  },
+  {
+   "fala": "E pra você, qual foi a maior mudança do Trailer 1 pro 2? Escreve aí nos comentários. E se quiser acompanhar a contagem até o lançamento, é só seguir o canal.",
+   "visual": {
+    "tipo": "cta",
+    "texto": "Qual mudança te pegou?",
+    "sub": "a contagem até 19/11 continua aqui",
+    "imagens": [
+     "neon sign night"
+    ]
+   }
+  }
+ ]
+}

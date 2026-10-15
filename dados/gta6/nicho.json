@@ -1,0 +1,21 @@
+{
+  "principal": "pré-lançamento: o que é confirmado",
+  "testes": [
+    "mapa e lugares",
+    "carros",
+    "personagens"
+  ],
+  "historico": [
+    {
+      "quando": "2026-10-13T14:00:22",
+      "de": null,
+      "para": "pré-lançamento: o que é confirmado",
+      "motivo": "fase pré-lançamento (lança 19/11/2026)"
+    }
+  ],
+  "recomendacao": {
+    "acao": "esperar",
+    "porque": "0 vídeo(s) maduro(s); preciso de 6 para julgar."
+  },
+  "placar": {}
+}

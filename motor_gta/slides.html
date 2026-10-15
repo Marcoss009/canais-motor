@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;overflow:hidden;background:#000}text{font-family:"Arial Black",Arial,sans-serif;font-weight:900}</style>
+</head><body><svg id="tela" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+/* Slides neon estilo Vice City para o GTAzando. render(st): st = {W,H,slide,tg,ts,tf,falando,boca} */
+const tela = document.getElementById('tela');
+const esc = s => String(s??'').replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+const ease = t => t<0?0:t>1?1:1-Math.pow(1-t,3);
+const pop = t => { if(t<=0) return 0; if(t>=1) return 1; const s=2.5; t=t-1; return t*t*((s+1)*t+s)+1; };
+
+function fundo(W,H,tg){
+  const sol = H*0.56, palm = (x,s,f) => `<g transform="translate(${x},${H*0.80}) scale(${s}) scale(${f},1)" fill="#12051f">
+      <path d="M-6,0 C-2,-120 6,-220 14,-300 L22,-300 C16,-220 10,-120 8,0Z"/>
+      ${[-70,-35,0,35,70,110].map(a=>`<path d="M18,-300 C${60*Math.cos(a*Math.PI/180)},${-330-40*Math.sin(a*Math.PI/180)} ${140*Math.cos(a*Math.PI/180)},${-300+60*Math.sin((a+20)*Math.PI/180)} ${170*Math.cos(a*Math.PI/180)},${-250+80*Math.sin(a*Math.PI/180)} C${110*Math.cos(a*Math.PI/180)},${-290} 60,-300 18,-300Z" transform="rotate(${a-20} 18 -300)"/>`).join('')}</g>`;
+  let linhas = '';
+  for(let i=0;i<14;i++){ const y = H*0.80 + Math.pow((i + (tg*0.6)%1)/14, 2)*H*0.2;
+    linhas += `<line x1="0" y1="${y}" x2="${W}" y2="${y}" stroke="#ff2ec4" stroke-opacity="${0.15+i*0.04}" stroke-width="3"/>`; }
+  for(let i=-12;i<=12;i++) linhas += `<line x1="${W/2+i*W*0.02}" y1="${H*0.80}" x2="${W/2+i*W*0.25}" y2="${H}" stroke="#ff2ec4" stroke-opacity=".35" stroke-width="3"/>`;
+  return `<defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14002e"/><stop offset=".55" stop-color="#5b0a6b"/><stop offset=".8" stop-color="#ff5e7e"/></linearGradient>
+    <linearGradient id="sol" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe259"/><stop offset="1" stop-color="#ff2ec4"/></linearGradient>
+    <filter id="neon" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#ceu)"/>
+  <circle cx="${W/2}" cy="${sol}" r="${W*0.30}" fill="url(#sol)"/>
+  ${[0,1,2,3,4].map(i=>`<rect x="0" y="${sol + i*W*0.05}" width="${W}" height="${6+i*4}" fill="#5b0a6b"/>`).join('')}
+  <rect y="${H*0.80}" width="${W}" height="${H*0.2}" fill="#12051f"/>${linhas}
+  ${palm(W*0.08,1.1*W/1080,1)}${palm(W*0.93,1.25*W/1080,-1)}${palm(W*0.80,0.8*W/1080,-1)}`;
+}
+
+function linhaTexto(x,y,tam,s,cor,neon){
+  return `<text x="${x}" y="${y}" font-size="${tam}" text-anchor="middle" fill="${cor}" stroke="#14002e" stroke-width="${tam*0.12}" stroke-linejoin="round" paint-order="stroke" ${neon?'filter="url(#neon)"':''}>${esc(s)}</text>`;
+}
+
+window.render = function(st){
+  const {W,H,tg,ts} = st, k = st.slide, pais = W > H, u = pais ? H/1080*1.05 : W/1080;
+  const P = pais ? {selo:.13, num:.60, y0num:.86, y0:.48} : {selo:.10, num:.36, y0num:.50, y0:.36};
+  tela.setAttribute('width',W); tela.setAttribute('height',H); tela.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  let g = fundo(W,H,tg);
+  // escurece o fundo atrás do texto
+  g += `<rect width="${W}" height="${H}" fill="#000" opacity=".25"/>`;
+  if(k.selo) g += `<g transform="translate(${W/2},${H*P.selo})"><rect x="${-260*u}" y="${-50*u}" width="${520*u}" height="${84*u}" rx="${16*u}" fill="#ff2ec4"/>${linhaTexto(0,18*u,44*u,k.selo,'#fff',false)}</g>`;
+  if(k.numero !== undefined){
+    const s = pop(ts/0.5) * (1 + 0.03*Math.sin(tg*6));
+    g += `<g transform="translate(${W/2},${H*P.num}) scale(${s})">${linhaTexto(0,0,(String(k.numero).length>3?260:380)*u,String(k.numero),'#ffe259',true)}</g>`;
+  }
+  const linhas = (k.texto||'').split('\n');
+  const tam = (k.tam || 92) * u, y0 = k.numero!==undefined ? H*P.y0num : H*P.y0 - (linhas.length-1)*tam*0.55;
+  linhas.forEach((l,i)=>{
+    const t = ease((ts - 0.15 - i*0.12)/0.4);
+    g += `<g transform="translate(0,${(1-t)*60*u})" opacity="${t}">${linhaTexto(W/2, y0 + i*tam*1.12, tam, l, i===0 && k.destaque ? '#5ff7ff' : '#fff', i===0 && k.destaque)}</g>`;
+  });
+  if(k.sub && !(pais && k.numero!==undefined)){ const t = ease((ts-0.5)/0.4); g += `<g opacity="${t}">${linhaTexto(W/2, y0 + linhas.length*tam*1.12 + 30*u, 54*u, k.sub, '#ffe259', false)}</g>`; }
+  if(k.fonte) g += linhaTexto(W/2, H*0.965, 30*u, 'Fonte: '+k.fonte, '#ffffffcc', false);
+  // barra de progresso do slide
+  g += `<rect x="0" y="0" width="${W*Math.min(1,st.tf)}" height="${10*u}" fill="#5ff7ff"/>`;
+  if(ts < 0.18) g += `<rect width="${W}" height="${H}" fill="#fff" opacity="${(0.18-ts)/0.18*0.6}"/>`;
+  tela.innerHTML = g;
+  return true;
+};
+</script></body></html>

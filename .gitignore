@@ -1,0 +1,32 @@
+# NUNCA publicar: acesso ao YouTube e segredos (na nuvem ficam em GitHub Secrets)
+credenciais/
+.env
+*.token
+# dados pessoais / formulários
+docs/auditoria/
+docs/auditoria_api.md
+site/
+# arquivos pesados ou gerados (vídeos ficam no YouTube / release 'acervo')
+fila/**/video.mp4
+fila/**/previa_480p.mp4
+fila/**/_trabalho/
+acervo/**/video.mp4
+acervo/**/trechos/
+acervo/**/_quadros/
+motor_pro/cache_voz/
+motor_pro/cache_img/
+motor_kids/cache_voz/
+motor_gta/cache_voz/
+Entregas/
+_arquivo_kids/
+amostras_voz/
+testes/
+canais/gta6/entrada/
+dados/*/pesquisa/
+dados/_pesquisa_nicho_*/
+dados/_*.log
+dados/tarefas.log
+dados/*.lock
+Projeto_Claude/
+__pycache__/
+*.pyc

@@ -1,0 +1,206 @@
+{
+  "id": "s003-trailer-de-lancamento-3-coisas",
+  "canal": "gta6",
+  "formato": "short",
+  "nicho": "pré-lançamento: o que é confirmado",
+  "longo": "v003-trailer-de-lancamento-tudo-novo",
+  "titulo": "GTA 6 trailer de lançamento: 3 coisas inéditas",
+  "titulos_alternativos": [
+    "GTA 6 trailer de lançamento: 3 coisas inéditas",
+    "GTA 6 trailer de lançamento: tem uma tornozeleira?",
+    "GTA 6 trailer de lançamento: o cofre que ninguém tinha visto"
+  ],
+  "miniatura": {
+    "texto": "COFRE E|TORNOZELEIRA",
+    "quadro": {
+      "video": "rz1B4B2yBZY",
+      "t": 26.3
+    },
+    "selo": "NOVO TRAILER"
+  },
+  "descricao": "GTA 6: o trailer de lançamento saiu hoje (15/10/2026) e mostra três coisas que nenhum trailer tinha mostrado: um cofre, um biplano sobre a praia (e uma moto no trilho do trem) e uma tornozeleira eletrônica. No letreiro final: 19 de novembro, pré-venda já.\n\nA análise completa, cena por cena, está no vídeo longo do canal.",
+  "fontes": [
+    "Rockstar Games — Grand Theft Auto VI Launch Trailer (YouTube, 15/10/2026, 1:30): youtube.com/watch?v=rz1B4B2yBZY (cofre 0:34, moto 0:48, tornozeleira 0:51, biplano 0:55; letreiro final 'November 19, 2026 / Pre-order now')",
+    "Contagem 'nenhum trailer tinha mostrado': comparação do canal com o Trailer 1 (QdBZY2fkU-0) e o Trailer 2 (VQRLujxTm3c)",
+    "Cálculo do canal — 15/10/2026 a 19/11/2026 = 35 dias",
+    "Conferência do canal quadro a quadro (ffmpeg, 1 quadro/s) em 15/10/2026: Launch Trailer 0:34 cofre, 0:48-0:50 moto no trilho elevado, 0:51-0:52 tornozeleira, 0:55-0:57 biplano; ausentes dos Trailers 1 e 2 e do vídeo de capa (EiQEBYDox_k)"
+  ],
+  "hashtags": [
+    "#gta6",
+    "#shorts",
+    "#gtavi"
+  ],
+  "tags": [
+    "gta 6 trailer de lançamento",
+    "gta 6 launch trailer",
+    "gta 6 novo trailer",
+    "gta 6 trailer 3",
+    "gta 6 tornozeleira",
+    "gta 6 cofre",
+    "gta 6 pré-venda",
+    "gta 6 19 de novembro",
+    "gta vi",
+    "gta 6"
+  ],
+  "cenas": [
+    {
+      "fala": "Saiu hoje o trailer de lançamento do GTA 6. [pausa] E tem três coisas que nenhum trailer tinha mostrado.",
+      "destaques": [
+        "hoje",
+        "lançamento",
+        "três",
+        "nenhum"
+      ],
+      "visual": {
+        "tipo": "gancho",
+        "texto": "TRAILER|DE LANÇAMENTO",
+        "imagens": [
+          "Miami skyline night"
+        ]
+      }
+    },
+    {
+      "fala": "Número um: um cofre.",
+      "destaques": [
+        "um",
+        "cofre"
+      ],
+      "visual": {
+        "tipo": "lista",
+        "n": 1,
+        "texto": "O cofre",
+        "sub": "Launch Trailer · 0:34",
+        "imagens": [
+          "bank vault door"
+        ]
+      }
+    },
+    {
+      "fala": "Duas mulheres entrando por uma porta redonda de cofre, com dinheiro voando.",
+      "destaques": [
+        "porta",
+        "dinheiro",
+        "voando"
+      ],
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 34.3
+          }
+        ],
+        "rotulo": "O cofre"
+      }
+    },
+    {
+      "fala": "Número dois: uma moto em cima do trilho do trem.",
+      "destaques": [
+        "dois",
+        "trilho"
+      ],
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 48.4
+          }
+        ],
+        "rotulo": "Moto no trilho"
+      }
+    },
+    {
+      "fala": "E um biplano com alguém em pé na asa, por cima da praia.",
+      "destaques": [
+        "biplano",
+        "asa"
+      ],
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 54.4
+          }
+        ],
+        "rotulo": "Biplano sobre a praia"
+      }
+    },
+    {
+      "fala": "Número três, o mais estranho, na minha opinião: [pausa] uma tornozeleira eletrônica.",
+      "destaques": [
+        "três",
+        "tornozeleira"
+      ],
+      "visual": {
+        "tipo": "lista",
+        "n": 3,
+        "texto": "A tornozeleira",
+        "sub": "Launch Trailer · 0:51",
+        "imagens": [
+          "electronic ankle monitor"
+        ]
+      }
+    },
+    {
+      "fala": "Pouco mais de um segundo, numa ducha, com a luz vermelha no tornozelo.",
+      "destaques": [
+        "segundo",
+        "vermelha"
+      ],
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 51.2
+          }
+        ],
+        "rotulo": "0:51 · luz vermelha",
+        "sub": "Launch Trailer · Rockstar Games"
+      }
+    },
+    {
+      "fala": "De quem é? O trailer não mostra.",
+      "destaques": [
+        "quem"
+      ],
+      "visual": {
+        "tipo": "fato",
+        "texto": "De quem é? O trailer não mostra",
+        "fonte": "Launch Trailer · Rockstar Games"
+      }
+    },
+    {
+      "fala": "E no letreiro final: dezenove de novembro, pré-venda já. Faltam trinta e cinco dias.",
+      "destaques": [
+        "dezenove",
+        "pré-venda",
+        "trinta",
+        "cinco"
+      ],
+      "visual": {
+        "tipo": "fato",
+        "texto": "NOVEMBER 19, 2026 · PRE-ORDER NOW",
+        "fonte": "Rockstar Games · letreiro final"
+      }
+    },
+    {
+      "fala": "Eu analisei o trailer cena por cena. A análise completa tá no canal.",
+      "destaques": [
+        "cena",
+        "completa",
+        "canal"
+      ],
+      "visual": {
+        "tipo": "cta",
+        "texto": "Trailer de lançamento",
+        "sub": "a análise completa tá no canal",
+        "imagens": [
+          "clapperboard"
+        ]
+      }
+    }
+  ]
+}

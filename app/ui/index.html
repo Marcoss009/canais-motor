@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estúdio dos Canais</title>
+<link rel="icon" href="icone.png">
+<link rel="stylesheet" href="app.css">
+<script>
+  try { const t = localStorage.getItem('tema'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <div class="marca">
+      <img src="icone.png" alt="" width="28" height="28">
+      <div><strong>Estúdio</strong><span>dos Canais</span></div>
+    </div>
+
+    <label class="rotulo" for="canal">Canal</label>
+    <select id="canal">
+      <option value="">Todos os canais</option>
+    </select>
+
+    <nav id="nav">
+      <button data-v="geral" class="ativo"><svg viewBox="0 0 24 24"><path d="M4 13h6V4H4zm0 7h6v-5H4zm10 0h6v-9h-6zm0-16v5h6V4z"/></svg>Visão geral</button>
+      <button data-v="producao"><svg viewBox="0 0 24 24"><path d="M4 5h16v3H4zm0 5.5h16v3H4zM4 16h10v3H4z"/></svg>Produção<span class="cont" id="cont-prod"></span></button>
+      <button data-v="agentes"><svg viewBox="0 0 24 24"><path d="M9 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm8 1a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM2 20c0-3.3 3.1-6 7-6s7 2.7 7 6zm15.5 0c0-1.9-.7-3.6-1.9-4.9 3.2.2 6.4 1.8 6.4 4.9z"/></svg>Agentes</button>
+      <button data-v="metricas"><svg viewBox="0 0 24 24"><path d="M4 19h16v2H4zM6 10h3v7H6zm5-5h3v12h-3zm5 8h3v4h-3z"/></svg>Métricas</button>
+      <button data-v="atividade"><svg viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 8.4 3.3 2-1 1.6L11 13V7h2z"/></svg>Atividade</button>
+    </nav>
+
+    <div class="rodape">
+      <span id="vivo" class="vivo">conectando…</span>
+      <div class="menu-cfg">
+        <button id="cfg" title="Configurações e ações" aria-haspopup="true">⚙</button>
+        <div id="menu" class="menu" hidden>
+          <button data-a="tema">Alternar tema claro/escuro</button>
+          <button data-a="coletar">Coletar métricas agora</button>
+          <button data-a="publicar">Rodar a fila agora</button>
+          <button data-a="entregas">Abrir a pasta de entregas</button>
+          <button data-a="abrir">Abrir a pasta do projeto</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main"></main>
+</div>
+<div id="toast" class="toast" role="status" hidden></div>
+<div id="dica" class="dica" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

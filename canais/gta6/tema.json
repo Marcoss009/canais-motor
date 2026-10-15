@@ -1,0 +1,20 @@
+{
+  "marca": "GTAZANDO",
+  "fonte_titulo": "Anton",
+  "fonte_corpo": "Inter SemiBold",
+  "caixa_alta": true,
+  "fundo1": "#120626",
+  "fundo2": "#3A0B4A",
+  "texto": "#FFFFFF",
+  "texto2": "#D9C7FF",
+  "destaque": "#FF3D8B",
+  "destaque2": "#22E1D0",
+  "contraste": 20,
+  "saturacao": 18,
+  "vinheta": 50,
+  "grao": 2.5,
+  "legenda_y": 0.70,
+  "legenda_tam": 92,
+  "trilha": "synthwave",
+  "vol_musica": 0.17
+}

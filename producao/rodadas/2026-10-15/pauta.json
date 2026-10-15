@@ -1,0 +1,105 @@
+{
+ "gta6": [
+  {
+   "tema": "Capa oficial do GTA VI: o que cada detalhe da arte entrega",
+   "angulo": "lista/pergunta",
+   "por_que_agora": "Capa revelada em 18/06/2026 com pré-venda em 25/06; faltam 35 dias e o público compara detalhes (layout em quadrinhos, jacaré, veículos, easter egg de capa clássica).",
+   "titulo_trabalho": "GTA 6: a capa esconde algo que você não viu?",
+   "short": "A capa tem um jacaré, lembrando a fauna perigosa de Leonida, e estrutura em painéis de quadrinhos.",
+   "fontes": [
+    "https://www.rockstargames.com/VI",
+    "https://www.youtube.com/watch?v=EiQEBYDox_k",
+    "https://www.levelup.com/en/news/did-you-spot-it-gta-vi-cover-art-includes-a-classic-easter-egg-for-franchise-veterans/"
+   ],
+   "oficiais": [
+    "EiQEBYDox_k",
+    "VQRLujxTm3c"
+   ],
+   "nota": 8.5
+  },
+  {
+   "tema": "Trailer 1 x Trailer 2: tudo que mudou entre os dois",
+   "angulo": "lista/comparação",
+   "por_que_agora": "Contagem regressiva aquece a busca por revisão dos trailers; há os dois vídeos oficiais acessíveis; ângulo inédito no canal.",
+   "titulo_trabalho": "GTA 6: 7 coisas que mudaram do Trailer 1 pro 2",
+   "short": "Entre os trailers, Lucia e Jason passam de promessa a história: o Trailer 2 confirma que ambos são de Vice City.",
+   "fontes": [
+    "https://www.siliconera.com/gta-vi-trailer-shows-lucia-and-jason-in-vice-city/",
+    "https://www.rockstargames.com/VI"
+   ],
+   "oficiais": [
+    "QdBZY2fkU-0",
+    "VQRLujxTm3c"
+   ],
+   "nota": 8
+  },
+  {
+   "tema": "Lucia e Jason: o que o Trailer 2 confirma sobre a dupla (e o que ainda é mistério)",
+   "angulo": "desmentido/o que é confirmado",
+   "por_que_agora": "Fase pré-lançamento da bíblia: 'o que é confirmado' sobre personagens; separa fato oficial de teoria.",
+   "titulo_trabalho": "GTA 6: Lucia e Jason, o que é CONFIRMADO",
+   "short": "Lucia sai da prisão e Jason a busca: é a cena de abertura da dupla no Trailer 2.",
+   "fontes": [
+    "https://www.siliconera.com/gta-vi-trailer-shows-lucia-and-jason-in-vice-city/",
+    "https://www.rockstargames.com/VI"
+   ],
+   "oficiais": [
+    "VQRLujxTm3c",
+    "EiQEBYDox_k"
+   ],
+   "nota": 7.5
+  }
+ ],
+ "engenhoso": [
+  {
+   "tema": "Como o escudo térmico da Orion (Artemis) sobrevive a 5.000 °F na volta da Lua",
+   "angulo": "como funciona + número chocante",
+   "por_que_agora": "Artemis II voltou com o escudo funcionando; NASA analisa 'cada átomo' e novos escudos virão na Artemis III. Gancho de engenharia (ablação, Avcoat).",
+   "titulo_trabalho": "Como o escudo da Orion aguenta 2.700 °C",
+   "short": "Orion volta da Lua a cerca de 40.000 km/h e o escudo foi feito para queimar de propósito.",
+   "fontes": [
+    "https://www.nationalgeographic.com/science/article/artemis-ii-heat-shield-nasa",
+    "https://newspaceeconomy.ca/2026/04/03/the-orion-heat-shield-description-problems-current-status-and-what-it-means-for-artemis-ii/"
+   ],
+   "oficiais": [
+    "MVt2139voxk",
+    "jHKf1eHp3eQ",
+    "_oXt3-YDih4"
+   ],
+   "nota": 8.5
+  },
+  {
+   "tema": "Como a Starship vai reabastecer em órbita (e por que Artemis III depende disso)",
+   "angulo": "pergunta",
+   "por_que_agora": "Reabastecimento criogênico em órbita é requisito da NASA para pouso lunar; metas Artemis III até fim de 2027.",
+   "titulo_trabalho": "Como reabastecer um foguete no espaço?",
+   "short": "Para pousar na Lua, a Starship precisa de várias naves-tanque enchendo o tanque em órbita.",
+   "fontes": [
+    "https://www.wuwf.org/florida-news/2026-05-20/spacex-set-to-test-upgraded-starship-it-could-soon-take-astronauts-to-the-moon",
+    "https://www.space.com/space-exploration/artemis/2026-is-the-year-humanity-will-finally-go-back-to-the-moon"
+   ],
+   "oficiais": [
+    "-a0ecQMq-rM",
+    "EthkNLasUa8",
+    "Sempwv5MPMQ"
+   ],
+   "nota": 8
+  },
+  {
+   "tema": "Como um avião moderno é feito: o que há de novo no Boeing 787 (15 anos de entrega)",
+   "angulo": "como é feito",
+   "por_que_agora": "Boeing publicou vídeos sobre os 15 anos do 787 e do certificado de tipo; evergreen \"como é feito\".",
+   "titulo_trabalho": "Como é feito um avião de fibra de carbono? (787)",
+   "short": "Um avião comercial tem milhões de peças montadas em módulos, antes de ser unido numa linha final.",
+   "fontes": [
+    "https://www.youtube.com/watch?v=byqbfYgSEo8",
+    "https://www.boeing.com"
+   ],
+   "oficiais": [
+    "byqbfYgSEo8",
+    "kaJkp3EqVQw"
+   ],
+   "nota": 7
+  }
+ ]
+}

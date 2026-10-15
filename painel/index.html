@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agentes de Canal</title>
+<style>
+  :root{--bg:#fff;--tx:#111;--mut:#666;--ln:#e3e3e3;--card:#fafafa;--ok:#0a7a2f;--no:#b3261e;--ac:#c4302b}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+  header{display:flex;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--ln)}
+  header h1{font-size:18px;margin:0;flex:1}
+  header h1 span{color:var(--ac)}
+  main{max-width:1100px;margin:0 auto;padding:16px 20px 60px}
+  h2{font-size:15px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin:28px 0 10px}
+  .grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+  .card{border:1px solid var(--ln);border-radius:10px;padding:14px;background:var(--card)}
+  .card h3{margin:0 0 4px;font-size:16px}
+  .num{display:flex;gap:18px;margin:10px 0}
+  .num b{display:block;font-size:22px}
+  .num small{color:var(--mut)}
+  .mut{color:var(--mut);font-size:13px}
+  .rec{margin-top:8px;padding:8px 10px;border-radius:8px;background:#fff;border:1px solid var(--ln);font-size:14px}
+  .rec.trocar{border-color:var(--ok)}
+  .rec.testar_mais{border-color:var(--no)}
+  button{font:inherit;border:1px solid var(--ln);background:#fff;border-radius:8px;padding:7px 12px;cursor:pointer}
+  button.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+  button.no{color:var(--no);border-color:var(--no)}
+  .item{display:grid;grid-template-columns:200px 1fr;gap:14px;border:1px solid var(--ln);border-radius:10px;padding:12px;margin-bottom:12px}
+  .item video{width:200px;max-height:356px;border-radius:8px;background:#000}
+  .item h4{margin:0 0 4px;font-size:15px}
+  .item pre{white-space:pre-wrap;font:13px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;color:#333;max-height:120px;overflow:auto;margin:6px 0}
+  .acoes{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--ln);background:#fff}
+  details{border:1px solid var(--ln);border-radius:10px;padding:10px 12px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  td,th{padding:5px 6px;border-bottom:1px solid var(--ln);text-align:left}
+  .log{font:12px/1.5 ui-monospace,Consolas,monospace;white-space:pre-wrap;max-height:260px;overflow:auto;background:var(--card);border:1px solid var(--ln);border-radius:10px;padding:10px}
+  .vazio{color:var(--mut);padding:10px 0}
+  .abas{display:flex;gap:6px;margin-bottom:10px}
+  .abas button.on{background:var(--tx);color:#fff;border-color:var(--tx)}
+  .graf{border:1px solid var(--ln);border-radius:10px;padding:12px;background:#fff}
+  .graf svg{width:100%;height:auto;display:block}
+  .leg{display:flex;gap:16px;font-size:13px;color:var(--mut);margin-top:6px}
+  .leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+  .resumo{display:flex;gap:22px;flex-wrap:wrap;margin:6px 0 12px}
+  .resumo b{display:block;font-size:20px}
+  .resumo small{color:var(--mut)}
+  .tab-wrap{overflow-x:auto;margin-top:12px}
+  td.n,th.n{text-align:right;white-space:nowrap}
+  th{font-size:13px;color:var(--mut);font-weight:600;cursor:pointer}
+  .mult-alto{color:var(--ok);font-weight:700}.mult-baixo{color:var(--no)}
+  @media (max-width:600px){.item{grid-template-columns:1fr}.item video{width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Agentes <span>de Canal</span></h1>
+  <button onclick="rodar('coletar')" title="Puxa views e recalcula o nicho">Atualizar métricas</button>
+  <button onclick="rodar('publicar')" title="Sobe prontos e agenda aprovados">Rodar fila</button>
+</header>
+<main>
+  <h2>Canais</h2>
+  <div class="grade" id="canais"></div>
+
+  <h2>Desempenho</h2>
+  <div class="abas" id="abas"></div>
+  <div id="desempenho"></div>
+
+  <h2>Esperando sua aprovação</h2>
+  <div id="aprovar"></div>
+
+  <h2>Fila</h2>
+  <div id="fila"></div>
+
+  <h2>O que o agente fez</h2>
+  <div class="log" id="log"></div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const arq = (it, p) => '/arquivo?p=' + encodeURIComponent(p);
+const NOME_ESTADO = {pronto:'renderizado', enviado:'aguardando você', aprovado:'aprovado', agendado:'agendado',
+  publicado:'no ar', recusado:'recusado (refazer)', manual:'subir pelo Studio'};
+
+let ESTADO = null, CANAL = localStorage.getItem('canal') || 'gta6', ORDEM = 'publicado';
+async function carregar(){
+  const e = await (await fetch('/api/estado')).json();
+  ESTADO = e; desenharDesempenho();
+  $('#canais').innerHTML = Object.entries(e.canais).map(([id,c]) => {
+    const n = c.nicho || {}, r = n.recomendacao || {};
+    const url = c.info ? c.info.url : '#';
+    return `<div class="card">
+      <h3><a href="${url}" target="_blank" style="color:inherit">${esc(c.nome)}</a></h3>
+      <div class="mut">${c.token ? 'conectado' : '<b style="color:var(--no)">sem acesso — rode autorizar.py '+id+'</b>'}
+        ${c.coletado ? ' · métricas de '+c.coletado.slice(0,16).replace('T',' ') : ''}</div>
+      <div class="num"><div><b>${c.views.toLocaleString('pt-BR')}</b><small>views</small></div>
+        <div><b>${c.videos}</b><small>vídeos</small></div>
+        <div><b>${(c.inscritos ?? (c.info ? c.info.inscritos : 0) ?? 0).toLocaleString('pt-BR')}</b><small>inscritos</small></div></div>
+      <div><b>Nicho:</b> ${esc(n.principal || 'definindo')}
+        ${(n.testes||[]).length ? '<span class="mut"> · testando: '+n.testes.map(esc).join(', ')+'</span>' : ''}</div>
+      ${r.acao ? `<div class="rec ${r.acao}"><b>${esc(r.acao)}</b> — ${esc(r.porque)}</div>` : ''}
+      ${c.plano ? `<details style="margin-top:10px"><summary>Plano da semana</summary><pre style="white-space:pre-wrap;font:13px/1.45 inherit">${esc(c.plano)}</pre></details>` : ''}
+    </div>`;
+  }).join('');
+
+  const pend = e.fila.filter(i => i.estado === 'enviado');
+  $('#aprovar').innerHTML = pend.length ? pend.map(item).join('') : '<div class="vazio">Nada esperando você.</div>';
+  const resto = e.fila.filter(i => i.estado !== 'enviado').sort((a,b) => (b.atualizado||'').localeCompare(a.atualizado||''));
+  $('#fila').innerHTML = resto.length ? resto.map(item).join('') : '<div class="vazio">Fila vazia.</div>';
+  $('#log').textContent = e.log.join('\n') || 'Sem atividade ainda.';
+}
+
+function trocaCanal(c){ CANAL = c; try{ localStorage.setItem('canal', c); }catch(_){} desenharDesempenho(); }
+function ordenar(o){ ORDEM = o; desenharDesempenho(); }
+const fmt = (x, d=0) => x == null ? '–' : Number(x).toLocaleString('pt-BR', {maximumFractionDigits:d});
+
+function grafico(dias){
+  if (!dias.length) return '<div class="vazio">Sem dados diários ainda.</div>';
+  const W = 1000, H = 220, pe = 40, pb = 28, pt = 10;
+  const maxV = Math.max(1, ...dias.map(d => d.views)), maxI = Math.max(1, ...dias.map(d => d.subscribersGained));
+  const bw = (W - pe - 10) / dias.length;
+  let g = '';
+  for (let k = 0; k <= 4; k++) { const y = pt + (H - pt - pb) * k / 4, v = Math.round(maxV * (1 - k / 4));
+    g += `<line x1="${pe}" x2="${W}" y1="${y}" y2="${y}" stroke="#eee"/><text x="${pe - 6}" y="${y + 4}" font-size="11" text-anchor="end" fill="#888">${fmt(v)}</text>`; }
+  dias.forEach((d, i) => { const h = (H - pt - pb) * d.views / maxV, x = pe + i * bw;
+    g += `<rect x="${x + 2}" y="${H - pb - h}" width="${Math.max(bw - 4, 1)}" height="${h}" rx="2" fill="#c4302b"><title>${d.day}: ${fmt(d.views)} views · ${fmt(d.estimatedMinutesWatched)} min · +${d.subscribersGained} inscritos</title></rect>`;
+    if (i % Math.ceil(dias.length / 7) === 0) g += `<text x="${x + bw / 2}" y="${H - 8}" font-size="11" text-anchor="middle" fill="#888">${d.day.slice(8,10)}/${d.day.slice(5,7)}</text>`; });
+  const pts = dias.map((d, i) => `${pe + i * bw + bw / 2},${H - pb - (H - pt - pb) * d.subscribersGained / maxI}`).join(' ');
+  g += `<polyline points="${pts}" fill="none" stroke="#1565c0" stroke-width="2.5"/>`;
+  return `<div class="graf"><svg viewBox="0 0 ${W} ${H}">${g}</svg>
+    <div class="leg"><span><i style="background:#c4302b"></i>views por dia</span><span><i style="background:#1565c0"></i>inscritos ganhos (escala própria)</span><span>passe o mouse nas barras</span></div></div>`;
+}
+
+function desenharDesempenho(){
+  if (!ESTADO) return;
+  const ids = Object.keys(ESTADO.canais); if (!ids.includes(CANAL)) CANAL = ids[0];
+  $('#abas').innerHTML = ids.map(id => `<button class="${id === CANAL ? 'on' : ''}" onclick="trocaCanal('${id}')">${esc(ESTADO.canais[id].nome)}</button>`).join('');
+  const c = ESTADO.canais[CANAL], dias = c.diario || [];
+  const soma = k => dias.reduce((a, d) => a + (d[k] || 0), 0);
+  const lista = [...(c.lista || [])].sort((a, b) => ORDEM === 'publicado' ? (b.publicado || '').localeCompare(a.publicado || '') : (b[ORDEM] ?? -1) - (a[ORDEM] ?? -1));
+  const mult = m => m == null ? '–' : `<span class="${m >= 2 ? 'mult-alto' : m < 0.5 ? 'mult-baixo' : ''}">${fmt(m, 1)}x</span>`;
+  const linhas = lista.map(v => `<tr>
+      <td><a href="https://youtu.be/${v.id}" target="_blank">${esc(v.titulo)}</a><div class="mut">${esc(v.formato || '')} ${v.nicho ? '· ' + esc(v.nicho) : ''} ${v.privacidade !== 'public' ? '· ' + esc(v.privacidade) : ''}</div></td>
+      <td class="n">${(v.publicado || '').slice(0, 10).split('-').reverse().join('/')}</td>
+      <td class="n">${fmt(v.views)}</td><td class="n">${mult(v.multiplo)}</td>
+      <td class="n">${v.pct_assistido == null ? '–' : fmt(v.pct_assistido, 0) + '%'}</td>
+      <td class="n">${fmt(v.minutos_assistidos)}</td><td class="n">${v.inscritos_ganhos == null ? '–' : '+' + fmt(v.inscritos_ganhos)}</td></tr>`).join('');
+  $('#desempenho').innerHTML = `
+    <div class="resumo">
+      <div><b>${fmt(soma('views'))}</b><small>views (28 dias)</small></div>
+      <div><b>${fmt(soma('estimatedMinutesWatched'))}</b><small>minutos assistidos</small></div>
+      <div><b>+${fmt(soma('subscribersGained') - soma('subscribersLost'))}</b><small>inscritos líquidos</small></div>
+      <div><b>${fmt(c.mediana_views)}</b><small>mediana de views/vídeo</small></div>
+    </div>
+    ${grafico(dias)}
+    <div class="tab-wrap">${lista.length ? `<table><thead><tr>
+      <th onclick="ordenar('publicado')">Vídeo</th><th class="n" onclick="ordenar('publicado')">Publicado</th>
+      <th class="n" onclick="ordenar('views')">Views</th><th class="n" onclick="ordenar('multiplo')" title="views ÷ mediana do canal — 2x ou mais é vencedor">Múltiplo</th>
+      <th class="n" onclick="ordenar('pct_assistido')">% assistido</th><th class="n" onclick="ordenar('minutos_assistidos')">Minutos</th>
+      <th class="n" onclick="ordenar('inscritos_ganhos')">Inscritos</th></tr></thead><tbody>${linhas}</tbody></table>` : '<div class="vazio">Nenhum vídeo ainda.</div>'}</div>
+    <div class="mut" style="margin-top:6px">Clique no cabeçalho para ordenar. Múltiplo = views ÷ mediana do canal (só vídeos com 7+ dias); é o número que decide a troca de nicho.</div>`;
+}
+
+function item(i){
+  const decide = i.estado === 'enviado' ? `<div class="acoes">
+      <button class="ok" onclick="decidir('${i.canal}','${i.id}',true)">✅ Publicar</button>
+      <button class="no" onclick="decidir('${i.canal}','${i.id}',false)">❌ Refazer</button></div>` : '';
+  const manual = i.estado === 'manual' ? `<div class="acoes">
+      <a href="${arq(i,i.video)}" download><button>Baixar vídeo</button></a>
+      <button onclick="copiar(${esc(JSON.stringify(i.titulo))})">Copiar título</button>
+      <button onclick="copiar(${esc(JSON.stringify(i.descricao))})">Copiar descrição</button>
+      <a href="https://studio.youtube.com" target="_blank"><button>Abrir Studio</button></a></div>` : '';
+  const yt = i.youtube_id ? ` · <a href="https://youtu.be/${i.youtube_id}" target="_blank">youtu.be/${i.youtube_id}</a>` : '';
+  return `<div class="item">
+    <video src="${arq(i,i.video)}" ${i.thumb ? 'poster="'+arq(i,i.thumb)+'"' : ''} controls preload="none"></video>
+    <div>
+      <h4>${esc(i.titulo)}</h4>
+      <div class="mut"><span class="tag">${esc(i.canal)}</span> <span class="tag">${esc(i.formato)}</span>
+        <span class="tag">${NOME_ESTADO[i.estado]||i.estado}</span> nicho: ${esc(i.nicho||'-')}${yt}
+        ${i.publica_em ? ' · vai ao ar '+i.publica_em.slice(0,16).replace('T',' ') : ''}</div>
+      <pre>${esc(i.descricao)}</pre>
+      ${decide}${manual}
+    </div></div>`;
+}
+
+async function decidir(canal,id,ok){
+  await fetch('/api/decidir',{method:'POST',body:JSON.stringify({canal,id,ok})});
+  carregar();
+}
+async function rodar(o){
+  await fetch('/api/rodar',{method:'POST',body:JSON.stringify({o})});
+  setTimeout(carregar, 4000);
+}
+function copiar(t){ navigator.clipboard.writeText(t); }
+carregar(); setInterval(carregar, 20000);
+</script>
+</body>
+</html>

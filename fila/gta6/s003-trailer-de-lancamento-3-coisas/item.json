@@ -1,0 +1,49 @@
+{
+  "id": "s003-trailer-de-lancamento-3-coisas",
+  "canal": "gta6",
+  "formato": "short",
+  "estado": "agendado",
+  "titulo": "GTA 6 trailer de lançamento: 3 coisas inéditas",
+  "descricao": "GTA 6: o trailer de lançamento saiu hoje (15/10/2026) e mostra três coisas que nenhum trailer tinha mostrado: um cofre, um biplano sobre a praia (e uma moto no trilho do trem) e uma tornozeleira eletrônica. No letreiro final: 19 de novembro, pré-venda já.\n\nA análise completa, cena por cena, está no vídeo longo do canal.\n\nFontes:\n• Rockstar Games — Grand Theft Auto VI Launch Trailer (YouTube, 15/10/2026, 1:30): youtube.com/watch?v=rz1B4B2yBZY (cofre 0:34, moto 0:48, tornozeleira 0:51, biplano 0:55; letreiro final 'November 19, 2026 / Pre-order now')\n• Contagem 'nenhum trailer tinha mostrado': comparação do canal com o Trailer 1 (QdBZY2fkU-0) e o Trailer 2 (VQRLujxTm3c)\n• Cálculo do canal — 15/10/2026 a 19/11/2026 = 35 dias\n• Conferência do canal quadro a quadro (ffmpeg, 1 quadro/s) em 15/10/2026: Launch Trailer 0:34 cofre, 0:48-0:50 moto no trilho elevado, 0:51-0:52 tornozeleira, 0:55-0:57 biplano; ausentes dos Trailers 1 e 2 e do vídeo de capa (EiQEBYDox_k)\n\nCenas oficiais (trechos curtos, sem o áudio original, usados para comentário e análise; direitos dos respectivos donos):\n• Rockstar Games — \"Grand Theft Auto VI Launch Trailer\" (https://www.youtube.com/watch?v=rz1B4B2yBZY)\n\nImagens (licenças livres):\n• \"Miami night skyline by Don Ramey Logan\" — Don Ramey Logan (CC BY 4.0), via Wikimedia Commons\n• \"Cleveland FRB Vault Door - brightened\" — Spamguy at English Wikipedia (CC BY 2.5), via Wikimedia Commons\n• \"Ankle Electronic tagging\" — This Photo was taken by Adirach Toumlamoon.\n\nFeel free to use any of my images,  (CC BY 4.0), via Wikimedia Commons\n• \"Clapperboard, O2 film, September 2008\" — Mattbr (CC BY 2.0), via Wikimedia Commons\n\nNarração com voz sintética e trilha original do canal.\n\n#gta6 #shorts #gtavi",
+  "tags": [
+    "gta 6 trailer de lançamento",
+    "gta 6 launch trailer",
+    "gta 6 novo trailer",
+    "gta 6 trailer 3",
+    "gta 6 tornozeleira",
+    "gta 6 cofre",
+    "gta 6 pré-venda",
+    "gta 6 19 de novembro",
+    "gta vi",
+    "gta 6"
+  ],
+  "video": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\s003-trailer-de-lancamento-3-coisas\\video.mp4",
+  "thumb": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\s003-trailer-de-lancamento-3-coisas\\thumb.jpg",
+  "nicho": "pré-lançamento: o que é confirmado",
+  "roteiro": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\s003-trailer-de-lancamento-3-coisas\\roteiro.json",
+  "criado": "2026-10-15T11:27:36",
+  "youtube_id": "nALZabB8B6s",
+  "historico": [
+    {
+      "quando": "2026-10-15T11:31:39",
+      "de": "pronto",
+      "para": "enviado",
+      "nota": "youtube_id=nALZabB8B6s (privado)"
+    },
+    {
+      "quando": "2026-10-15T11:31:46",
+      "de": "enviado",
+      "para": "aprovado",
+      "nota": "aprovação automática (modo independente)"
+    },
+    {
+      "quando": "2026-10-15T11:31:48",
+      "de": "aprovado",
+      "para": "agendado",
+      "nota": "vai ao ar em 2026-10-15T20:00:00-03:00"
+    }
+  ],
+  "atualizado": "2026-10-15T11:31:48",
+  "thumb_ok": true,
+  "publica_em": "2026-10-15T20:00:00-03:00"
+}

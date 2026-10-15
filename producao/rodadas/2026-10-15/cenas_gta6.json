@@ -1,0 +1,528 @@
+[
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 3.0,
+  "o_que": "pôr do sol rosa sobre a rodovia e o skyline; depois a juíza",
+  "tags": [
+   "T1",
+   "paisagem",
+   "skyline",
+   "par:skyline"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 8.0,
+  "o_que": "Lucia na cela e diante da juíza, depois lancha e praia aérea de Vice City",
+  "tags": [
+   "T1",
+   "lucia",
+   "praia",
+   "aérea",
+   "par:praia"
+  ],
+  "violento": false,
+  "short_vertical": true
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 19.0,
+  "o_que": "pântano dourado ao amanhecer e lancha de carga no mar",
+  "tags": [
+   "T1",
+   "natureza",
+   "everglades",
+   "par:natureza"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 21.0,
+  "o_que": "bando de flamingos no pântano; depois garota sobre carro à noite",
+  "tags": [
+   "T1",
+   "natureza",
+   "everglades",
+   "carros",
+   "noite",
+   "par:natureza"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 23.0,
+  "o_que": "lancha de carga no mar e rua com carros customizados rosa",
+  "tags": [
+   "T1",
+   "carros",
+   "cidade",
+   "par:carros"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 25.0,
+  "o_que": "garota em carro na rodovia à noite com neon; depois dois amigos na rua",
+  "tags": [
+   "T1",
+   "carros",
+   "noite",
+   "neon",
+   "par:carros_noite"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 29.0,
+  "o_que": "balada neon cheia, luzes e fogos de cena",
+  "tags": [
+   "T1",
+   "noite",
+   "neon",
+   "multidão",
+   "par:noite_neon"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 33.0,
+  "o_que": "avenida de neon com esportivos (Ocean Drive); depois mulher na cobertura",
+  "tags": [
+   "T1",
+   "carros",
+   "noite",
+   "neon",
+   "cidade",
+   "par:noite_neon"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 37.0,
+  "o_que": "aérea da ponte sobre o mar turquesa (Keys); termina com post de rede social na tela",
+  "tags": [
+   "T1",
+   "paisagem",
+   "aérea",
+   "natureza",
+   "par:natureza"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 39.0,
+  "o_que": "mulher na cobertura com o skyline de Vice City",
+  "tags": [
+   "T1",
+   "personagem",
+   "skyline",
+   "par:skyline"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 40.5,
+  "o_que": "letreiro VICE em dourado; depois visão aérea escura da cidade",
+  "tags": [
+   "T1",
+   "logotipo",
+   "cidade",
+   "par:skyline"
+  ],
+  "violento": false,
+  "short_vertical": true
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 49.0,
+  "o_que": "invasão policial em corredor escuro, agentes armados",
+  "tags": [
+   "T1",
+   "polícia",
+   "ação",
+   "par:policia"
+  ],
+  "violento": true
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 61.0,
+  "o_que": "Jason dirigindo a picape clássica; depois reportagem aérea Weazel News de perseguição",
+  "tags": [
+   "T1",
+   "jason",
+   "carros",
+   "polícia",
+   "par:jason"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 63.0,
+  "o_que": "Lucia olhando para fora do carro, lenço vermelho, rosto nítido",
+  "tags": [
+   "T1",
+   "lucia",
+   "rosto",
+   "carros",
+   "par:lucia"
+  ],
+  "violento": false,
+  "short_vertical": true
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 69.0,
+  "o_que": "Lucia mascarada em loja de conveniência; depois Lucia e Jason no quarto",
+  "tags": [
+   "T1",
+   "lucia",
+   "jason",
+   "ação",
+   "par:lucia"
+  ],
+  "violento": true
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 71.0,
+  "o_que": "carro vermelho clássico derrapando e casal saindo da loja",
+  "tags": [
+   "T1",
+   "carros",
+   "lucia",
+   "jason",
+   "par:carros"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 7.0,
+  "o_que": "vista aérea de uma vila nas ilhas, água turquesa",
+  "tags": [
+   "T2",
+   "paisagem",
+   "aérea",
+   "keys",
+   "par:natureza"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 9.0,
+  "o_que": "casa de palafita com Cadillac antigo; depois homem de camisa havaiana ao lado da picape",
+  "tags": [
+   "T2",
+   "cenário",
+   "carros",
+   "par:carros"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 19.0,
+  "o_que": "Jason sem camisa apontando, casa de madeira com escada",
+  "tags": [
+   "T2",
+   "jason",
+   "rosto",
+   "par:jason"
+  ],
+  "violento": false,
+  "short_vertical": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 29.0,
+  "o_que": "Jason dirigindo de perfil, de óculos; depois POV na rodovia",
+  "tags": [
+   "T2",
+   "jason",
+   "carros",
+   "par:jason"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 35.0,
+  "o_que": "POV na rodovia com skyline e placas; depois academia na praia",
+  "tags": [
+   "T2",
+   "carros",
+   "skyline",
+   "praia",
+   "cidade",
+   "par:skyline"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 37.0,
+  "o_que": "prédios altos e avião sobre a rodovia; depois interior de loja",
+  "tags": [
+   "T2",
+   "skyline",
+   "cidade",
+   "par:skyline"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 39.0,
+  "o_que": "academia na praia, supino com palmeiras e gente ao redor",
+  "tags": [
+   "T2",
+   "praia",
+   "multidão",
+   "par:praia"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 63.0,
+  "o_que": "Lucia no portão de rede, luz dourada, rosto nítido (Jason aparece de costas antes)",
+  "tags": [
+   "T2",
+   "lucia",
+   "rosto",
+   "par:lucia"
+  ],
+  "violento": false,
+  "short_vertical": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 83.0,
+  "o_que": "pôr do sol no mar com boias; depois Lucia e Jason na cozinha",
+  "tags": [
+   "T2",
+   "paisagem",
+   "natureza",
+   "lucia",
+   "jason",
+   "par:natureza"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 89.0,
+  "o_que": "Lucia e Jason lado a lado na cozinha; depois mulher de vestido dourado",
+  "tags": [
+   "T2",
+   "lucia",
+   "jason",
+   "rosto",
+   "par:lucia"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 91.0,
+  "o_que": "bar iluminado com clientes; depois terraço ao entardecer",
+  "tags": [
+   "T2",
+   "noite",
+   "multidão",
+   "par:noite_neon"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 97.0,
+  "o_que": "terraço de bar ao entardecer com a cidade ao fundo; depois balada azul",
+  "tags": [
+   "T2",
+   "cidade",
+   "noite",
+   "skyline",
+   "par:skyline"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 101.0,
+  "o_que": "casal dançando na balada com luzes azuis",
+  "tags": [
+   "T2",
+   "noite",
+   "neon",
+   "multidão",
+   "par:noite_neon"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 107.0,
+  "o_que": "policiais de colete na penumbra verde (termina com arma apontada)",
+  "tags": [
+   "T2",
+   "polícia",
+   "par:policia"
+  ],
+  "violento": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 119.0,
+  "o_que": "dois homens de camisa Manatees número 15 em rua com palmeiras",
+  "tags": [
+   "T2",
+   "personagem",
+   "multidão",
+   "cidade",
+   "par:multidao"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 121.0,
+  "o_que": "picape à noite sob poste; depois rua de dia com carros esportivos",
+  "tags": [
+   "T2",
+   "carros",
+   "noite",
+   "cidade",
+   "par:carros_noite"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 125.0,
+  "o_que": "homem de camisa roxa em clube de neon; termina em loja de armas",
+  "tags": [
+   "T2",
+   "noite",
+   "neon",
+   "multidão",
+   "par:noite_neon"
+  ],
+  "violento": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 138.0,
+  "o_que": "helicóptero sobrevoando o pântano (Everglades)",
+  "tags": [
+   "T2",
+   "natureza",
+   "everglades",
+   "aérea",
+   "polícia",
+   "par:natureza"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 141.0,
+  "o_que": "casal em jet ski no mar, câmera frontal",
+  "tags": [
+   "T2",
+   "praia",
+   "ação",
+   "aérea",
+   "par:praia"
+  ],
+  "violento": false,
+  "short_vertical": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 145.0,
+  "o_que": "avenida à noite com neon e prédios; depois mulher dentro do carro",
+  "tags": [
+   "T2",
+   "cidade",
+   "noite",
+   "neon",
+   "par:noite_neon"
+  ],
+  "violento": false
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 149.0,
+  "o_que": "carro ao anoitecer; depois skyline em tons de pôr do sol",
+  "tags": [
+   "T2",
+   "carros",
+   "skyline",
+   "paisagem",
+   "par:skyline"
+  ],
+  "violento": false
+ },
+ {
+  "video": "EiQEBYDox_k",
+  "ini": 15.0,
+  "o_que": "arte oficial da capa: colagem com Lucia e Jason em moldura roxa",
+  "tags": [
+   "CAPA",
+   "logotipo",
+   "personagem",
+   "capa",
+   "par:capa"
+  ],
+  "violento": false
+ },
+ {
+  "video": "QdBZY2fkU-0",
+  "ini": 63.0,
+  "o_que": "Lucia no carro, lenço vermelho, rosto nítido e bem iluminado (Trailer 1)",
+  "tags": [
+   "T1",
+   "lucia",
+   "rosto"
+  ],
+  "violento": false,
+  "miniatura": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 64.0,
+  "o_que": "Lucia no portão de rede, luz dourada, olhar para a câmera (Trailer 2)",
+  "tags": [
+   "T2",
+   "lucia",
+   "rosto"
+  ],
+  "violento": false,
+  "miniatura": true
+ },
+ {
+  "video": "VQRLujxTm3c",
+  "ini": 19.5,
+  "o_que": "Jason sem camisa apontando para a câmera, luz natural (Trailer 2)",
+  "tags": [
+   "T2",
+   "jason",
+   "rosto"
+  ],
+  "violento": false,
+  "miniatura": true
+ }
+]

@@ -1,0 +1,7 @@
+edge-tts==7.3.0
+numpy==2.4.4
+pillow==12.2.0
+google-api-python-client==2.201.0
+google-auth-oauthlib==1.5.0
+requests
+yt-dlp

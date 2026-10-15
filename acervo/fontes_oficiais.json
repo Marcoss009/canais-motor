@@ -1,0 +1,16 @@
+{
+  "_regra": "Só baixa cena de canal OFICIAL do dono do conteúdo. Para incluir um canal: confirme que é o oficial (selo de verificado + site do dono aponta para ele) e acrescente aqui com o channel_id.",
+  "gta6": [
+    {"nome": "Rockstar Games", "channel_id": "UC6VcWc1rAoWdBCM0JxrRQ3A", "url": "https://www.youtube.com/@RockstarGames"},
+    {"nome": "PlayStation", "channel_id": "UC-2Y8dQb0S6DtpxNgAKoJKA", "url": "https://www.youtube.com/@PlayStation"},
+    {"nome": "Netflix", "channel_id": "UCWOA1ZGywLbqmigxE4Qlvuw", "url": "https://www.youtube.com/@Netflix"},
+    {"nome": "Netflix Brasil", "channel_id": "UCc1l5mTmAv2GC_PXrBpqyKQ", "url": "https://www.youtube.com/@NetflixBrasil"}
+  ],
+  "engenhoso": [
+    {"nome": "NASA", "channel_id": "UCLA_DiR1FfKNvjuUpBHmylQ", "url": "https://www.youtube.com/@NASA"},
+    {"nome": "SpaceX", "channel_id": "UCtI0Hodo5o5dUb67FeUjDeA", "url": "https://www.youtube.com/@SpaceX"},
+    {"nome": "Boeing", "channel_id": "UC9IEkprr46ScglWU79HF5qQ", "url": "https://www.youtube.com/@boeing"},
+    {"nome": "Airbus", "channel_id": "UCkfZz95mfqPnzquatVpDTsQ", "url": "https://www.youtube.com/@airbus"},
+    {"nome": "Netflix Brasil", "channel_id": "UCc1l5mTmAv2GC_PXrBpqyKQ", "url": "https://www.youtube.com/@NetflixBrasil"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "principal": "como funciona por dentro",
+  "testes": [
+    "quanto custa",
+    "mega-obras",
+    "engenharia do dia a dia"
+  ],
+  "historico": [
+    {
+      "quando": "2026-10-13T14:00:22",
+      "de": null,
+      "para": "adivinhe o animal",
+      "motivo": "pesquisa 13/10: esconde-esconde/adivinhe o animal 6-13x e série de formas 25x a mediana do próprio canal; música fora (voz de IA não canta)"
+    },
+    {
+      "quando": "2026-10-14T11:22:03",
+      "de": "adivinhe o animal",
+      "para": "como funciona por dentro",
+      "motivo": "14/10: canal deixa o infantil. Pesquisa 14/10 (só longos): como-funciona/processos mediana 38,5 mil por canal, 12 canais >20 mil, 16% dos vídeos >=3x; finanças 14 mil (dominado por rostos), IA 7 mil, mistérios 57 mil mas RPM baixo/risco de anúncio. Guia: escolher nicho que paga + repetível + faceless."
+    }
+  ],
+  "recomendacao": {
+    "acao": "esperar",
+    "porque": "0 vídeo(s) maduro(s); preciso de 6 para julgar."
+  },
+  "placar": {}
+}

@@ -1,0 +1,20 @@
+{
+  "marca": "ENGENHOSO",
+  "fonte_titulo": "Archivo Black",
+  "fonte_corpo": "Inter SemiBold",
+  "caixa_alta": false,
+  "fundo1": "#0B1B2B",
+  "fundo2": "#123A5A",
+  "texto": "#FFFFFF",
+  "texto2": "#BFD4E6",
+  "destaque": "#FFC21A",
+  "destaque2": "#2EC4FF",
+  "contraste": 14,
+  "saturacao": 6,
+  "vinheta": 40,
+  "grao": 2,
+  "legenda_y": 0.70,
+  "legenda_tam": 84,
+  "trilha": "ambiente",
+  "vol_musica": 0.14
+}

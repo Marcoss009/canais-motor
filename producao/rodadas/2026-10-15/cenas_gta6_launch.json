@@ -1,0 +1,571 @@
+[
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 2.0,
+  "o_que": "picape puxando jet ski numa rodovia das Keys; placa 'Welcome to The Keys' (peixe e garça) logo em seguida",
+  "tags": [
+   "LT",
+   "keys",
+   "carros",
+   "cenário"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: vila nas ilhas (Keys) e casa de palafita"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 4.0,
+  "o_que": "aérea do 'Brian's Marina': galpão com barcos empilhados, anúncio 'Rent a Rack', mar turquesa; depois Jason lixando casco de lancha",
+  "tags": [
+   "LT",
+   "keys",
+   "marina",
+   "aérea",
+   "paisagem"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: lancha de carga no mar"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 6.0,
+  "o_que": "close da mão e do relógio polindo o casco de uma lancha; Jason de regata, boné virado, colar e tatuagem - emprego no marina",
+  "tags": [
+   "LT",
+   "jason",
+   "atividade",
+   "barco"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: Jason sem camisa apontando (personagem)"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 9.0,
+  "o_que": "dentro do galpão, Jason numa escada ao lado da lancha enquanto colega de rosa trabalha no casco; luz estourada",
+  "tags": [
+   "LT",
+   "jason",
+   "marina",
+   "barco"
+  ],
+  "violento": false,
+  "novo": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 11.0,
+  "o_que": "Jason ao celular no pátio do marina, barcos e jet skis ao fundo; rosto nítido e bem iluminado",
+  "tags": [
+   "LT",
+   "jason",
+   "rosto",
+   "marina"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: Jason de perfil dirigindo",
+  "miniatura": true,
+  "t_miniatura": 12.5
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 14.0,
+  "o_que": "hidroavião na água turquesa e homem com skate na beira do cais olhando a ponte ao fundo (1 s limpo, depois entra o letreiro 'Rockstar Games Presents')",
+  "tags": [
+   "LT",
+   "paisagem",
+   "hidroavião",
+   "skate",
+   "keys"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: aérea das ilhas"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 17.0,
+  "o_que": "aérea noturna de hotéis e resorts de Vice City com piscinas iluminadas (letreiro 'Rockstar Games Presents' saindo)",
+  "tags": [
+   "LT",
+   "cidade",
+   "noite",
+   "aérea",
+   "skyline"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: visão aérea escura da cidade"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 18.0,
+  "o_que": "lowrider verde com teia de aranha pintada, três homens de óculos; um deixa a pistola pendurada para fora da porta",
+  "tags": [
+   "LT",
+   "carros",
+   "lowrider",
+   "gangue",
+   "arma"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 1: carros customizados rosa"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 21.0,
+  "o_que": "iguana verde atravessando a rua, viaduto e placa de trânsito (só ~1 s, depois logo)",
+  "tags": [
+   "LT",
+   "fauna",
+   "natureza",
+   "cenário"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: flamingos no pântano"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 25.0,
+  "o_que": "pôr do sol rosa sobre o porto de Vice City com roda-gigante, palmeiras e prédios (logo some nesse trecho)",
+  "tags": [
+   "LT",
+   "paisagem",
+   "skyline",
+   "pôr do sol"
+  ],
+  "violento": false,
+  "novo": false,
+  "par": "Trailer 1: pôr do sol rosa sobre a rodovia e o skyline"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 26.0,
+  "o_que": "Lucia debruçada na porta de conversível vermelho clássico, vento no cabelo, Jason de óculos dirigindo com prédios ao fundo",
+  "tags": [
+   "LT",
+   "lucia",
+   "jason",
+   "carros",
+   "rosto"
+  ],
+  "violento": false,
+  "novo": false,
+  "par": "Trailer 1: Lucia olhando para fora do carro",
+  "miniatura": true,
+  "t_miniatura": 26.3,
+  "short_vertical": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 27.0,
+  "o_que": "equipe tática com visão noturna andando num mangue ao pôr do sol, fuzis em punho (Everglades)",
+  "tags": [
+   "LT",
+   "everglades",
+   "natureza",
+   "ação",
+   "tática"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 2: helicóptero sobre o pântano"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 29.0,
+  "o_que": "punho com soco-inglês dourado sob luz vermelha de 'EXIT'; homem de rosto sério ao fundo",
+  "tags": [
+   "LT",
+   "ação",
+   "personagem",
+   "soco-inglês"
+  ],
+  "violento": true,
+  "novo": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 30.0,
+  "o_que": "homem de colete tático e fone em interior escuro esverdeado, ajustando equipamento",
+  "tags": [
+   "LT",
+   "tática",
+   "ação",
+   "interior"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 2: policiais de colete na penumbra verde"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 33.0,
+  "o_que": "vulto agachado com fuzil num deck em névoa azul e laranja",
+  "tags": [
+   "LT",
+   "tática",
+   "noite",
+   "ação"
+  ],
+  "violento": true,
+  "novo": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 34.0,
+  "o_que": "duas mulheres (uma de vermelho) entram numa porta redonda de cofre com notas voando",
+  "tags": [
+   "LT",
+   "heist",
+   "cofre",
+   "dinheiro",
+   "ação"
+  ],
+  "violento": false,
+  "novo": true,
+  "short_vertical": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 36.0,
+  "o_que": "casal sob a ducha em contraluz de pôr do sol na janela (cena íntima, sem nudez explícita)",
+  "tags": [
+   "LT",
+   "jason",
+   "lucia",
+   "íntimo"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: Lucia e Jason na cozinha"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 37.0,
+  "o_que": "mulher dançando em boate com luz vermelha/roxa, mão para o alto",
+  "tags": [
+   "LT",
+   "noite",
+   "neon",
+   "multidão"
+  ],
+  "violento": false,
+  "novo": false,
+  "par": "Trailer 2: casal dançando na balada com luzes azuis"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 38.0,
+  "o_que": "picape escura na pista de um aeroporto sob o trem de pouso de um avião, skyline de Vice City ao fundo",
+  "tags": [
+   "LT",
+   "aeroporto",
+   "carros",
+   "skyline",
+   "cenário"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: prédios altos e avião sobre a rodovia"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 40.0,
+  "o_que": "Jason (camiseta 'U.S. Army Marauders') e Lucia encostados num esportivo vermelho num pátio de contêineres, luz dourada",
+  "tags": [
+   "LT",
+   "jason",
+   "lucia",
+   "carros",
+   "rosto",
+   "porto"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: dois amigos na rua",
+  "miniatura": true,
+  "t_miniatura": 40.5,
+  "short_vertical": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 42.0,
+  "o_que": "homem lançado sobre o balcão de um bar iluminado em azul, sombrinha de drink; possível briga",
+  "tags": [
+   "LT",
+   "bar",
+   "ação",
+   "noite"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: bar iluminado com clientes"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 44.0,
+  "o_que": "mulheres dançando sob refletores magenta em clube de neon",
+  "tags": [
+   "LT",
+   "noite",
+   "neon",
+   "multidão"
+  ],
+  "violento": false,
+  "novo": false,
+  "par": "Trailer 1: balada neon cheia"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 46.0,
+  "o_que": "esportivo vermelho derrapando numa avenida art déco e viatura branca e azul de polícia deslizando na esquina, gente na calçada",
+  "tags": [
+   "LT",
+   "carros",
+   "polícia",
+   "cidade",
+   "ação"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: avenida de neon com esportivos"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 48.0,
+  "o_que": "motoqueiro de capacete sobre trilho elevado ao lado de trem urbano e salto no ar entre prédios de Vice City",
+  "tags": [
+   "LT",
+   "moto",
+   "ação",
+   "trem",
+   "cidade"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: helicóptero e jet ski (ação)",
+  "short_vertical": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 51.0,
+  "o_que": "pés descalços na ducha com luz vermelha de tornozeleira eletrônica no tornozelo",
+  "tags": [
+   "LT",
+   "tornozeleira",
+   "personagem",
+   "detalhe"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: Lucia na cela e diante da juíza"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 52.0,
+  "o_que": "homem de jaqueta com fuzil num heliponto à noite, explosão e helicóptero atrás, skyline ao fundo",
+  "tags": [
+   "LT",
+   "ação",
+   "noite",
+   "helicóptero",
+   "explosão"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 1: invasão policial em corredor escuro"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 55.0,
+  "o_que": "biplano com pessoa de pé na asa soltando fumaça rosa sobre praia lotada, prédios de Vice Beach",
+  "tags": [
+   "LT",
+   "praia",
+   "aérea",
+   "avião",
+   "multidão",
+   "paisagem"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 1: praia aérea de Vice City",
+  "short_vertical": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 56.0,
+  "o_que": "homem musculoso e tatuado puxando cabos numa academia escura com luz vermelha",
+  "tags": [
+   "LT",
+   "personagem",
+   "academia",
+   "rosto"
+  ],
+  "violento": false,
+  "novo": false,
+  "par": "Trailer 2: academia na praia, supino"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 58.0,
+  "o_que": "homem tatuado deitado num sofá de cabana com uma cobra enrolada no braço, janela estourada de luz, copo e controle de videogame",
+  "tags": [
+   "LT",
+   "personagem",
+   "cobra",
+   "cenário"
+  ],
+  "violento": false,
+  "novo": true,
+  "par": "Trailer 2: Jason na casa de madeira"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 59.0,
+  "o_que": "duas mulheres de balaclava (roxa e rosa) com AKs em frente a uma cortina de palco",
+  "tags": [
+   "LT",
+   "gangue",
+   "arma",
+   "noite"
+  ],
+  "violento": true,
+  "novo": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 61.0,
+  "o_que": "à noite, homem de óculos e barba pisa em outro caído; homem de jaqueta ao lado e mulher de corset prata; garra de guindaste ao fundo",
+  "tags": [
+   "LT",
+   "ação",
+   "personagem",
+   "noite"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 1: Jason e Lucia (ação)"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 64.0,
+  "o_que": "homem de colete e óculos aponta pistola em névoa azul-esverdeada",
+  "tags": [
+   "LT",
+   "ação",
+   "arma"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 2: policiais de colete na penumbra verde"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 66.0,
+  "o_que": "Lucia e Jason abraçados na sacada ao pôr do sol sobre o mar, rostos nítidos",
+  "tags": [
+   "LT",
+   "lucia",
+   "jason",
+   "rosto",
+   "paisagem"
+  ],
+  "violento": false,
+  "novo": false,
+  "par": "Trailer 2: Lucia e Jason na cozinha / Trailer 1: Lucia e Jason no quarto",
+  "short_vertical": true
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 68.0,
+  "o_que": "helicóptero estilhaçando vidro de prédio à noite; depois pessoa pendurada no helicóptero sobre a cidade iluminada",
+  "tags": [
+   "LT",
+   "helicóptero",
+   "noite",
+   "ação",
+   "cidade"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 1: reportagem aérea Weazel News"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 70.0,
+  "o_que": "SUV do xerife em estrada ao anoitecer com faróis amarelos; depois atirador com luneta em frente a prédios",
+  "tags": [
+   "LT",
+   "polícia",
+   "noite",
+   "ação",
+   "atirador"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 2: policiais de colete"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 72.0,
+  "o_que": "mulher de boné com fuzil, carro em chamas e trabalhadores de colete fugindo; depois mulher de vestido dourado ao lado de piscina azul",
+  "tags": [
+   "LT",
+   "ação",
+   "arma",
+   "noite",
+   "explosão"
+  ],
+  "violento": true,
+  "novo": true,
+  "par": "Trailer 1: Lucia mascarada em loja de conveniência"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 0.0,
+  "tipo": "texto_oficial",
+  "usar": false,
+  "texto": "Cartão PlayStation: logo PS e 'PLAYS BEST ON PS5' com logo GTA VI; letra miúda 'For more on PlayStation benefits, see playstation.com/GTAVIfeatures. Vertical Stand sold separately.'",
+  "faixa": "0-2.6"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 14.8,
+  "tipo": "texto_oficial",
+  "usar": false,
+  "texto": "'ROCKSTAR GAMES PRESENTS'",
+  "faixa": "14.8-17.5"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 22.0,
+  "tipo": "texto_oficial",
+  "usar": false,
+  "texto": "Logotipo Grand Theft Auto VI (cartão escuro), 22-24; de novo 76-80",
+  "faixa": "22-24,76-80"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 80.7,
+  "tipo": "texto_oficial",
+  "usar": false,
+  "texto": "'NOVEMBER 19, 2026 / PRE-ORDER NOW' sobre aérea noturna de Vice City; selo ESRB 'M' (Mature 17+), 'PS5 - CAPTURED ON PS5', logotipo Rockstar e letra miúda de direitos autorais",
+  "faixa": "80.7-86.0"
+ },
+ {
+  "video": "rz1B4B2yBZY",
+  "ini": 86.0,
+  "tipo": "texto_oficial",
+  "usar": false,
+  "texto": "logotipo da Rockstar (86-88); depois 'PLAY HAS NO LIMITS.' (PlayStation, ~88) e símbolos do PS (~89)",
+  "faixa": "86-90"
+ }
+]

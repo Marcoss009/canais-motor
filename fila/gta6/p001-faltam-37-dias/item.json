@@ -1,0 +1,66 @@
+{
+  "id": "p001-faltam-37-dias",
+  "canal": "gta6",
+  "formato": "short",
+  "estado": "publicado",
+  "titulo": "GTA 6: faltam 37 dias — o que já é oficial",
+  "descricao": "Contagem regressiva pro GTA VI: tudo que a Rockstar já confirmou oficialmente.\n\n• Lançamento: 19 de novembro de 2026\n• PS5 e Xbox Series X|S (PC não anunciado)\n• Protagonistas: Lucia e Jason, no estado de Leonida (Vice City)\n• Adiado duas vezes (era 2025, depois 26/05/2026)\n\nFonte: Rockstar Games Newswire (rockstargames.com/newswire).\n\n#gta6 #gtavi #rockstar #shorts",
+  "tags": [
+    "gta 6",
+    "gta vi",
+    "gta 6 lançamento",
+    "gta 6 data",
+    "contagem regressiva gta 6",
+    "lucia e jason",
+    "vice city",
+    "leonida"
+  ],
+  "video": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\p001-faltam-37-dias\\video.mp4",
+  "thumb": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\p001-faltam-37-dias\\thumb.png",
+  "nicho": "pré-lançamento: o que é confirmado",
+  "roteiro": "C:\\Users\\vinic\\Projects\\YouTube_Agentes\\fila\\gta6\\p001-faltam-37-dias\\roteiro.json",
+  "criado": "2026-10-13T14:06:26",
+  "youtube_id": "V4jx-2Lvr9s",
+  "historico": [
+    {
+      "quando": "2026-10-13T14:06:55",
+      "de": "pronto",
+      "para": "enviado",
+      "nota": "youtube_id=V4jx-2Lvr9s (privado)"
+    },
+    {
+      "quando": "2026-10-13T16:32:18",
+      "de": "enviado",
+      "para": "aprovado",
+      "nota": "via painel"
+    },
+    {
+      "quando": "2026-10-13T16:32:22",
+      "de": "aprovado",
+      "para": "manual",
+      "nota": "YouTube manteve privado - projeto da API sem auditoria"
+    },
+    {
+      "quando": "2026-10-13T16:39:37",
+      "de": "manual",
+      "para": "aprovado",
+      "nota": "restaurado: aprovado pelo dono; o 'manual' foi bug na checagem do agendamento"
+    },
+    {
+      "quando": "2026-10-13T16:39:39",
+      "de": "aprovado",
+      "para": "agendado",
+      "nota": "vai ao ar em 2026-10-13T19:00:00-03:00"
+    },
+    {
+      "quando": "2026-10-14T13:44:26",
+      "de": "agendado",
+      "para": "publicado",
+      "nota": ""
+    }
+  ],
+  "atualizado": "2026-10-14T13:44:26",
+  "thumb_aviso": true,
+  "thumb_ok": true,
+  "publica_em": "2026-10-13T19:00:00-03:00"
+}

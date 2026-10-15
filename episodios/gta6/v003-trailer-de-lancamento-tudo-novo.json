@@ -1,0 +1,955 @@
+{
+  "id": "v003-trailer-de-lancamento-tudo-novo",
+  "canal": "gta6",
+  "formato": "longo",
+  "nicho": "pré-lançamento: o que é confirmado",
+  "titulo": "GTA 6 trailer de lançamento: analisei cena por cena",
+  "titulos_alternativos": [
+    "GTA 6 trailer de lançamento: analisei cena por cena",
+    "GTA 6 trailer de lançamento: o cofre e a tornozeleira",
+    "GTA 6 trailer de lançamento: o que mudou dos trailers 1 e 2"
+  ],
+  "miniatura": {
+    "texto": "TUDO|NOVO",
+    "quadro": {
+      "video": "rz1B4B2yBZY",
+      "t": 40.5
+    },
+    "selo": "LAUNCH TRAILER"
+  },
+  "descricao": "GTA 6 trailer de lançamento: analisei cena por cena o que é novo no trailer que a Rockstar lançou hoje (15/10/2026). As Keys, a marina, o lowrider, a equipe tática no mangue, o cofre, o helicóptero no prédio, o biplano e a tornozeleira eletrônica.\n\nComparo com o Trailer 1 e o Trailer 2, leio os letreiros finais (19 de novembro de 2026, pré-venda já) e falo da música nova do Justice. O que é oficial eu aviso como oficial; o que é leitura minha eu aviso como leitura. Nada de vazamento.\n\nGTA VI chega em 19 de novembro de 2026.",
+  "fontes": [
+    "Rockstar Games — Grand Theft Auto VI Launch Trailer (YouTube, 15/10/2026, 1:30) e sua descrição oficial (sinopse; música nova do Justice, 'Flower in a Hurricane' feat. Tame Impala, SZA e King Gizzard & The Lizard Wizard; Justice como compositores da trilha original do GTA VI; Grand Theft Auto VI: The Album em pré-save e pré-venda em vinil/CD; 'captured entirely in-game from a PlayStation 5'; 'arrives November 19'): youtube.com/watch?v=rz1B4B2yBZY",
+    "Rockstar Games — letreiros do Launch Trailer: cartão inicial 'Plays best on PS5' (0:00–0:02); 'November 19, 2026 / Pre-order now', classificação ESRB M (Mature 17+) e 'Captured on PS5' (1:20–1:26)",
+    "Rockstar Games — Grand Theft Auto VI Trailer 1 (YouTube, 04/12/2023, 1:30; letreiro final 'Coming 2025'; música Love Is A Long Road, Tom Petty): youtube.com/watch?v=QdBZY2fkU-0",
+    "Rockstar Games — Grand Theft Auto VI Trailer 2 (YouTube, 06/05/2025, 2:47; letreiro final 'May 26, 2026'; descrição: 'captured entirely in-game from a PlayStation 5, comprised of equal parts gameplay and cutscenes'; mesma sinopse do Launch Trailer; música Hot Together, The Pointer Sisters): youtube.com/watch?v=VQRLujxTm3c",
+    "Rockstar Games — Grand Theft Auto VI: Official Cover Art Reveal (18/06/2026; 'pre-orders will officially begin on June 25'): youtube.com/watch?v=EiQEBYDox_k",
+    "Rockstar Games — site oficial rockstargames.com/VI (bio de Jason Duval: golpistas, Exército, Keys, traficantes locais; bio de Lucia Caminos: lutar pela família a levou à Penitenciária de Leonida; personagem Brian Heder) — via Consequence, VGC e PlayStation Universe, 06/05/2025",
+    "Rockstar Newswire — adiamentos para 26/05/2026 (02/05/2025) e para 19/11/2026 (06/11/2025)",
+    "Cálculo do canal — 04/12/2023 a 15/10/2026 = 1.046 dias; 15/10/2026 a 19/11/2026 = 35 dias",
+    "Contagem de cenas inéditas: curadoria do canal (30 de 36 momentos separados do Launch Trailer não aparecem no Trailer 1 nem no Trailer 2)"
+  ],
+  "hashtags": [
+    "#gta6",
+    "#gtavi",
+    "#launchtrailer"
+  ],
+  "tags": [
+    "gta 6 trailer de lançamento",
+    "gta 6 launch trailer",
+    "gta 6 trailer 3",
+    "gta 6 novo trailer",
+    "gta 6 trailer análise",
+    "gta 6 trailer cena por cena",
+    "gta 6 pré-venda",
+    "gta 6 19 de novembro",
+    "gta 6 justice flower in a hurricane",
+    "jason gta 6",
+    "lucia gta 6",
+    "vice city",
+    "leonida keys",
+    "gta vi",
+    "gta 6"
+  ],
+  "cenas": [
+    {
+      "capitulo": "O trailer de lançamento",
+      "fala": "No trailer novo do GTA 6, a primeira coisa que o Jason parece fazer não é roubar ninguém.",
+      "visual": {
+        "tipo": "gancho",
+        "texto": "UM DIA|DE TRABALHO?",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 6.0
+          }
+        ]
+      }
+    },
+    {
+      "fala": "Polindo o casco de uma lancha. [pausa] Num emprego. Numa marina.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 9.0
+          }
+        ],
+        "rotulo": "Trabalho no barco",
+        "sub": "Launch Trailer · 0:09"
+      }
+    },
+    {
+      "fala": "A Rockstar soltou hoje, quinze de outubro, o trailer de lançamento do GTA 6. Um minuto e meio, fechando com a data de lançamento.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Grand Theft Auto VI Launch Trailer · 15/10/2026 · 1:30",
+        "fonte": "Rockstar Games · YouTube"
+      }
+    },
+    {
+      "fala": "Eu passei o trailer quadro a quadro. Pelas minhas contas, de trinta e seis momentos que eu separei, trinta não aparecem em nenhum trailer anterior.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 30,
+        "sufixo": " CENAS",
+        "rotulo": "inéditas em 36 · contagem do canal",
+        "imagens": [
+          "film strip"
+        ]
+      }
+    },
+    {
+      "fala": "E uma delas dura um segundo só. Fica num tornozelo. [pausa] E pode mudar o que você acha que sabe da história. Essa eu deixo pro final.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "1 segundo. 1 tornozelo.",
+        "fonte": "guarda esse detalhe",
+        "imagens": [
+          "hourglass sand"
+        ]
+      }
+    },
+    {
+      "fala": "Antes, o oficial de hoje: faltam trinta e cinco dias. GTA 6 chega em dezenove de novembro.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 35,
+        "sufixo": " DIAS",
+        "rotulo": "19/11/2026 · lançamento"
+      }
+    },
+    {
+      "fala": "E a regra de sempre: o que é oficial, eu falo que é oficial. O que é leitura minha, eu aviso. E nada de vazamento.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Oficial",
+          "valor": "Rockstar",
+          "sub": "trailers, descrições e site"
+        },
+        "b": {
+          "rotulo": "Leitura",
+          "valor": "Canal",
+          "sub": "sempre avisada"
+        }
+      }
+    },
+    {
+      "capitulo": "As Keys e a marina",
+      "fala": "Começando pelo começo. [pausa] O trailer abre longe de Vice City.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "PARTE 1",
+        "texto": "As Keys",
+        "imagens": [
+          "florida keys bridge",
+          "overseas highway"
+        ]
+      }
+    },
+    {
+      "fala": "Uma picape puxando um jet ski numa rodovia. E logo depois uma placa: Welcome to the Keys. Bem-vindo às Keys. Com um peixe e uma garça desenhados.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 2.0
+          }
+        ],
+        "rotulo": "Welcome to The Keys",
+        "sub": "Launch Trailer · 0:02"
+      }
+    },
+    {
+      "fala": "No Trailer 2, as ilhas eram uma vila vista de cima e uma casa de palafita. Aqui a câmera desce e entra num lugar de trabalho.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Trailer 2",
+          "valor": "Vila",
+          "sub": "vista do alto · palafita"
+        },
+        "b": {
+          "rotulo": "Launch Trailer",
+          "valor": "Marina",
+          "sub": "galpão de barcos"
+        }
+      }
+    },
+    {
+      "fala": "Uma marina enorme. Um galpão com barcos empilhados em prateleiras, e um anúncio de aluguel de vaga: Rent a Rack.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 4.0
+          }
+        ],
+        "rotulo": "A marina",
+        "sub": "barcos empilhados · Rent a Rack"
+      }
+    },
+    {
+      "fala": "E isso combina com o que a Rockstar já tinha contado no site oficial. Leitura minha, claro: o Jason cresceu no meio de golpistas, passou pelo Exército e foi parar nas Keys, trabalhando pra traficantes da região.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Jason Duval: cresceu entre golpistas, passou pelo Exército, foi parar nas Keys.",
+        "fonte": "rockstargames.com/VI"
+      }
+    },
+    {
+      "fala": "Agora repara no letreiro do galpão: dá pra ler Brian's Marina. E Brian Heder é um dos personagens do site oficial. [pausa] Ligar um ao outro é leitura minha. O trailer não confirma.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“Brian's Marina” no letreiro. Brian Heder no site oficial.",
+        "fonte": "a ligação é leitura do canal",
+        "imagens": [
+          "marina boat storage"
+        ]
+      }
+    },
+    {
+      "fala": "Depois, o que parece ser o Jason no celular, no pátio, com barcos e jet skis atrás. Pra mim, um dos closes mais limpos dele até hoje.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 11.0
+          }
+        ],
+        "rotulo": "Ao celular na marina",
+        "sub": "o pátio da marina"
+      }
+    },
+    {
+      "fala": "E a abertura fecha com um hidroavião parado na água turquesa, e um cara de skate na beira do cais, olhando a ponte.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "seaplane turquoise water",
+          "seven mile bridge"
+        ],
+        "rotulo": "Hidroavião e a ponte",
+        "sub": "Launch Trailer · 0:14"
+      }
+    },
+    {
+      "capitulo": "Vice City em movimento",
+      "fala": "Aí entra o letreiro da Rockstar, e a câmera sobe pra Vice City de noite. Hotéis, resorts, piscinas acesas.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 17.0
+          }
+        ],
+        "rotulo": "Vice City à noite",
+        "sub": "hotéis e piscinas"
+      }
+    },
+    {
+      "fala": "Primeira cena de rua: um lowrider verde, com uma teia de aranha pintada na lataria, e caras de óculos dentro.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 18.0
+          }
+        ],
+        "rotulo": "Lowrider com teia",
+        "sub": "Launch Trailer · 0:18"
+      }
+    },
+    {
+      "fala": "No Trailer 1, a cultura de carro era rebaixado rosa na rua. Agora é lowrider com pintura personalizada. Leitura minha: customização vai ter peso no jogo.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Trailer 1",
+          "valor": "Rosa",
+          "sub": "carros rebaixados"
+        },
+        "b": {
+          "rotulo": "Launch Trailer",
+          "valor": "Teia",
+          "sub": "lowrider pintado"
+        }
+      }
+    },
+    {
+      "fala": "E um detalhe de um segundo: uma iguana atravessando a rua, na frente do trânsito. No Trailer 1 eram flamingos no pântano. Agora o bicho tá no asfalto.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "green iguana",
+          "iguana road"
+        ],
+        "rotulo": "Iguana na rua",
+        "sub": "Launch Trailer · 0:21"
+      }
+    },
+    {
+      "fala": "Tem o pôr do sol rosa no porto, com roda-gigante. Esse é cartão-postal repetido. Mas continua bonito.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 25.0
+          }
+        ],
+        "rotulo": "O porto ao pôr do sol",
+        "sub": "esse já é conhecido"
+      }
+    },
+    {
+      "fala": "Agora repara nos veículos. Uma picape escura na pista de um aeroporto, bem embaixo do trem de pouso de um avião, com a cidade no fundo.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 38.0
+          }
+        ],
+        "rotulo": "Na pista do aeroporto",
+        "sub": "embaixo do avião"
+      }
+    },
+    {
+      "fala": "Um esportivo derrapando numa avenida art déco, e uma viatura de polícia deslizando atrás, na esquina.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 46.0
+          }
+        ],
+        "rotulo": "Perseguição art déco",
+        "sub": "esportivo e viatura"
+      }
+    },
+    {
+      "fala": "Um motoqueiro em cima de um trilho elevado, do lado de um trem urbano. E depois, saltando no ar entre os prédios.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 48.0
+          }
+        ],
+        "rotulo": "Moto no trilho do trem",
+        "sub": "Launch Trailer · 0:48"
+      }
+    },
+    {
+      "fala": "E a minha favorita. [pausa] Um biplano, com uma pessoa em pé na asa, soltando fumaça rosa por cima de uma praia lotada.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 55.0
+          }
+        ],
+        "rotulo": "Biplano sobre a praia",
+        "sub": "alguém em pé na asa"
+      }
+    },
+    {
+      "fala": "Junta tudo: hidroavião, jet ski, lowrider, moto, trem, avião, biplano. Leitura minha: o trailer faz questão de mostrar quantos jeitos você tem de atravessar Leonida.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Hidroavião · jet ski · lowrider · moto · trem · avião · biplano",
+        "fonte": "visto no Launch Trailer · leitura do canal"
+      }
+    },
+    {
+      "fala": "E agora segura essa. [pausa] O último letreiro do trailer tem uma frase que nenhum dos dois trailers anteriores teve. Daqui a pouco eu chego nela.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Uma frase inédita no letreiro final.",
+        "fonte": "Launch Trailer · 1:20",
+        "imagens": [
+          "neon sign night"
+        ]
+      }
+    },
+    {
+      "capitulo": "A ação que ninguém tinha visto",
+      "fala": "Porque a partir daqui o trailer acelera. E é ação que a gente nunca tinha visto.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "PARTE 2",
+        "texto": "A ação inédita",
+        "imagens": [
+          "miami skyline night"
+        ]
+      }
+    },
+    {
+      "fala": "Uma equipe tática andando dentro de um mangue, no pôr do sol, com óculos de visão noturna e fuzil na mão.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 27.0
+          }
+        ],
+        "rotulo": "Equipe tática no mangue",
+        "sub": "Launch Trailer · 0:27"
+      }
+    },
+    {
+      "fala": "No Trailer 2, o pântano aparecia com um helicóptero passando por cima. Agora tem gente armada andando lá dentro. Quem são, o trailer não diz.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Trailer 2",
+          "valor": "Helicóptero",
+          "sub": "sobre o pântano"
+        },
+        "b": {
+          "rotulo": "Launch Trailer",
+          "valor": "Equipe tática",
+          "sub": "dentro do mangue"
+        }
+      }
+    },
+    {
+      "fala": "Logo depois, um punho com soco-inglês dourado, debaixo de uma luz vermelha de saída de emergência.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 29.0
+          }
+        ],
+        "rotulo": "Soco-inglês dourado",
+        "sub": "luz de EXIT"
+      }
+    },
+    {
+      "fala": "E aqui, pra mim, a cena mais importante do trailer. [pausa] Duas mulheres, uma de vermelho, entrando por uma porta redonda de cofre. Com papel voando por todo lado.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 34.0
+          }
+        ],
+        "rotulo": "O cofre",
+        "sub": "Launch Trailer · 0:34"
+      }
+    },
+    {
+      "fala": "Por quê? Porque a descrição do trailer de lançamento repete a sinopse do Trailer 2, palavra por palavra: quando um golpe fácil dá errado.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“Quando um golpe fácil dá errado… uma conspiração criminosa que atravessa o estado de Leonida.”",
+        "fonte": "Rockstar Games · descrição do Launch Trailer e do Trailer 2"
+      }
+    },
+    {
+      "fala": "Leitura minha: esse cofre pode ser o tal golpe fácil. Mas a Rockstar não ligou uma coisa à outra.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "bank vault door"
+        ],
+        "rotulo": "O golpe fácil?",
+        "sub": "leitura do canal"
+      }
+    },
+    {
+      "fala": "Tem duas mulheres de balaclava, uma roxa e uma rosa, de fuzil na mão, na frente de uma cortina de palco.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 59.0
+          }
+        ],
+        "rotulo": "Balaclava roxa e rosa",
+        "sub": "Launch Trailer · 0:59"
+      }
+    },
+    {
+      "fala": "Tem um homem de jaqueta, de fuzil, num heliponto à noite. Atrás dele, uma explosão e um helicóptero.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 52.0
+          }
+        ],
+        "rotulo": "Heliponto à noite",
+        "sub": "explosão ao fundo"
+      }
+    },
+    {
+      "fala": "E tem um helicóptero estilhaçando o vidro de um prédio. Depois, alguém pendurado nele, por cima da cidade acesa.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 68.0
+          }
+        ],
+        "rotulo": "Helicóptero no prédio",
+        "sub": "Launch Trailer · 1:08"
+      }
+    },
+    {
+      "fala": "No Trailer 1, helicóptero era a câmera do telejornal, filmando perseguição lá de cima. Agora ele entra no prédio.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Trailer 1",
+          "valor": "Telejornal",
+          "sub": "filma a perseguição"
+        },
+        "b": {
+          "rotulo": "Launch Trailer",
+          "valor": "No prédio",
+          "sub": "vidro estilhaçado"
+        }
+      }
+    },
+    {
+      "fala": "No fim da sequência: uma caminhonete do xerife numa estrada escura, um atirador de luneta, e uma mulher de boné com fuzil, com um carro pegando fogo atrás dela.",
+      "violento": true,
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 70.0
+          },
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 72.0
+          }
+        ],
+        "rotulo": "Xerife, atirador, fogo",
+        "sub": "Launch Trailer · 1:10"
+      }
+    },
+    {
+      "fala": "E no meio disso, uma cena estranha. Um cara tatuado, deitado no sofá de uma cabana, com uma cobra enrolada no braço e um controle de videogame do lado.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 58.0
+          }
+        ],
+        "rotulo": "A cobra no braço",
+        "sub": "Launch Trailer · 0:58"
+      }
+    },
+    {
+      "capitulo": "Jason e Lucia",
+      "fala": "Agora, os dois protagonistas. [pausa] E aqui o trailer muda de tom.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "PARTE 3",
+        "texto": "Jason e Lucia",
+        "imagens": [
+          "sunset balcony ocean"
+        ]
+      }
+    },
+    {
+      "fala": "Tem cena no clima dos trailers anteriores: a Lucia debruçada na porta de um conversível vermelho, o Jason de óculos no volante.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 26.0
+          }
+        ],
+        "rotulo": "O conversível",
+        "sub": "clima dos trailers anteriores"
+      }
+    },
+    {
+      "fala": "Mas tem cena nova: os dois encostados num esportivo vermelho, num pátio de contêineres, na luz dourada.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 40.0
+          }
+        ],
+        "rotulo": "No pátio de contêineres",
+        "sub": "Launch Trailer · 0:40"
+      }
+    },
+    {
+      "fala": "E repara na camiseta do Jason: tem escrito U.S. Army. Exército americano. Combina com o passado dele na bio oficial. Leitura minha, claro.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Camiseta “U.S. Army” · bio: passou pelo Exército",
+        "fonte": "Launch Trailer · rockstargames.com/VI"
+      }
+    },
+    {
+      "fala": "Tem um casal numa ducha, em contraluz, com o pôr do sol na janela. Pra mim, são os dois, mas a Rockstar não diz. Uma cena íntima que eu não vi nos outros trailers.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 36.0
+          }
+        ],
+        "rotulo": "Parece uma ducha",
+        "sub": "leitura do canal · 0:36"
+      }
+    },
+    {
+      "fala": "E fecha com os dois abraçados numa sacada, de frente pro mar, no fim da tarde.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 66.0
+          }
+        ],
+        "rotulo": "A sacada",
+        "sub": "Launch Trailer · 1:06"
+      }
+    },
+    {
+      "fala": "No Trailer 1, a Lucia tava presa. No Trailer 2, atravessando um portão. No de lançamento, os dois aparecem juntos o tempo todo. Leitura minha: esse trailer vende um casal, não dois personagens.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "T1: Lucia presa · T2: Lucia no portão · Launch: os dois juntos",
+        "fonte": "comparação do canal"
+      }
+    },
+    {
+      "capitulo": "O que está escrito na tela",
+      "fala": "Agora, o que a Rockstar escreveu na tela. E aqui tá aquela frase que eu te prometi.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "PARTE 4",
+        "texto": "Os letreiros",
+        "imagens": [
+          "cinema screen"
+        ]
+      }
+    },
+    {
+      "fala": "O trailer abre com um cartão da PlayStation: joga melhor no PS5.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“Plays best on PS5”",
+        "fonte": "Rockstar Games · cartão inicial do Launch Trailer"
+      }
+    },
+    {
+      "fala": "A descrição avisa: foi capturado inteiro dentro do jogo, num PlayStation 5. E o letreiro final repete: capturado no PS5.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“Captured entirely in-game from a PlayStation 5.”",
+        "fonte": "Rockstar Games · descrição do Launch Trailer"
+      }
+    },
+    {
+      "fala": "Mas repara numa diferença pequena. A descrição do Trailer 2 dizia metade jogabilidade, metade cena. A do trailer de lançamento não fala em proporção nenhuma.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Trailer 2",
+          "valor": "50/50",
+          "sub": "jogabilidade e cenas"
+        },
+        "b": {
+          "rotulo": "Launch Trailer",
+          "valor": "?",
+          "sub": "só “capturado no PS5”"
+        }
+      }
+    },
+    {
+      "fala": "Agora a data. O Trailer 1 terminava com dois mil e vinte e cinco. O Trailer 2, com vinte e seis de maio de dois mil e vinte e seis. As duas caíram.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Trailer 1",
+          "valor": "2025",
+          "sub": "adiado"
+        },
+        "b": {
+          "rotulo": "Trailer 2",
+          "valor": "26/05/2026",
+          "sub": "adiado"
+        }
+      }
+    },
+    {
+      "fala": "O de lançamento termina com dezenove de novembro de dois mil e vinte e seis.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“NOVEMBER 19, 2026”",
+        "fonte": "Rockstar Games · letreiro final do Launch Trailer"
+      }
+    },
+    {
+      "fala": "[pausa] E embaixo da data, a frase que nenhum trailer teve: Pre-order now. Pré-venda já.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "“PRE-ORDER NOW”",
+        "fonte": "Rockstar Games · letreiro final do Launch Trailer"
+      }
+    },
+    {
+      "fala": "A pré-venda começou em vinte e cinco de junho, uma semana depois da revelação da capa. Mas é a primeira vez que ela aparece num trailer. Pra mim, é o sinal de que a espera acabou de verdade.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "EiQEBYDox_k",
+            "ini": 15.0
+          }
+        ],
+        "rotulo": "A capa",
+        "sub": "pré-venda"
+      }
+    },
+    {
+      "fala": "E o tamanho. O trailer de lançamento tem noventa segundos, o mesmo tempo do Trailer 1. O Trailer 2 tinha cento e sessenta e sete.",
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Duração dos trailers (segundos)",
+        "itens": [
+          [
+            "Trailer 1",
+            90,
+            "1:30"
+          ],
+          [
+            "Trailer 2",
+            167,
+            "2:47"
+          ],
+          [
+            "Launch Trailer",
+            90,
+            "1:30"
+          ]
+        ],
+        "destaque": 2,
+        "fonte": "Rockstar Games · YouTube"
+      }
+    },
+    {
+      "capitulo": "A música do Justice",
+      "fala": "E a música. [pausa] Essa tem história.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "PARTE 5",
+        "texto": "A música",
+        "imagens": [
+          "vinyl record turntable"
+        ]
+      }
+    },
+    {
+      "fala": "A faixa se chama Flower in a Hurricane. É uma música nova do Justice, a dupla de música eletrônica.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Justice — “Flower in a Hurricane”",
+        "fonte": "Rockstar Games · descrição do Launch Trailer"
+      }
+    },
+    {
+      "fala": "Com participação de Tame Impala, SZA e King Gizzard and the Lizard Wizard. Quatro nomes numa música só.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "feat. Tame Impala · SZA · King Gizzard & The Lizard Wizard",
+        "fonte": "Rockstar Games · descrição do Launch Trailer"
+      }
+    },
+    {
+      "fala": "E tem um detalhe que a descrição solta quase de passagem: [pausa] segundo a descrição, o Justice compôs a trilha original do GTA 6.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Justice: compositores da trilha original de Grand Theft Auto VI",
+        "fonte": "Rockstar Games · descrição do Launch Trailer"
+      }
+    },
+    {
+      "fala": "Compara: o Trailer 1 tocava Tom Petty. O Trailer 2, Pointer Sisters. Duas músicas antigas. O de lançamento traz uma música nova, de quem fez a trilha do próprio jogo.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "T1: Tom Petty · T2: The Pointer Sisters · Launch: Justice (inédita)",
+        "fonte": "Rockstar Games · descrições dos trailers"
+      }
+    },
+    {
+      "fala": "Ela tá no Grand Theft Auto VI: The Album, a trilha oficial. Já dá pra pré-salvar nos aplicativos de música, e encomendar em vinil ou CD.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "vinyl record sleeve",
+          "compact disc"
+        ],
+        "rotulo": "GTA VI: The Album",
+        "sub": "pré-save e vinil/CD"
+      }
+    },
+    {
+      "capitulo": "O mistério do tornozelo",
+      "fala": "E agora, o detalhe que eu prometi lá no começo. [pausa longa] O tornozelo.",
+      "visual": {
+        "tipo": "titulo",
+        "antes": "PARTE 6",
+        "texto": "O tornozelo",
+        "imagens": [
+          "prison bars shadow"
+        ]
+      }
+    },
+    {
+      "fala": "Aos cinquenta e um segundos, por um instante, aparecem dois pés descalços numa ducha. E no tornozelo, uma luz vermelha. Parece uma tornozeleira eletrônica.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "rz1B4B2yBZY",
+            "ini": 51.0
+          }
+        ],
+        "rotulo": "Parece uma tornozeleira",
+        "sub": "leitura do canal · 0:51"
+      }
+    },
+    {
+      "fala": "Tornozeleira é o que a Justiça coloca em quem tá respondendo a processo ou cumprindo pena fora da cadeia.",
+      "visual": {
+        "tipo": "imagem",
+        "imagens": [
+          "electronic ankle monitor"
+        ],
+        "rotulo": "Monitoramento eletrônico",
+        "sub": "vigiado fora da cadeia"
+      }
+    },
+    {
+      "fala": "Agora junta as peças. No Trailer 1, a Lucia tá numa cela, na frente de uma juíza.",
+      "visual": {
+        "tipo": "imagem",
+        "clipes": [
+          {
+            "video": "QdBZY2fkU-0",
+            "ini": 8.0
+          }
+        ],
+        "rotulo": "Trailer 1",
+        "sub": "Lucia presa"
+      }
+    },
+    {
+      "fala": "A bio oficial diz que lutar pela família levou a Lucia pra Penitenciária de Leonida. E, no Trailer 2, ela aparece atravessando um portão.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Lucia Caminos: lutar pela família a levou à Penitenciária de Leonida.",
+        "fonte": "rockstargames.com/VI"
+      }
+    },
+    {
+      "fala": "Leitura minha: o pé pode ser da Lucia, ainda vigiada pela Justiça depois de sair. [pausa] Mas atenção: o trailer não mostra de quem é. Pode ser o Jason. Pode ser outro personagem.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "De quem é o tornozelo?",
+        "fonte": "o trailer não mostra · leitura do canal"
+      }
+    },
+    {
+      "fala": "Se for dela, muda o jogo: você jogaria com alguém que pode voltar pra cela no primeiro deslize. Mas isso é teoria, não anúncio.",
+      "visual": {
+        "tipo": "comparar",
+        "a": {
+          "rotulo": "Fato",
+          "valor": "Tornozeleira",
+          "sub": "parece uma · aos 0:51"
+        },
+        "b": {
+          "rotulo": "Teoria",
+          "valor": "Lucia?",
+          "sub": "leitura do canal"
+        }
+      }
+    },
+    {
+      "fala": "E o que o trailer de lançamento ainda não respondeu? [pausa] Qual é o golpe fácil. Quem é a equipe tática no mangue. E quem são as mulheres do cofre.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "O golpe fácil? A equipe tática? As mulheres do cofre?",
+        "fonte": "o Launch Trailer não responde",
+        "imagens": [
+          "question mark sign"
+        ]
+      }
+    },
+    {
+      "fala": "Resumindo o que é novo: as Keys e a marina, o Jason trabalhando, lowrider, trem, biplano, equipe tática no mangue, o cofre, o helicóptero no prédio, a tornozeleira. E a frase no fim: pré-venda já.",
+      "visual": {
+        "tipo": "fato",
+        "texto": "Keys · marina · lowrider · trem · biplano · mangue · cofre · helicóptero · tornozeleira",
+        "fonte": "Launch Trailer · Rockstar Games"
+      }
+    },
+    {
+      "fala": "Do Trailer 1 até hoje foram mil e quarenta e seis dias. [pausa] Agora sobram trinta e cinco.",
+      "visual": {
+        "tipo": "numero",
+        "valor": 35,
+        "sufixo": " DIAS",
+        "rotulo": "1.046 dias depois do Trailer 1 · faltam 35",
+        "imagens": [
+          "stopwatch"
+        ]
+      }
+    },
+    {
+      "fala": "E pra você, qual foi a cena mais nova desse trailer? O cofre, o biplano ou a tornozeleira? Escreve aí nos comentários. E se quiser acompanhar a contagem até dezenove de novembro, é só seguir o canal.",
+      "visual": {
+        "tipo": "cta",
+        "texto": "Cofre, biplano ou tornozeleira?",
+        "sub": "a contagem até 19/11 continua aqui",
+        "imagens": [
+          "neon sign night"
+        ]
+      }
+    }
+  ]
+}

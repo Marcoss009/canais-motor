@@ -1,0 +1,22 @@
+{
+  "id": "p001-faltam-37-dias",
+  "nicho": "pré-lançamento: o que é confirmado",
+  "titulo": "GTA 6: faltam 37 dias — o que já é oficial",
+  "descricao": "Contagem regressiva pro GTA VI: tudo que a Rockstar já confirmou oficialmente.\n\n• Lançamento: 19 de novembro de 2026\n• PS5 e Xbox Series X|S (PC não anunciado)\n• Protagonistas: Lucia e Jason, no estado de Leonida (Vice City)\n• Adiado duas vezes (era 2025, depois 26/05/2026)\n\nFonte: Rockstar Games Newswire (rockstargames.com/newswire).\n\n#gta6 #gtavi #rockstar #shorts",
+  "tags": ["gta 6", "gta vi", "gta 6 lançamento", "gta 6 data", "contagem regressiva gta 6", "lucia e jason", "vice city", "leonida"],
+  "slides": [
+    {"selo": "GTA VI", "numero": 37, "texto": "DIAS", "sub": "pro lançamento",
+     "fala": "Faltam trinta e sete dias pro GTA 6. E isso aqui já é oficial."},
+    {"selo": "DATA", "texto": "19 DE NOVEMBRO\nDE 2026", "destaque": true, "sub": "PS5 e Xbox Series X|S", "fonte": "Rockstar Games",
+     "fala": "Lança dia dezenove de novembro, no PS5 e no Xbox Series."},
+    {"selo": "E O PC?", "texto": "SEM PC\nNO LANÇAMENTO", "destaque": true, "sub": "nada anunciado até agora",
+     "fala": "PC? Até agora a Rockstar não anunciou nada pro lançamento."},
+    {"selo": "HISTÓRIA", "texto": "LUCIA\nE JASON", "destaque": true, "sub": "em Leonida, com Vice City", "fonte": "trailers oficiais",
+     "fala": "Você joga com a Lucia e o Jason, no estado de Leonida, onde fica Vice City."},
+    {"selo": "ATRASOS", "texto": "ADIADO\n2 VEZES", "destaque": true, "sub": "era pra 2025", "fonte": "Rockstar Newswire",
+     "fala": "E ele já foi adiado duas vezes. Era pra sair em 2025."},
+    {"selo": "GTAZANDO", "texto": "SEGUE O CANAL", "destaque": true, "sub": "contagem até o lançamento",
+     "fala": "Segue o canal que a gente conta cada dia até o lançamento."}
+  ],
+  "miniatura": {"slide": 0}
+}
